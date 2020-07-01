@@ -1,0 +1,11 @@
+{
+  "name": "com.needle.lipsync",
+  "displayName": "needle Lipsync",
+  "version": "0.0.1-preview",
+  "unity": "2019.3",
+  "description": "Provides lipsync integration using Rhubarb and timeline",
+  "keywords": [
+  ],
+  "dependencies": {
+  }
+}
