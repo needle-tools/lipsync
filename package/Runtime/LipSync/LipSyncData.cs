@@ -22,7 +22,7 @@ namespace Modules.LipSync
         public string FileName => filename;
         public AudioClip CorrespondingClip => correspondingClip;
 
-        public string GetValue(float time, ref int currentIndex)
+        public string GetValue(double time, ref int currentIndex)
         {
             if (currentIndex >= data.mouthCues.Count | currentIndex < 0)
                 currentIndex = 0;
@@ -63,7 +63,8 @@ namespace Modules.LipSync
             Process();
         }
 
-        public void SetCorrespondingClip(AudioClip clip) {
+        public void SetCorrespondingClip(AudioClip clip) 
+        {
             this.correspondingClip = clip;
         }
         

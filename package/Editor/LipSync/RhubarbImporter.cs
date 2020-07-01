@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEditor.Experimental.AssetImporters;
 using System.IO;
 
@@ -21,5 +22,6 @@ namespace Modules.LipSync
             ctx.AddObjectToAsset("LipSyncData", instance);
             ctx.SetMainObject(instance);
         }
+
     }
 }

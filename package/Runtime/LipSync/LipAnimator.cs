@@ -1,6 +1,9 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.Rendering;
 using UnityEngine.Timeline;
 
 namespace Modules.LipSync
@@ -8,48 +11,77 @@ namespace Modules.LipSync
     [ExecuteAlways]
     public class LipAnimator : MonoBehaviour
     {
+        [Header("LipSync")]
         public LipSyncData LipData;
         public MouthShapeIndexMap MouthMap;
+        public PlayableDirector Director;
+        public bool StrictMode = false;
+        
+        [Header("Rendering")]
         public Renderer Renderer;
         public string MouthPropertyName = "_MouthIndex";
-        public PlayableDirector Director;
 
         private int currentIndex;
         private MaterialPropertyBlock block;
-
         public AudioSource audioSource;
 
-        private TimelineClip TimelineMagic(out double currentTimeInClip) {
+        private readonly Dictionary<PlayableAsset, IEnumerable<AudioTrack>> tracksCache = new Dictionary<PlayableAsset, IEnumerable<AudioTrack>>();
+
+        private TimelineClip FindActiveClip(out double currentTimeInClip, [CanBeNull] AudioClip clip)
+        {
+            if (Director.playableAsset == null)
+            {
+                currentTimeInClip = -1;
+                return null;
+            }
             
-            var audioTracks = ((TimelineAsset) Director.playableAsset)
-                .GetOutputTracks()
-                .Where(x => x is AudioTrack && Director.GetGenericBinding(x) == audioSource)
-                .Cast<AudioTrack>();
+            if (Director.playableAsset != null && Director.playableAsset is TimelineAsset timelineAsset && !tracksCache.ContainsKey(Director.playableAsset))
+            {
+                var outputTracks = timelineAsset.GetOutputTracks();
+                var audioTracks = outputTracks
+                    .Where(x => x is AudioTrack t && Director.GetGenericBinding(x) == audioSource)
+                    .Cast<AudioTrack>();
+                tracksCache.Add(Director.playableAsset, audioTracks);
+            }
+
+            var tracks = tracksCache[Director.playableAsset];
 
             // now we have all tracks affecting our source,
             // lets figure out which clip is active
             // and which time it's at.
             // (we assume only the first track holds data relevant to voice - the others could e.g. be noises, footsteps, ...)
-            var activeTrack = audioTracks.FirstOrDefault();
-            activeClip = activeTrack
-                .GetClips()
-                .Where(x => x.start <= Director.time && x.end >= Director.time)
-                .FirstOrDefault();
+            var activeTrack = tracks.FirstOrDefault();
+            if (activeTrack != null)
+            {
+                var time = Director.time;
+                var activeClip = activeTrack.GetClips().FirstOrDefault(x => x.start <= time && x.end >= time);
             
-            // got a clip. time is based on start and clipIn property (might be cut off in the beginning)
-            if(activeClip != null) {
-                currentTimeInClip = (Director.time - activeClip.start) + activeClip.clipIn;
+                // got a clip. time is based on start and clipIn property (might be cut off in the beginning)
+                if(activeClip != null) 
+                {
+                    if (clip && activeClip.asset && activeClip.asset is AudioPlayableAsset audioAsset)
+                    {
+                        currentTimeInClip = (Director.time - activeClip.start) + activeClip.clipIn;
+                        
+                        // check if the clip is the same OR the clip name and the clip samples match
+                        if (audioAsset.clip == clip)
+                        {
+                            // this is what we can base the mouth animation off.
+                            return activeClip;
+                        }
+                        if (!StrictMode && clip != null && audioAsset.clip.samples == clip.samples && (audioAsset.clip.name.Contains(clip.name) || clip.name.Contains(audioAsset.clip.name)))
+                        {
+                            return activeClip;
+                        }
+                    }
+                    
+                }
+            }
 
-                // this is what we can base the mouth animation off.
-                return activeClip;
-            }
-            else {
-                currentTimeInClip = 0;
-                return null;
-            }
+            currentTimeInClip = -1;
+            return null;
         }
 
-        TimelineClip activeClip;
 
         // Update is called once per frame
         private void Update()
@@ -58,25 +90,16 @@ namespace Modules.LipSync
             if(!MouthMap) return;
             if(!Renderer) return;
             if(!Director.playableGraph.IsValid()) return;
-            
 
-            activeClip = TimelineMagic(out double time);
-
-            if(activeClip != null)
-            {
-                if(((activeClip.asset) as AudioPlayableAsset).clip != LipData.CorrespondingClip) {
-                    // TODO we could find the right LipData here that corresponds to the currently playing audio clip.
-                    Debug.LogError("Playing a different clip than assigned in the LipData. This will result in incorrect visuals.");
-                }
-
-                Update((float)time);
-            }
+            var activeClip = FindActiveClip(out var time, LipData.CorrespondingClip);
+            if (activeClip == null) return;
+            Update((float)time);
         }
 
         [HideInInspector]
         public int lastIndex;
 
-        private void Update(float time)
+        private void Update(double time)
         {
             if(block == null) block = new MaterialPropertyBlock();
             
@@ -88,11 +111,12 @@ namespace Modules.LipSync
         }
         
         
-        [ContextMenu("Timeline Magic")]
-        private void DoTimelineMagic() {
-            var c = TimelineMagic(out var currentClipTime);
+        [ContextMenu(nameof(FindActiveClip))]
+        private void FindActiveClip() 
+        {
+            var c = FindActiveClip(out var currentClipTime, LipData ? LipData.CorrespondingClip : null);
             if(c != null)
-                Debug.Log("active clip: " + (activeClip?.displayName ?? "null") + " @ " + currentClipTime);
+                Debug.Log("active clip: " + (c?.displayName ?? "null") + " @ " + currentClipTime);
             else
                 Debug.Log("no active clip");
         }
