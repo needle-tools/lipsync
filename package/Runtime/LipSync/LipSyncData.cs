@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace LipSync
 {
-    [CreateAssetMenu(menuName = "LipSyncData", fileName = "LipSyncData", order = 0)]
+    [CreateAssetMenu(menuName = Constants.MenuInternal + nameof(LipSyncData), fileName = "LipSyncData", order = 0)]
     [System.Serializable]
     public class LipSyncData : ScriptableObject
     {
