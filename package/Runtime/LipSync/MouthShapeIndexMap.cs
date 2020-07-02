@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-namespace Modules.LipSync
+namespace LipSync
 {
-    [CreateAssetMenu(menuName = nameof(MouthShapeIndexMap), fileName = nameof(MouthShapeIndexMap), order = 0)]
+    [CreateAssetMenu(menuName = Constants.MenuBase + nameof(MouthShapeIndexMap), fileName = nameof(MouthShapeIndexMap), order = 0)]
     public class MouthShapeIndexMap : ScriptableObject
     {
         [Range(0, 30)] public int

@@ -3,10 +3,9 @@ using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.Rendering;
 using UnityEngine.Timeline;
 
-namespace Modules.LipSync
+namespace LipSync
 {
     [ExecuteAlways]
     public class LipAnimator : MonoBehaviour
@@ -96,8 +95,7 @@ namespace Modules.LipSync
             Update((float)time);
         }
 
-        [HideInInspector]
-        public int lastIndex;
+        public int lastIndex { get; private set; }
 
         private void Update(double time)
         {
@@ -105,8 +103,8 @@ namespace Modules.LipSync
             
             // time += TimeOffset;
             var val = LipData.GetValue(time, ref currentIndex);
-            var index = MouthMap.GetIndex(val);
-            block.SetInt(MouthPropertyName, index);
+            lastIndex = MouthMap.GetIndex(val);
+            block.SetInt(MouthPropertyName, lastIndex);
             Renderer.SetPropertyBlock(block);
         }
         

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
 using UnityEngine;
 
-namespace Modules.LipSync
+namespace LipSync
 {
     [CreateAssetMenu(menuName = "LipSyncData", fileName = "LipSyncData", order = 0)]
     [System.Serializable]

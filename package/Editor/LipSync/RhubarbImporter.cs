@@ -1,9 +1,9 @@
-﻿using System;
-using UnityEngine;
+﻿using System.IO;
+using LipSync;
 using UnityEditor.Experimental.AssetImporters;
-using System.IO;
+using UnityEngine;
 
-namespace Modules.LipSync
+namespace Editor.LipSync
 {
     [ScriptedImporter(1, "rhubarb")]
     public class RhubarbImporter : ScriptedImporter
