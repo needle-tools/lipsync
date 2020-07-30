@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.Serialization;
 using UnityEngine.Timeline;
 
 namespace LipSync
@@ -21,11 +22,12 @@ namespace LipSync
         public string MouthPropertyName = "_MouthIndex";
         public string EyesPropertyName = "_EyeIndex";
 
-        [Header("Overwrites")]
-        [Range(-1,20), Tooltip("Set to -1 to disable overwrite")]
-        public int OverwriteMouthIndex = -1;
-        [Range(-1,20), Tooltip("Set to -1 to disable overwrite")]
-        public int OverwriteEyeIndex = -1;
+        [FormerlySerializedAs("OverwriteMouthIndex")]
+        [Header("Overrides")]
+        [Range(-1,20), Tooltip("Set to -1 to disable override")]
+        public int OverrideMouthIndex = -1;
+        [FormerlySerializedAs("OverrideEyeIndex")] [Range(-1,20), Tooltip("Set to -1 to disable override")]
+        public int OverrideEyeIndex = -1;
 
 
         private int currentIndex;
@@ -83,7 +85,7 @@ namespace LipSync
                 Renderer.GetPropertyBlock(block);
             }
 
-            if (OverwriteMouthIndex < 0)
+            if (OverrideMouthIndex < 0)
             {
                 var val = LipData.GetValue(time, ref currentIndex);
                 if (val != null) 
@@ -91,15 +93,15 @@ namespace LipSync
             }
             else
             {
-                lastMouthIndex = OverwriteMouthIndex;
+                lastMouthIndex = OverrideMouthIndex;
             }
             
             block.SetInt(MouthPropertyName, lastMouthIndex);
 
             
-            if (OverwriteEyeIndex >= 0)
+            if (OverrideEyeIndex >= 0)
             {
-                lastEyeIndex = OverwriteEyeIndex;
+                lastEyeIndex = OverrideEyeIndex;
             }
             
             block.SetInt(EyesPropertyName, lastEyeIndex);
