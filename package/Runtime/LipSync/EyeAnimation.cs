@@ -6,7 +6,7 @@ namespace LipSync
 {
     [ExecuteInEditMode]
     [RequireComponent(typeof(LipAnimator))]
-    public class EyeAnimation : MonoBehaviour
+    public class EyeAnimation : MonoBehaviour, IOverrideableEyeIndex
     {
         [FormerlySerializedAs("HeadTransform")] public Transform EyePosition;
         public Transform LookAtTarget;
@@ -16,6 +16,11 @@ namespace LipSync
         [Header("Override")]
         public int OverrideIndex = -1;
 
+        public int OverrideEyeIndex
+        {
+            get => OverrideIndex;
+            set => OverrideIndex = value;
+        }
         
         // [Header("Optional")]
         // public float HeadForwardOffset;
@@ -66,5 +71,6 @@ namespace LipSync
             Gizmos.DrawLine(GetEyePos(), tp);
             Gizmos.DrawSphere(tp, Scale);
         }
+
     }
 }

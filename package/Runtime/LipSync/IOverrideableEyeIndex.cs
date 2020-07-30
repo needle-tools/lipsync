@@ -1,6 +1,6 @@
 namespace LipSync
 {
-    public interface IOverwriteEyeIndex
+    public interface IOverrideableEyeIndex
     {
         int OverrideEyeIndex { get; set; }
     }
