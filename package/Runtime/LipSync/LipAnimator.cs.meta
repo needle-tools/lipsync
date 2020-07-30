@@ -3,7 +3,12 @@ guid: 5569420066474584c83ba19de7c8bcf2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - LipData: {instanceID: 0}
+  - MouthMap: {fileID: 11400000, guid: f4c7cce0b2805a74a91361728ac1f608, type: 2}
+  - Director: {instanceID: 0}
+  - Renderer: {instanceID: 0}
+  - audioSource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

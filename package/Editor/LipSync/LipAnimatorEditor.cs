@@ -13,7 +13,13 @@ namespace Editor.LipSync
 
             using(new EditorGUI.DisabledScope(true))
             {
-                if (t != null) EditorGUILayout.IntField("Current Index", t.lastIndex);
+                if (t != null)
+                {
+                    EditorGUILayout.Space();
+                    EditorGUILayout.LabelField("Internal", EditorStyles.boldLabel);
+                    EditorGUILayout.IntField("Current Mouth", t.lastMouthIndex);
+                    EditorGUILayout.IntField("Current Eye", t.lastEyeIndex);
+                }
             }
         }
     }
