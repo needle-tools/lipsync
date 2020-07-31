@@ -20,14 +20,11 @@ namespace LipSync
 
         [Header("Rendering")] public Renderer Renderer;
         public string MouthPropertyName = "_MouthIndex";
-        public string EyesPropertyName = "_EyeIndex";
 
         [FormerlySerializedAs("OverwriteMouthIndex")]
         [Header("Overrides")]
         [Range(-1,20), Tooltip("Set to -1 to disable override")]
         public int OverrideMouthIndex = -1;
-        [FormerlySerializedAs("OverrideEyeIndex")] [Range(-1,20), Tooltip("Set to -1 to disable override")]
-        public int OverrideEyeIndex = -1;
 
 
         private int currentIndex;
@@ -75,15 +72,11 @@ namespace LipSync
         }
 
         public int lastMouthIndex { get; private set; }
-        public int lastEyeIndex { get; private set; }
 
         private void UpdateIndices(double time)
         {
-            if (block == null)
-            {
-                block = new MaterialPropertyBlock();
-                Renderer.GetPropertyBlock(block);
-            }
+            if (block == null) block = new MaterialPropertyBlock();
+            Renderer.GetPropertyBlock(block);
 
             if (OverrideMouthIndex < 0)
             {
@@ -98,15 +91,7 @@ namespace LipSync
             
             block.SetInt(MouthPropertyName, lastMouthIndex);
 
-            
-            if (OverrideEyeIndex >= 0)
-            {
-                lastEyeIndex = OverrideEyeIndex;
-            }
-            
-            block.SetInt(EyesPropertyName, lastEyeIndex);
-            
-            
+
             Renderer.SetPropertyBlock(block);
         }
 

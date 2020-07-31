@@ -7,24 +7,21 @@ namespace LipSync
     {
         public int TopLeft, TopCenter, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomCenter, BottomRight;
 
-        public int GetIndex(Vector3 eyePosition, Vector3 targetPosition)
+        public int GetIndex(Vector3 lookDir, float horizontalSensitivity01 = .5f, float verticalSensitivity01 = .5f)
         {
-            var dir = targetPosition - eyePosition;
-            var lookDir = dir.normalized;
-
             var lr = lookDir.x;
             var ud = lookDir.y;
 
             // CENTER
-            if (lr >= -.5f && lr < .5f)
+            if (lr >= -horizontalSensitivity01 && lr < horizontalSensitivity01)
             {
                 // MIDDLE
-                if (ud >= -.5f && ud <= .5f)
+                if (ud >= -verticalSensitivity01 && ud <= verticalSensitivity01)
                 {
                     return MiddleCenter;
                 }
                 // DOWN
-                else if (ud < -.5f)
+                else if (ud < -verticalSensitivity01)
                 {
                     return BottomCenter;
                 }
@@ -35,15 +32,15 @@ namespace LipSync
                 }
             }
             // LEFT
-            else if (lr <= -.5f)
+            else if (lr <= -horizontalSensitivity01)
             {
                 // MIDDLE
-                if (ud >= -.5f && ud <= .5f)
+                if (ud >= -verticalSensitivity01 && ud <= verticalSensitivity01)
                 {
                     return MiddleRight;
                 }
                 // DOWN
-                else if (ud < -.5f)
+                else if (ud < -verticalSensitivity01)
                 {
                     return BottomRight;
                 }
@@ -57,12 +54,12 @@ namespace LipSync
             else
             {
                 // MIDDLE
-                if (ud >= -.5f && ud <= .5f)
+                if (ud >= -verticalSensitivity01 && ud <= verticalSensitivity01)
                 {
                     return MiddleLeft;
                 }
                 // DOWN
-                else if (ud < -.5f)
+                else if (ud < -verticalSensitivity01)
                 {
                     return BottomLeft;
                 }

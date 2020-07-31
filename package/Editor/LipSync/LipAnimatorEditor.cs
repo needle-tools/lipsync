@@ -18,7 +18,7 @@ namespace Editor.LipSync
                     EditorGUILayout.Space();
                     EditorGUILayout.LabelField("Internal", EditorStyles.boldLabel);
                     EditorGUILayout.IntField("Current Mouth", t.lastMouthIndex);
-                    EditorGUILayout.IntField("Current Eye", t.lastEyeIndex);
+                    // EditorGUILayout.IntField("Current Eye", t.lastEyeIndex);
                 }
             }
         }
