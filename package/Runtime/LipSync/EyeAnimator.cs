@@ -53,6 +53,7 @@ namespace LipSync
             if (!IndexMap) Debug.LogWarning("Missing Eye Dir Index Map: " + this, this);
         }
 
+        public Vector3 lastLookDir { get; private set; }
 
         private void Update()
         {
@@ -70,12 +71,16 @@ namespace LipSync
                 if (Application.isPlaying && Time.time - lastUpdateTime < MinTimeBetweenUpdates) return;
                 lastUpdateTime = Time.time;
                 if (!EyePosition || !LookAtTarget || !IndexMap) return;
-                var rot = transform.rotation;
+                var rot = EyePosition.rotation;
                 var dir = LookAtTarget.position - GetEyePos();
                 dir = Quaternion.Inverse(rot) * dir;
-                var lookDir = dir.normalized;
-                var index = IndexMap.GetIndex(lookDir, Horizontal, Vertical);
-                block.SetInt(EyesPropertyName, index);
+                // if (dir.z > -.5f)
+                {
+                    var lookDir = dir.normalized;
+                    lastLookDir = lookDir;
+                    var index = IndexMap.GetIndex(lookDir, Horizontal, Vertical);
+                    block.SetInt(EyesPropertyName, index);
+                }
             }
 
             _renderer.SetPropertyBlock(block);
