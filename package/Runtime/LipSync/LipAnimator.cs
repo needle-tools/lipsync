@@ -36,12 +36,13 @@ namespace LipSync
         private void OnValidate()
         {
             if (!Renderer) Renderer = GetComponentInChildren<SkinnedMeshRenderer>();
+            if (!Director) Director = GetComponentInParent<PlayableDirector>();
         }
         #endif
 
         private void OnEnable()
         {
-            
+            if (!Director) Director = GetComponentInParent<PlayableDirector>();
         }
 
         private void OnDisable()
@@ -58,6 +59,7 @@ namespace LipSync
             if (!LipData) return;
             if (!MouthMap) return;
             if (!Renderer) return;
+            if (!Director) return;
 
             if (!LipData.CorrespondingClip)
             {
