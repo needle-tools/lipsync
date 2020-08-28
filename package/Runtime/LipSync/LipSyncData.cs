@@ -41,8 +41,9 @@ namespace LipSync
             }
             else
             {
-                for (var i = currentIndex; i <= data.mouthCues.Count; i++)
+                for (var i = currentIndex; i < data.mouthCues.Count; i++)
                 {
+                    if (currentIndex >= data.mouthCues.Count) return null;
                     var cue = data.mouthCues[i];
                     if (cue.start <= time && cue.end > time)
                     {
