@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 namespace LipSync
 {
@@ -22,14 +23,20 @@ namespace LipSync
 
         [Header("Sensitivity")] [Range(0, 1f)] public float Horizontal = .5f;
         [Range(0, 1f)] public float Vertical = .5f;
-        
 
-        [Header("Override")] public int OverrideIndex = -1;
+        [Header("AutoBlink")] public bool UseAutoBlink = true;
+        public BlinkSettings BlinkSettings;
+        private int autoBlinkIndex = -1;
+
+        [FormerlySerializedAs("OverrideIndex")]
+        [Header("Override")] 
+        [SerializeField]
+        private int _overrideIndex = -1;
 
         public int OverrideEyeIndex
         {
-            get => OverrideIndex;
-            set => OverrideIndex = value;
+            get => autoBlinkIndex >= 0 ? autoBlinkIndex : _overrideIndex;
+            set => _overrideIndex = value;
         }
 
         // [Header("Optional")]
@@ -61,10 +68,12 @@ namespace LipSync
 
             if (block == null) block = new MaterialPropertyBlock();
             _renderer.GetPropertyBlock(block);
+
+            UpdateAutoBlink();
             
-            if (OverrideIndex >= 0)
+            if (OverrideEyeIndex >= 0)
             {
-                block.SetInt(EyesPropertyName, OverrideIndex);
+                block.SetInt(EyesPropertyName, OverrideEyeIndex);
             }
             else
             {
@@ -102,6 +111,36 @@ namespace LipSync
             var tp = LookAtTarget.position;
             Gizmos.DrawLine(GetEyePos(), tp);
             Gizmos.DrawSphere(tp, Scale);
+        }
+
+        private float nextBlinkTime = 0;
+        private float blinkEndTime;
+        private BlinkData currentBlinkData;
+        private void UpdateAutoBlink()
+        {
+            autoBlinkIndex = -1;
+
+            if (Application.isPlaying == false) return;
+            
+            if (!UseAutoBlink || !BlinkSettings)
+                return;
+
+            // fallback if maxtime is too big
+            if (nextBlinkTime > Time.time + BlinkSettings.MaxTimeBetweenBlink)
+                nextBlinkTime = Time.time;
+
+            if (Time.time > nextBlinkTime)
+            {
+                nextBlinkTime = Time.time + Mathf.Lerp( BlinkSettings.MinTimeBetweenBlink, BlinkSettings.MaxTimeBetweenBlink, Random.value);
+                currentBlinkData = BlinkSettings.GetRandom();
+                if (currentBlinkData != null)
+                {
+                    blinkEndTime = Time.time + Mathf.Lerp(currentBlinkData.MinDuration, currentBlinkData.MaxDuration, Random.value);
+                }
+            }
+
+            if (currentBlinkData == null) return;
+            if (Time.time < blinkEndTime) autoBlinkIndex = currentBlinkData.EyeIndex;
         }
     }
 }

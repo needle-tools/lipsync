@@ -18,6 +18,7 @@ namespace Editor.LipSync
                     EditorGUILayout.Space();
                     EditorGUILayout.LabelField("Internal", EditorStyles.boldLabel);
                     EditorGUILayout.Vector3Field("LookDir", t.lastLookDir);
+                    EditorGUILayout.IntField("EyeIndex", t.OverrideEyeIndex);
                 }
             }
         }
