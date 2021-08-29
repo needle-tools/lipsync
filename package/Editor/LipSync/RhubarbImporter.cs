@@ -1,7 +1,11 @@
 ﻿using System.IO;
 using LipSync;
-using UnityEditor.Experimental.AssetImporters;
 using UnityEngine;
+#if !UNITY_2020_2_OR_NEWER
+using UnityEditor.Experimental.AssetImporters;
+#else
+using UnityEditor.AssetImporters;
+#endif
 
 namespace Editor.LipSync
 {
