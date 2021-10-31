@@ -1,0 +1,6117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea1a44b09a440bea04f979672b77b9d, type: 3}
+  m_Name: Xzibit
+  m_EditorClassIdentifier: 
+  filename: Xzibit - My Name ft. Eminem  Nate Dogg
+  data:
+    metadata:
+      soundFile: C:\git\songs-of-cultures\development\Tools\Xzibit - My Name ft.
+        Eminem  Nate Dogg.wav
+    mouthCues:
+    - start: 0
+      end: 0.27
+      value: X
+    - start: 0.27
+      end: 2.12
+      value: B
+    - start: 2.12
+      end: 2.58
+      value: A
+    - start: 2.58
+      end: 4.37
+      value: B
+    - start: 4.37
+      end: 4.51
+      value: F
+    - start: 4.51
+      end: 7.59
+      value: B
+    - start: 7.59
+      end: 7.66
+      value: C
+    - start: 7.66
+      end: 12.63
+      value: B
+    - start: 12.63
+      end: 12.96
+      value: A
+    - start: 12.96
+      end: 13.06
+      value: C
+    - start: 13.06
+      end: 13.28
+      value: A
+    - start: 13.28
+      end: 14.2
+      value: B
+    - start: 14.2
+      end: 14.34
+      value: C
+    - start: 14.34
+      end: 14.42
+      value: A
+    - start: 14.42
+      end: 14.51
+      value: B
+    - start: 14.51
+      end: 14.61
+      value: A
+    - start: 14.61
+      end: 14.78
+      value: B
+    - start: 14.78
+      end: 14.91
+      value: A
+    - start: 14.91
+      end: 15.62
+      value: G
+    - start: 15.62
+      end: 15.69
+      value: C
+    - start: 15.69
+      end: 15.9
+      value: B
+    - start: 15.9
+      end: 16.02
+      value: A
+    - start: 16.02
+      end: 17.14
+      value: B
+    - start: 17.14
+      end: 17.21
+      value: C
+    - start: 17.21
+      end: 17.29
+      value: A
+    - start: 17.29
+      end: 17.44
+      value: C
+    - start: 17.44
+      end: 17.58
+      value: B
+    - start: 17.58
+      end: 17.86
+      value: C
+    - start: 17.86
+      end: 18.42
+      value: B
+    - start: 18.42
+      end: 18.63
+      value: C
+    - start: 18.63
+      end: 18.82
+      value: A
+    - start: 18.82
+      end: 19.77
+      value: B
+    - start: 19.77
+      end: 19.98
+      value: C
+    - start: 19.98
+      end: 20.05
+      value: B
+    - start: 20.05
+      end: 20.13
+      value: A
+    - start: 20.13
+      end: 20.31
+      value: C
+    - start: 20.31
+      end: 20.45
+      value: B
+    - start: 20.45
+      end: 21.22
+      value: G
+    - start: 21.22
+      end: 21.36
+      value: C
+    - start: 21.36
+      end: 21.44
+      value: A
+    - start: 21.44
+      end: 21.7
+      value: C
+    - start: 21.7
+      end: 21.77
+      value: E
+    - start: 21.77
+      end: 21.84
+      value: C
+    - start: 21.84
+      end: 22.61
+      value: B
+    - start: 22.61
+      end: 22.75
+      value: C
+    - start: 22.75
+      end: 22.89
+      value: B
+    - start: 22.89
+      end: 23.24
+      value: C
+    - start: 23.24
+      end: 23.94
+      value: B
+    - start: 23.94
+      end: 24.15
+      value: G
+    - start: 24.15
+      end: 24.22
+      value: C
+    - start: 24.22
+      end: 24.36
+      value: B
+    - start: 24.36
+      end: 24.43
+      value: G
+    - start: 24.43
+      end: 24.55
+      value: X
+    - start: 24.55
+      end: 24.63
+      value: B
+    - start: 24.63
+      end: 24.73
+      value: A
+    - start: 24.73
+      end: 24.83
+      value: G
+    - start: 24.83
+      end: 25.39
+      value: B
+    - start: 25.39
+      end: 25.6
+      value: C
+    - start: 25.6
+      end: 26.09
+      value: B
+    - start: 26.09
+      end: 26.23
+      value: G
+    - start: 26.23
+      end: 26.43
+      value: X
+    - start: 26.43
+      end: 26.64
+      value: B
+    - start: 26.64
+      end: 26.75
+      value: A
+    - start: 26.75
+      end: 26.89
+      value: C
+    - start: 26.89
+      end: 27.45
+      value: B
+    - start: 27.45
+      end: 27.66
+      value: G
+    - start: 27.66
+      end: 27.82
+      value: X
+    - start: 27.82
+      end: 28.23
+      value: B
+    - start: 28.23
+      end: 28.44
+      value: C
+    - start: 28.44
+      end: 28.51
+      value: E
+    - start: 28.51
+      end: 28.79
+      value: B
+    - start: 28.79
+      end: 28.87
+      value: A
+    - start: 28.87
+      end: 29.06
+      value: G
+    - start: 29.06
+      end: 29.13
+      value: C
+    - start: 29.13
+      end: 29.41
+      value: B
+    - start: 29.41
+      end: 29.53
+      value: A
+    - start: 29.53
+      end: 29.75
+      value: C
+    - start: 29.75
+      end: 30.1
+      value: B
+    - start: 30.1
+      end: 30.45
+      value: G
+    - start: 30.45
+      end: 30.57
+      value: X
+    - start: 30.57
+      end: 30.84
+      value: B
+    - start: 30.84
+      end: 31.19
+      value: C
+    - start: 31.19
+      end: 31.68
+      value: B
+    - start: 31.68
+      end: 31.82
+      value: G
+    - start: 31.82
+      end: 32.01
+      value: X
+    - start: 32.01
+      end: 33.77
+      value: B
+    - start: 33.77
+      end: 34.12
+      value: C
+    - start: 34.12
+      end: 34.33
+      value: B
+    - start: 34.33
+      end: 34.71
+      value: G
+    - start: 34.71
+      end: 34.82
+      value: B
+    - start: 34.82
+      end: 35.1
+      value: C
+    - start: 35.1
+      end: 35.17
+      value: B
+    - start: 35.17
+      end: 35.45
+      value: C
+    - start: 35.45
+      end: 35.52
+      value: B
+    - start: 35.52
+      end: 35.66
+      value: C
+    - start: 35.66
+      end: 36.29
+      value: B
+    - start: 36.29
+      end: 36.36
+      value: C
+    - start: 36.36
+      end: 36.99
+      value: B
+    - start: 36.99
+      end: 37.06
+      value: A
+    - start: 37.06
+      end: 37.27
+      value: E
+    - start: 37.27
+      end: 37.48
+      value: G
+    - start: 37.48
+      end: 37.69
+      value: F
+    - start: 37.69
+      end: 37.81
+      value: B
+    - start: 37.81
+      end: 37.89
+      value: A
+    - start: 37.89
+      end: 37.97
+      value: E
+    - start: 37.97
+      end: 38.25
+      value: F
+    - start: 38.25
+      end: 38.39
+      value: B
+    - start: 38.39
+      end: 38.6
+      value: C
+    - start: 38.6
+      end: 38.69
+      value: A
+    - start: 38.69
+      end: 38.76
+      value: B
+    - start: 38.76
+      end: 38.97
+      value: F
+    - start: 38.97
+      end: 39.18
+      value: B
+    - start: 39.18
+      end: 39.26
+      value: A
+    - start: 39.26
+      end: 39.33
+      value: B
+    - start: 39.33
+      end: 39.46
+      value: G
+    - start: 39.46
+      end: 39.53
+      value: C
+    - start: 39.53
+      end: 39.6
+      value: B
+    - start: 39.6
+      end: 39.67
+      value: G
+    - start: 39.67
+      end: 39.81
+      value: E
+    - start: 39.81
+      end: 39.88
+      value: F
+    - start: 39.88
+      end: 39.95
+      value: G
+    - start: 39.95
+      end: 40.02
+      value: B
+    - start: 40.02
+      end: 40.11
+      value: A
+    - start: 40.11
+      end: 40.27
+      value: G
+    - start: 40.27
+      end: 40.7
+      value: B
+    - start: 40.7
+      end: 40.75
+      value: D
+    - start: 40.75
+      end: 40.96
+      value: C
+    - start: 40.96
+      end: 41.04
+      value: A
+    - start: 41.04
+      end: 41.1
+      value: E
+    - start: 41.1
+      end: 41.15
+      value: B
+    - start: 41.15
+      end: 41.22
+      value: F
+    - start: 41.22
+      end: 41.3
+      value: A
+    - start: 41.3
+      end: 41.38
+      value: D
+    - start: 41.38
+      end: 41.61
+      value: A
+    - start: 41.61
+      end: 41.86
+      value: B
+    - start: 41.86
+      end: 41.93
+      value: C
+    - start: 41.93
+      end: 42.35
+      value: B
+    - start: 42.35
+      end: 42.46
+      value: A
+    - start: 42.46
+      end: 42.51
+      value: B
+    - start: 42.51
+      end: 42.63
+      value: E
+    - start: 42.63
+      end: 42.7
+      value: B
+    - start: 42.7
+      end: 42.83
+      value: A
+    - start: 42.83
+      end: 42.89
+      value: C
+    - start: 42.89
+      end: 42.94
+      value: B
+    - start: 42.94
+      end: 43.02
+      value: A
+    - start: 43.02
+      end: 43.33
+      value: B
+    - start: 43.33
+      end: 43.58
+      value: A
+    - start: 43.58
+      end: 43.66
+      value: C
+    - start: 43.66
+      end: 43.74
+      value: A
+    - start: 43.74
+      end: 43.78
+      value: B
+    - start: 43.78
+      end: 43.82
+      value: C
+    - start: 43.82
+      end: 43.9
+      value: A
+    - start: 43.9
+      end: 44.05
+      value: B
+    - start: 44.05
+      end: 44.19
+      value: G
+    - start: 44.19
+      end: 44.29
+      value: A
+    - start: 44.29
+      end: 44.4
+      value: B
+    - start: 44.4
+      end: 44.47
+      value: G
+    - start: 44.47
+      end: 44.54
+      value: C
+    - start: 44.54
+      end: 44.61
+      value: B
+    - start: 44.61
+      end: 44.89
+      value: C
+    - start: 44.89
+      end: 45.17
+      value: B
+    - start: 45.17
+      end: 45.25
+      value: A
+    - start: 45.25
+      end: 45.41
+      value: C
+    - start: 45.41
+      end: 45.49
+      value: A
+    - start: 45.49
+      end: 45.6
+      value: E
+    - start: 45.6
+      end: 45.69
+      value: A
+    - start: 45.69
+      end: 45.89
+      value: G
+    - start: 45.89
+      end: 45.96
+      value: E
+    - start: 45.96
+      end: 46.1
+      value: F
+    - start: 46.1
+      end: 46.66
+      value: B
+    - start: 46.66
+      end: 46.8
+      value: G
+    - start: 46.8
+      end: 46.94
+      value: B
+    - start: 46.94
+      end: 47.07
+      value: A
+    - start: 47.07
+      end: 47.14
+      value: G
+    - start: 47.14
+      end: 47.34
+      value: B
+    - start: 47.34
+      end: 47.41
+      value: C
+    - start: 47.41
+      end: 47.55
+      value: B
+    - start: 47.55
+      end: 47.63
+      value: A
+    - start: 47.63
+      end: 47.69
+      value: D
+    - start: 47.69
+      end: 47.95
+      value: F
+    - start: 47.95
+      end: 48.02
+      value: G
+    - start: 48.02
+      end: 48.09
+      value: B
+    - start: 48.09
+      end: 48.23
+      value: C
+    - start: 48.23
+      end: 48.37
+      value: B
+    - start: 48.37
+      end: 48.44
+      value: C
+    - start: 48.44
+      end: 48.58
+      value: B
+    - start: 48.58
+      end: 48.72
+      value: C
+    - start: 48.72
+      end: 48.79
+      value: B
+    - start: 48.79
+      end: 49.04
+      value: C
+    - start: 49.04
+      end: 49.11
+      value: E
+    - start: 49.11
+      end: 49.35
+      value: F
+    - start: 49.35
+      end: 49.5
+      value: A
+    - start: 49.5
+      end: 49.61
+      value: G
+    - start: 49.61
+      end: 49.68
+      value: F
+    - start: 49.68
+      end: 49.75
+      value: G
+    - start: 49.75
+      end: 49.89
+      value: C
+    - start: 49.89
+      end: 50.03
+      value: B
+    - start: 50.03
+      end: 50.1
+      value: E
+    - start: 50.1
+      end: 50.17
+      value: B
+    - start: 50.17
+      end: 50.31
+      value: E
+    - start: 50.31
+      end: 50.38
+      value: F
+    - start: 50.38
+      end: 50.57
+      value: A
+    - start: 50.57
+      end: 50.64
+      value: G
+    - start: 50.64
+      end: 50.71
+      value: F
+    - start: 50.71
+      end: 50.79
+      value: A
+    - start: 50.79
+      end: 50.85
+      value: C
+    - start: 50.85
+      end: 50.9
+      value: B
+    - start: 50.9
+      end: 50.97
+      value: C
+    - start: 50.97
+      end: 51.39
+      value: B
+    - start: 51.39
+      end: 51.46
+      value: C
+    - start: 51.46
+      end: 51.6
+      value: B
+    - start: 51.6
+      end: 51.88
+      value: C
+    - start: 51.88
+      end: 51.95
+      value: F
+    - start: 51.95
+      end: 52.44
+      value: B
+    - start: 52.44
+      end: 52.6
+      value: A
+    - start: 52.6
+      end: 52.82
+      value: B
+    - start: 52.82
+      end: 52.9
+      value: A
+    - start: 52.9
+      end: 52.97
+      value: D
+    - start: 52.97
+      end: 53.04
+      value: G
+    - start: 53.04
+      end: 53.25
+      value: E
+    - start: 53.25
+      end: 53.36
+      value: A
+    - start: 53.36
+      end: 53.43
+      value: G
+    - start: 53.43
+      end: 53.49
+      value: B
+    - start: 53.49
+      end: 53.57
+      value: A
+    - start: 53.57
+      end: 53.69
+      value: B
+    - start: 53.69
+      end: 53.76
+      value: C
+    - start: 53.76
+      end: 53.97
+      value: B
+    - start: 53.97
+      end: 54.11
+      value: C
+    - start: 54.11
+      end: 54.19
+      value: A
+    - start: 54.19
+      end: 54.29
+      value: F
+    - start: 54.29
+      end: 54.36
+      value: B
+    - start: 54.36
+      end: 54.57
+      value: E
+    - start: 54.57
+      end: 54.64
+      value: F
+    - start: 54.64
+      end: 54.75
+      value: A
+    - start: 54.75
+      end: 54.81
+      value: C
+    - start: 54.81
+      end: 55.07
+      value: B
+    - start: 55.07
+      end: 55.14
+      value: G
+    - start: 55.14
+      end: 55.21
+      value: C
+    - start: 55.21
+      end: 55.35
+      value: E
+    - start: 55.35
+      end: 55.56
+      value: C
+    - start: 55.56
+      end: 55.77
+      value: E
+    - start: 55.77
+      end: 55.85
+      value: A
+    - start: 55.85
+      end: 56.14
+      value: B
+    - start: 56.14
+      end: 56.28
+      value: G
+    - start: 56.28
+      end: 56.35
+      value: B
+    - start: 56.35
+      end: 56.42
+      value: G
+    - start: 56.42
+      end: 56.49
+      value: B
+    - start: 56.49
+      end: 56.63
+      value: C
+    - start: 56.63
+      end: 56.75
+      value: A
+    - start: 56.75
+      end: 56.85
+      value: C
+    - start: 56.85
+      end: 57.06
+      value: B
+    - start: 57.06
+      end: 57.13
+      value: C
+    - start: 57.13
+      end: 57.34
+      value: B
+    - start: 57.34
+      end: 57.41
+      value: G
+    - start: 57.41
+      end: 57.76
+      value: B
+    - start: 57.76
+      end: 57.85
+      value: A
+    - start: 57.85
+      end: 58
+      value: C
+    - start: 58
+      end: 58.35
+      value: B
+    - start: 58.35
+      end: 58.43
+      value: A
+    - start: 58.43
+      end: 58.69
+      value: B
+    - start: 58.69
+      end: 58.78
+      value: A
+    - start: 58.78
+      end: 59.25
+      value: B
+    - start: 59.25
+      end: 59.53
+      value: F
+    - start: 59.53
+      end: 59.65
+      value: A
+    - start: 59.65
+      end: 59.87
+      value: B
+    - start: 59.87
+      end: 59.95
+      value: A
+    - start: 59.95
+      end: 60
+      value: B
+    - start: 60
+      end: 60.05
+      value: C
+    - start: 60.05
+      end: 60.19
+      value: B
+    - start: 60.19
+      end: 60.68
+      value: C
+    - start: 60.68
+      end: 60.75
+      value: B
+    - start: 60.75
+      end: 60.85
+      value: A
+    - start: 60.85
+      end: 60.93
+      value: B
+    - start: 60.93
+      end: 61.05
+      value: A
+    - start: 61.05
+      end: 61.55
+      value: B
+    - start: 61.55
+      end: 61.62
+      value: F
+    - start: 61.62
+      end: 61.76
+      value: A
+    - start: 61.76
+      end: 61.81
+      value: G
+    - start: 61.81
+      end: 61.86
+      value: E
+    - start: 61.86
+      end: 61.94
+      value: A
+    - start: 61.94
+      end: 62.01
+      value: C
+    - start: 62.01
+      end: 62.21
+      value: B
+    - start: 62.21
+      end: 62.31
+      value: D
+    - start: 62.31
+      end: 62.35
+      value: C
+    - start: 62.35
+      end: 62.46
+      value: A
+    - start: 62.46
+      end: 62.53
+      value: B
+    - start: 62.53
+      end: 62.61
+      value: A
+    - start: 62.61
+      end: 62.69
+      value: C
+    - start: 62.69
+      end: 62.97
+      value: B
+    - start: 62.97
+      end: 63.11
+      value: F
+    - start: 63.11
+      end: 63.18
+      value: B
+    - start: 63.18
+      end: 63.25
+      value: C
+    - start: 63.25
+      end: 63.33
+      value: A
+    - start: 63.33
+      end: 63.42
+      value: B
+    - start: 63.42
+      end: 63.56
+      value: C
+    - start: 63.56
+      end: 63.64
+      value: A
+    - start: 63.64
+      end: 63.73
+      value: C
+    - start: 63.73
+      end: 63.8
+      value: B
+    - start: 63.8
+      end: 63.94
+      value: C
+    - start: 63.94
+      end: 64.02
+      value: A
+    - start: 64.02
+      end: 64.58
+      value: B
+    - start: 64.58
+      end: 64.72
+      value: G
+    - start: 64.72
+      end: 64.79
+      value: B
+    - start: 64.79
+      end: 65
+      value: F
+    - start: 65
+      end: 65.11
+      value: A
+    - start: 65.11
+      end: 65.35
+      value: B
+    - start: 65.35
+      end: 65.43
+      value: A
+    - start: 65.43
+      end: 65.48
+      value: B
+    - start: 65.48
+      end: 65.95
+      value: C
+    - start: 65.95
+      end: 66.16
+      value: B
+    - start: 66.16
+      end: 66.23
+      value: C
+    - start: 66.23
+      end: 66.44
+      value: B
+    - start: 66.44
+      end: 66.65
+      value: A
+    - start: 66.65
+      end: 66.76
+      value: G
+    - start: 66.76
+      end: 66.83
+      value: C
+    - start: 66.83
+      end: 67.25
+      value: B
+    - start: 67.25
+      end: 67.33
+      value: A
+    - start: 67.33
+      end: 67.38
+      value: C
+    - start: 67.38
+      end: 67.84
+      value: B
+    - start: 67.84
+      end: 67.92
+      value: A
+    - start: 67.92
+      end: 68.01
+      value: B
+    - start: 68.01
+      end: 68.08
+      value: G
+    - start: 68.08
+      end: 68.16
+      value: A
+    - start: 68.16
+      end: 68.25
+      value: C
+    - start: 68.25
+      end: 68.46
+      value: F
+    - start: 68.46
+      end: 68.6
+      value: B
+    - start: 68.6
+      end: 68.67
+      value: C
+    - start: 68.67
+      end: 69.02
+      value: B
+    - start: 69.02
+      end: 69.16
+      value: H
+    - start: 69.16
+      end: 69.23
+      value: C
+    - start: 69.23
+      end: 69.3
+      value: B
+    - start: 69.3
+      end: 69.43
+      value: A
+    - start: 69.43
+      end: 69.57
+      value: G
+    - start: 69.57
+      end: 69.68
+      value: A
+    - start: 69.68
+      end: 69.8
+      value: B
+    - start: 69.8
+      end: 70.01
+      value: E
+    - start: 70.01
+      end: 70.08
+      value: C
+    - start: 70.08
+      end: 70.15
+      value: B
+    - start: 70.15
+      end: 70.29
+      value: E
+    - start: 70.29
+      end: 70.36
+      value: B
+    - start: 70.36
+      end: 70.43
+      value: F
+    - start: 70.43
+      end: 70.5
+      value: G
+    - start: 70.5
+      end: 70.57
+      value: C
+    - start: 70.57
+      end: 70.67
+      value: D
+    - start: 70.67
+      end: 70.71
+      value: C
+    - start: 70.71
+      end: 70.83
+      value: A
+    - start: 70.83
+      end: 70.91
+      value: G
+    - start: 70.91
+      end: 71.15
+      value: A
+    - start: 71.15
+      end: 71.31
+      value: G
+    - start: 71.31
+      end: 71.39
+      value: A
+    - start: 71.39
+      end: 71.44
+      value: E
+    - start: 71.44
+      end: 71.48
+      value: F
+    - start: 71.48
+      end: 71.56
+      value: A
+    - start: 71.56
+      end: 71.82
+      value: B
+    - start: 71.82
+      end: 72.03
+      value: D
+    - start: 72.03
+      end: 72.1
+      value: B
+    - start: 72.1
+      end: 72.24
+      value: A
+    - start: 72.24
+      end: 72.45
+      value: G
+    - start: 72.45
+      end: 72.59
+      value: B
+    - start: 72.59
+      end: 72.78
+      value: F
+    - start: 72.78
+      end: 72.83
+      value: E
+    - start: 72.83
+      end: 73.01
+      value: C
+    - start: 73.01
+      end: 73.22
+      value: B
+    - start: 73.22
+      end: 73.29
+      value: C
+    - start: 73.29
+      end: 73.37
+      value: A
+    - start: 73.37
+      end: 73.52
+      value: D
+    - start: 73.52
+      end: 73.56
+      value: C
+    - start: 73.56
+      end: 73.82
+      value: B
+    - start: 73.82
+      end: 73.89
+      value: C
+    - start: 73.89
+      end: 74.03
+      value: B
+    - start: 74.03
+      end: 74.11
+      value: A
+    - start: 74.11
+      end: 74.43
+      value: B
+    - start: 74.43
+      end: 74.57
+      value: C
+    - start: 74.57
+      end: 74.63
+      value: A
+    - start: 74.63
+      end: 74.69
+      value: B
+    - start: 74.69
+      end: 74.77
+      value: A
+    - start: 74.77
+      end: 74.92
+      value: C
+    - start: 74.92
+      end: 75.02
+      value: A
+    - start: 75.02
+      end: 75.1
+      value: G
+    - start: 75.1
+      end: 75.17
+      value: B
+    - start: 75.17
+      end: 75.25
+      value: A
+    - start: 75.25
+      end: 75.45
+      value: C
+    - start: 75.45
+      end: 75.59
+      value: B
+    - start: 75.59
+      end: 75.71
+      value: A
+    - start: 75.71
+      end: 75.78
+      value: B
+    - start: 75.78
+      end: 75.84
+      value: C
+    - start: 75.84
+      end: 75.98
+      value: B
+    - start: 75.98
+      end: 76.19
+      value: G
+    - start: 76.19
+      end: 76.54
+      value: B
+    - start: 76.54
+      end: 76.61
+      value: E
+    - start: 76.61
+      end: 76.82
+      value: C
+    - start: 76.82
+      end: 77.03
+      value: B
+    - start: 77.03
+      end: 77.1
+      value: F
+    - start: 77.1
+      end: 77.17
+      value: D
+    - start: 77.17
+      end: 77.31
+      value: B
+    - start: 77.31
+      end: 77.52
+      value: F
+    - start: 77.52
+      end: 77.6
+      value: A
+    - start: 77.6
+      end: 77.71
+      value: B
+    - start: 77.71
+      end: 77.92
+      value: C
+    - start: 77.92
+      end: 78.06
+      value: B
+    - start: 78.06
+      end: 78.13
+      value: G
+    - start: 78.13
+      end: 78.27
+      value: C
+    - start: 78.27
+      end: 78.41
+      value: D
+    - start: 78.41
+      end: 78.48
+      value: B
+    - start: 78.48
+      end: 78.62
+      value: C
+    - start: 78.62
+      end: 78.76
+      value: B
+    - start: 78.76
+      end: 78.9
+      value: G
+    - start: 78.9
+      end: 79.04
+      value: B
+    - start: 79.04
+      end: 79.12
+      value: A
+    - start: 79.12
+      end: 79.34
+      value: B
+    - start: 79.34
+      end: 79.41
+      value: E
+    - start: 79.41
+      end: 79.48
+      value: F
+    - start: 79.48
+      end: 79.55
+      value: B
+    - start: 79.55
+      end: 79.62
+      value: C
+    - start: 79.62
+      end: 80.32
+      value: B
+    - start: 80.32
+      end: 80.46
+      value: G
+    - start: 80.46
+      end: 80.57
+      value: A
+    - start: 80.57
+      end: 80.65
+      value: B
+    - start: 80.65
+      end: 80.73
+      value: A
+    - start: 80.73
+      end: 80.98
+      value: F
+    - start: 80.98
+      end: 81.05
+      value: B
+    - start: 81.05
+      end: 81.19
+      value: E
+    - start: 81.19
+      end: 81.3
+      value: A
+    - start: 81.3
+      end: 81.51
+      value: B
+    - start: 81.51
+      end: 81.58
+      value: C
+    - start: 81.58
+      end: 81.72
+      value: B
+    - start: 81.72
+      end: 81.84
+      value: A
+    - start: 81.84
+      end: 81.92
+      value: B
+    - start: 81.92
+      end: 82.02
+      value: A
+    - start: 82.02
+      end: 82.07
+      value: G
+    - start: 82.07
+      end: 82.97
+      value: B
+    - start: 82.97
+      end: 83.04
+      value: G
+    - start: 83.04
+      end: 83.11
+      value: C
+    - start: 83.11
+      end: 83.21
+      value: A
+    - start: 83.21
+      end: 83.29
+      value: B
+    - start: 83.29
+      end: 83.41
+      value: A
+    - start: 83.41
+      end: 83.79
+      value: B
+    - start: 83.79
+      end: 84
+      value: F
+    - start: 84
+      end: 84.09
+      value: A
+    - start: 84.09
+      end: 84.15
+      value: G
+    - start: 84.15
+      end: 84.21
+      value: C
+    - start: 84.21
+      end: 84.28
+      value: G
+    - start: 84.28
+      end: 84.42
+      value: B
+    - start: 84.42
+      end: 84.49
+      value: G
+    - start: 84.49
+      end: 84.59
+      value: A
+    - start: 84.59
+      end: 84.69
+      value: B
+    - start: 84.69
+      end: 84.94
+      value: A
+    - start: 84.94
+      end: 85.27
+      value: B
+    - start: 85.27
+      end: 85.4
+      value: A
+    - start: 85.4
+      end: 85.51
+      value: C
+    - start: 85.51
+      end: 85.58
+      value: B
+    - start: 85.58
+      end: 85.74
+      value: A
+    - start: 85.74
+      end: 85.86
+      value: G
+    - start: 85.86
+      end: 86.07
+      value: E
+    - start: 86.07
+      end: 86.21
+      value: A
+    - start: 86.21
+      end: 86.47
+      value: B
+    - start: 86.47
+      end: 86.68
+      value: C
+    - start: 86.68
+      end: 87.17
+      value: B
+    - start: 87.17
+      end: 87.31
+      value: C
+    - start: 87.31
+      end: 87.59
+      value: B
+    - start: 87.59
+      end: 87.66
+      value: G
+    - start: 87.66
+      end: 87.96
+      value: A
+    - start: 87.96
+      end: 88.1
+      value: B
+    - start: 88.1
+      end: 88.38
+      value: C
+    - start: 88.38
+      end: 88.59
+      value: B
+    - start: 88.59
+      end: 88.73
+      value: C
+    - start: 88.73
+      end: 88.8
+      value: G
+    - start: 88.8
+      end: 88.87
+      value: B
+    - start: 88.87
+      end: 88.95
+      value: A
+    - start: 88.95
+      end: 89.09
+      value: C
+    - start: 89.09
+      end: 89.23
+      value: B
+    - start: 89.23
+      end: 89.3
+      value: C
+    - start: 89.3
+      end: 89.44
+      value: B
+    - start: 89.44
+      end: 89.55
+      value: A
+    - start: 89.55
+      end: 89.6
+      value: C
+    - start: 89.6
+      end: 89.65
+      value: B
+    - start: 89.65
+      end: 89.72
+      value: C
+    - start: 89.72
+      end: 89.93
+      value: B
+    - start: 89.93
+      end: 90.07
+      value: A
+    - start: 90.07
+      end: 90.22
+      value: H
+    - start: 90.22
+      end: 90.3
+      value: A
+    - start: 90.3
+      end: 90.45
+      value: C
+    - start: 90.45
+      end: 90.8
+      value: B
+    - start: 90.8
+      end: 90.87
+      value: G
+    - start: 90.87
+      end: 91.43
+      value: B
+    - start: 91.43
+      end: 91.5
+      value: E
+    - start: 91.5
+      end: 91.64
+      value: F
+    - start: 91.64
+      end: 91.78
+      value: A
+    - start: 91.78
+      end: 92.03
+      value: F
+    - start: 92.03
+      end: 92.21
+      value: A
+    - start: 92.21
+      end: 92.23
+      value: B
+    - start: 92.23
+      end: 92.3
+      value: A
+    - start: 92.3
+      end: 92.37
+      value: C
+    - start: 92.37
+      end: 92.49
+      value: A
+    - start: 92.49
+      end: 92.7
+      value: B
+    - start: 92.7
+      end: 92.77
+      value: G
+    - start: 92.77
+      end: 92.91
+      value: C
+    - start: 92.91
+      end: 93.05
+      value: B
+    - start: 93.05
+      end: 93.13
+      value: A
+    - start: 93.13
+      end: 93.31
+      value: C
+    - start: 93.31
+      end: 93.38
+      value: B
+    - start: 93.38
+      end: 93.49
+      value: A
+    - start: 93.49
+      end: 93.71
+      value: B
+    - start: 93.71
+      end: 93.79
+      value: A
+    - start: 93.79
+      end: 93.93
+      value: C
+    - start: 93.93
+      end: 94
+      value: B
+    - start: 94
+      end: 94.21
+      value: G
+    - start: 94.21
+      end: 94.28
+      value: B
+    - start: 94.28
+      end: 94.36
+      value: A
+    - start: 94.36
+      end: 94.48
+      value: E
+    - start: 94.48
+      end: 94.57
+      value: A
+    - start: 94.57
+      end: 94.65
+      value: B
+    - start: 94.65
+      end: 94.77
+      value: A
+    - start: 94.77
+      end: 95.04
+      value: B
+    - start: 95.04
+      end: 95.18
+      value: C
+    - start: 95.18
+      end: 95.26
+      value: A
+    - start: 95.26
+      end: 95.34
+      value: B
+    - start: 95.34
+      end: 95.42
+      value: A
+    - start: 95.42
+      end: 95.54
+      value: B
+    - start: 95.54
+      end: 95.7
+      value: C
+    - start: 95.7
+      end: 95.72
+      value: A
+    - start: 95.72
+      end: 95.8
+      value: B
+    - start: 95.8
+      end: 95.88
+      value: A
+    - start: 95.88
+      end: 96.07
+      value: C
+    - start: 96.07
+      end: 96.21
+      value: B
+    - start: 96.21
+      end: 96.5
+      value: A
+    - start: 96.5
+      end: 96.72
+      value: C
+    - start: 96.72
+      end: 96.79
+      value: B
+    - start: 96.79
+      end: 96.93
+      value: C
+    - start: 96.93
+      end: 97.07
+      value: G
+    - start: 97.07
+      end: 97.28
+      value: B
+    - start: 97.28
+      end: 97.37
+      value: A
+    - start: 97.37
+      end: 97.83
+      value: B
+    - start: 97.83
+      end: 97.94
+      value: A
+    - start: 97.94
+      end: 98.13
+      value: B
+    - start: 98.13
+      end: 98.27
+      value: F
+    - start: 98.27
+      end: 98.35
+      value: A
+    - start: 98.35
+      end: 98.54
+      value: C
+    - start: 98.54
+      end: 98.61
+      value: G
+    - start: 98.61
+      end: 98.68
+      value: B
+    - start: 98.68
+      end: 98.77
+      value: A
+    - start: 98.77
+      end: 98.85
+      value: G
+    - start: 98.85
+      end: 99.16
+      value: A
+    - start: 99.16
+      end: 99.81
+      value: B
+    - start: 99.81
+      end: 100.09
+      value: F
+    - start: 100.09
+      end: 100.16
+      value: B
+    - start: 100.16
+      end: 100.3
+      value: C
+    - start: 100.3
+      end: 100.41
+      value: A
+    - start: 100.41
+      end: 100.56
+      value: C
+    - start: 100.56
+      end: 100.7
+      value: D
+    - start: 100.7
+      end: 100.77
+      value: C
+    - start: 100.77
+      end: 100.85
+      value: A
+    - start: 100.85
+      end: 101.31
+      value: B
+    - start: 101.31
+      end: 101.45
+      value: G
+    - start: 101.45
+      end: 101.59
+      value: B
+    - start: 101.59
+      end: 101.73
+      value: G
+    - start: 101.73
+      end: 102.01
+      value: B
+    - start: 102.01
+      end: 102.15
+      value: G
+    - start: 102.15
+      end: 102.57
+      value: B
+    - start: 102.57
+      end: 102.88
+      value: G
+    - start: 102.88
+      end: 102.97
+      value: A
+    - start: 102.97
+      end: 103.07
+      value: B
+    - start: 103.07
+      end: 103.14
+      value: C
+    - start: 103.14
+      end: 103.28
+      value: B
+    - start: 103.28
+      end: 103.36
+      value: A
+    - start: 103.36
+      end: 103.65
+      value: B
+    - start: 103.65
+      end: 103.69
+      value: C
+    - start: 103.69
+      end: 104.18
+      value: B
+    - start: 104.18
+      end: 104.25
+      value: C
+    - start: 104.25
+      end: 104.37
+      value: A
+    - start: 104.37
+      end: 104.47
+      value: B
+    - start: 104.47
+      end: 104.54
+      value: C
+    - start: 104.54
+      end: 104.62
+      value: A
+    - start: 104.62
+      end: 104.78
+      value: C
+    - start: 104.78
+      end: 104.93
+      value: A
+    - start: 104.93
+      end: 105
+      value: B
+    - start: 105
+      end: 105.14
+      value: C
+    - start: 105.14
+      end: 105.49
+      value: B
+    - start: 105.49
+      end: 105.56
+      value: D
+    - start: 105.56
+      end: 105.7
+      value: B
+    - start: 105.7
+      end: 105.84
+      value: C
+    - start: 105.84
+      end: 105.92
+      value: A
+    - start: 105.92
+      end: 106.32
+      value: B
+    - start: 106.32
+      end: 106.53
+      value: F
+    - start: 106.53
+      end: 106.81
+      value: B
+    - start: 106.81
+      end: 106.95
+      value: C
+    - start: 106.95
+      end: 107.3
+      value: B
+    - start: 107.3
+      end: 107.37
+      value: C
+    - start: 107.37
+      end: 107.72
+      value: B
+    - start: 107.72
+      end: 107.86
+      value: C
+    - start: 107.86
+      end: 107.93
+      value: G
+    - start: 107.93
+      end: 108.07
+      value: C
+    - start: 108.07
+      end: 108.14
+      value: E
+    - start: 108.14
+      end: 108.42
+      value: B
+    - start: 108.42
+      end: 108.55
+      value: A
+    - start: 108.55
+      end: 108.7
+      value: B
+    - start: 108.7
+      end: 108.77
+      value: C
+    - start: 108.77
+      end: 109.05
+      value: B
+    - start: 109.05
+      end: 109.25
+      value: A
+    - start: 109.25
+      end: 109.48
+      value: B
+    - start: 109.48
+      end: 109.55
+      value: G
+    - start: 109.55
+      end: 109.69
+      value: B
+    - start: 109.69
+      end: 109.9
+      value: E
+    - start: 109.9
+      end: 109.97
+      value: C
+    - start: 109.97
+      end: 110.04
+      value: G
+    - start: 110.04
+      end: 110.18
+      value: E
+    - start: 110.18
+      end: 110.42
+      value: B
+    - start: 110.42
+      end: 110.44
+      value: A
+    - start: 110.44
+      end: 110.51
+      value: B
+    - start: 110.51
+      end: 110.58
+      value: A
+    - start: 110.58
+      end: 110.75
+      value: C
+    - start: 110.75
+      end: 110.82
+      value: E
+    - start: 110.82
+      end: 110.9
+      value: A
+    - start: 110.9
+      end: 110.97
+      value: B
+    - start: 110.97
+      end: 111.1
+      value: G
+    - start: 111.1
+      end: 111.17
+      value: C
+    - start: 111.17
+      end: 111.73
+      value: B
+    - start: 111.73
+      end: 111.87
+      value: E
+    - start: 111.87
+      end: 112.01
+      value: F
+    - start: 112.01
+      end: 112.08
+      value: C
+    - start: 112.08
+      end: 112.15
+      value: B
+    - start: 112.15
+      end: 112.23
+      value: A
+    - start: 112.23
+      end: 112.33
+      value: D
+    - start: 112.33
+      end: 112.38
+      value: C
+    - start: 112.38
+      end: 112.45
+      value: G
+    - start: 112.45
+      end: 112.59
+      value: B
+    - start: 112.59
+      end: 112.73
+      value: F
+    - start: 112.73
+      end: 112.87
+      value: C
+    - start: 112.87
+      end: 112.94
+      value: E
+    - start: 112.94
+      end: 113.01
+      value: C
+    - start: 113.01
+      end: 113.29
+      value: B
+    - start: 113.29
+      end: 113.37
+      value: A
+    - start: 113.37
+      end: 113.57
+      value: C
+    - start: 113.57
+      end: 113.64
+      value: B
+    - start: 113.64
+      end: 113.72
+      value: A
+    - start: 113.72
+      end: 113.93
+      value: C
+    - start: 113.93
+      end: 114
+      value: B
+    - start: 114
+      end: 114.14
+      value: A
+    - start: 114.14
+      end: 114.19
+      value: B
+    - start: 114.19
+      end: 114.31
+      value: F
+    - start: 114.31
+      end: 114.38
+      value: E
+    - start: 114.38
+      end: 114.52
+      value: F
+    - start: 114.52
+      end: 114.79
+      value: B
+    - start: 114.79
+      end: 115.06
+      value: F
+    - start: 115.06
+      end: 115.13
+      value: B
+    - start: 115.13
+      end: 115.2
+      value: G
+    - start: 115.2
+      end: 115.34
+      value: C
+    - start: 115.34
+      end: 115.69
+      value: B
+    - start: 115.69
+      end: 115.76
+      value: G
+    - start: 115.76
+      end: 115.97
+      value: F
+    - start: 115.97
+      end: 116.04
+      value: B
+    - start: 116.04
+      end: 116.12
+      value: A
+    - start: 116.12
+      end: 116.34
+      value: C
+    - start: 116.34
+      end: 116.55
+      value: B
+    - start: 116.55
+      end: 116.76
+      value: G
+    - start: 116.76
+      end: 116.83
+      value: C
+    - start: 116.83
+      end: 116.94
+      value: A
+    - start: 116.94
+      end: 117
+      value: G
+    - start: 117
+      end: 117.06
+      value: B
+    - start: 117.06
+      end: 117.14
+      value: A
+    - start: 117.14
+      end: 117.25
+      value: B
+    - start: 117.25
+      end: 117.32
+      value: G
+    - start: 117.32
+      end: 117.39
+      value: C
+    - start: 117.39
+      end: 117.49
+      value: A
+    - start: 117.49
+      end: 117.56
+      value: C
+    - start: 117.56
+      end: 117.63
+      value: B
+    - start: 117.63
+      end: 117.77
+      value: C
+    - start: 117.77
+      end: 117.84
+      value: B
+    - start: 117.84
+      end: 117.92
+      value: A
+    - start: 117.92
+      end: 118.01
+      value: C
+    - start: 118.01
+      end: 118.15
+      value: B
+    - start: 118.15
+      end: 118.22
+      value: F
+    - start: 118.22
+      end: 118.34
+      value: A
+    - start: 118.34
+      end: 118.44
+      value: G
+    - start: 118.44
+      end: 118.51
+      value: C
+    - start: 118.51
+      end: 118.59
+      value: A
+    - start: 118.59
+      end: 118.76
+      value: C
+    - start: 118.76
+      end: 118.83
+      value: F
+    - start: 118.83
+      end: 118.98
+      value: X
+    - start: 118.98
+      end: 119.07
+      value: B
+    - start: 119.07
+      end: 119.14
+      value: F
+    - start: 119.14
+      end: 119.21
+      value: C
+    - start: 119.21
+      end: 119.91
+      value: B
+    - start: 119.91
+      end: 120.01
+      value: A
+    - start: 120.01
+      end: 120.09
+      value: G
+    - start: 120.09
+      end: 120.31
+      value: X
+    - start: 120.31
+      end: 120.41
+      value: C
+    - start: 120.41
+      end: 120.6
+      value: A
+    - start: 120.6
+      end: 121.1
+      value: B
+    - start: 121.1
+      end: 121.17
+      value: G
+    - start: 121.17
+      end: 121.31
+      value: E
+    - start: 121.31
+      end: 121.42
+      value: A
+    - start: 121.42
+      end: 121.59
+      value: E
+    - start: 121.59
+      end: 121.67
+      value: A
+    - start: 121.67
+      end: 122.16
+      value: B
+    - start: 122.16
+      end: 122.23
+      value: G
+    - start: 122.23
+      end: 122.3
+      value: H
+    - start: 122.3
+      end: 122.37
+      value: C
+    - start: 122.37
+      end: 122.45
+      value: A
+    - start: 122.45
+      end: 122.61
+      value: C
+    - start: 122.61
+      end: 122.68
+      value: B
+    - start: 122.68
+      end: 122.75
+      value: G
+    - start: 122.75
+      end: 122.82
+      value: F
+    - start: 122.82
+      end: 123.03
+      value: B
+    - start: 123.03
+      end: 123.17
+      value: A
+    - start: 123.17
+      end: 123.36
+      value: B
+    - start: 123.36
+      end: 123.44
+      value: A
+    - start: 123.44
+      end: 123.59
+      value: B
+    - start: 123.59
+      end: 123.66
+      value: G
+    - start: 123.66
+      end: 123.94
+      value: B
+    - start: 123.94
+      end: 124.01
+      value: G
+    - start: 124.01
+      end: 124.29
+      value: B
+    - start: 124.29
+      end: 124.43
+      value: E
+    - start: 124.43
+      end: 124.64
+      value: G
+    - start: 124.64
+      end: 125.2
+      value: B
+    - start: 125.2
+      end: 125.32
+      value: A
+    - start: 125.32
+      end: 125.4
+      value: B
+    - start: 125.4
+      end: 125.54
+      value: C
+    - start: 125.54
+      end: 125.82
+      value: B
+    - start: 125.82
+      end: 125.9
+      value: A
+    - start: 125.9
+      end: 126.03
+      value: B
+    - start: 126.03
+      end: 126.1
+      value: G
+    - start: 126.1
+      end: 126.24
+      value: C
+    - start: 126.24
+      end: 126.31
+      value: B
+    - start: 126.31
+      end: 126.45
+      value: C
+    - start: 126.45
+      end: 126.53
+      value: A
+    - start: 126.53
+      end: 126.62
+      value: C
+    - start: 126.62
+      end: 126.72
+      value: A
+    - start: 126.72
+      end: 126.81
+      value: G
+    - start: 126.81
+      end: 126.95
+      value: C
+    - start: 126.95
+      end: 127.02
+      value: B
+    - start: 127.02
+      end: 127.16
+      value: G
+    - start: 127.16
+      end: 127.23
+      value: C
+    - start: 127.23
+      end: 127.37
+      value: B
+    - start: 127.37
+      end: 127.44
+      value: G
+    - start: 127.44
+      end: 127.65
+      value: C
+    - start: 127.65
+      end: 127.79
+      value: B
+    - start: 127.79
+      end: 127.86
+      value: C
+    - start: 127.86
+      end: 127.93
+      value: B
+    - start: 127.93
+      end: 128.1
+      value: A
+    - start: 128.1
+      end: 128.21
+      value: G
+    - start: 128.21
+      end: 128.42
+      value: E
+    - start: 128.42
+      end: 128.49
+      value: G
+    - start: 128.49
+      end: 128.63
+      value: E
+    - start: 128.63
+      end: 128.8
+      value: A
+    - start: 128.8
+      end: 128.98
+      value: G
+    - start: 128.98
+      end: 129.05
+      value: C
+    - start: 129.05
+      end: 129.12
+      value: E
+    - start: 129.12
+      end: 129.26
+      value: C
+    - start: 129.26
+      end: 129.51
+      value: A
+    - start: 129.51
+      end: 129.64
+      value: G
+    - start: 129.64
+      end: 129.78
+      value: C
+    - start: 129.78
+      end: 129.85
+      value: B
+    - start: 129.85
+      end: 129.99
+      value: C
+    - start: 129.99
+      end: 130.07
+      value: A
+    - start: 130.07
+      end: 130.22
+      value: B
+    - start: 130.22
+      end: 130.29
+      value: G
+    - start: 130.29
+      end: 130.45
+      value: X
+    - start: 130.45
+      end: 130.74
+      value: B
+    - start: 130.74
+      end: 130.81
+      value: C
+    - start: 130.81
+      end: 130.91
+      value: A
+    - start: 130.91
+      end: 130.97
+      value: B
+    - start: 130.97
+      end: 131.09
+      value: C
+    - start: 131.09
+      end: 131.65
+      value: B
+    - start: 131.65
+      end: 131.72
+      value: G
+    - start: 131.72
+      end: 132.21
+      value: B
+    - start: 132.21
+      end: 132.31
+      value: A
+    - start: 132.31
+      end: 132.4
+      value: G
+    - start: 132.4
+      end: 132.47
+      value: E
+    - start: 132.47
+      end: 132.54
+      value: C
+    - start: 132.54
+      end: 132.68
+      value: B
+    - start: 132.68
+      end: 132.9
+      value: A
+    - start: 132.9
+      end: 133.3
+      value: B
+    - start: 133.3
+      end: 133.38
+      value: A
+    - start: 133.38
+      end: 133.54
+      value: B
+    - start: 133.54
+      end: 133.64
+      value: A
+    - start: 133.64
+      end: 133.84
+      value: E
+    - start: 133.84
+      end: 133.98
+      value: B
+    - start: 133.98
+      end: 134.05
+      value: G
+    - start: 134.05
+      end: 134.12
+      value: B
+    - start: 134.12
+      end: 134.26
+      value: G
+    - start: 134.26
+      end: 134.47
+      value: B
+    - start: 134.47
+      end: 134.55
+      value: A
+    - start: 134.55
+      end: 134.64
+      value: E
+    - start: 134.64
+      end: 134.73
+      value: A
+    - start: 134.73
+      end: 134.78
+      value: G
+    - start: 134.78
+      end: 134.83
+      value: C
+    - start: 134.83
+      end: 134.97
+      value: B
+    - start: 134.97
+      end: 135.19
+      value: A
+    - start: 135.19
+      end: 135.48
+      value: B
+    - start: 135.48
+      end: 135.62
+      value: C
+    - start: 135.62
+      end: 135.9
+      value: B
+    - start: 135.9
+      end: 136.04
+      value: G
+    - start: 136.04
+      end: 136.11
+      value: B
+    - start: 136.11
+      end: 136.25
+      value: C
+    - start: 136.25
+      end: 136.35
+      value: A
+    - start: 136.35
+      end: 136.5
+      value: B
+    - start: 136.5
+      end: 136.57
+      value: G
+    - start: 136.57
+      end: 136.71
+      value: C
+    - start: 136.71
+      end: 136.78
+      value: B
+    - start: 136.78
+      end: 136.85
+      value: G
+    - start: 136.85
+      end: 136.99
+      value: E
+    - start: 136.99
+      end: 137.2
+      value: C
+    - start: 137.2
+      end: 137.28
+      value: A
+    - start: 137.28
+      end: 137.49
+      value: E
+    - start: 137.49
+      end: 137.63
+      value: C
+    - start: 137.63
+      end: 137.77
+      value: B
+    - start: 137.77
+      end: 137.91
+      value: A
+    - start: 137.91
+      end: 137.97
+      value: G
+    - start: 137.97
+      end: 138.31
+      value: B
+    - start: 138.31
+      end: 138.45
+      value: C
+    - start: 138.45
+      end: 138.73
+      value: B
+    - start: 138.73
+      end: 138.8
+      value: C
+    - start: 138.8
+      end: 139.01
+      value: B
+    - start: 139.01
+      end: 139.08
+      value: C
+    - start: 139.08
+      end: 139.15
+      value: B
+    - start: 139.15
+      end: 139.47
+      value: A
+    - start: 139.47
+      end: 139.99
+      value: B
+    - start: 139.99
+      end: 140.06
+      value: G
+    - start: 140.06
+      end: 140.2
+      value: D
+    - start: 140.2
+      end: 140.27
+      value: B
+    - start: 140.27
+      end: 140.41
+      value: G
+    - start: 140.41
+      end: 140.48
+      value: C
+    - start: 140.48
+      end: 140.55
+      value: B
+    - start: 140.55
+      end: 140.69
+      value: A
+    - start: 140.69
+      end: 140.77
+      value: B
+    - start: 140.77
+      end: 140.84
+      value: G
+    - start: 140.84
+      end: 141.05
+      value: B
+    - start: 141.05
+      end: 141.26
+      value: C
+    - start: 141.26
+      end: 141.61
+      value: B
+    - start: 141.61
+      end: 141.68
+      value: E
+    - start: 141.68
+      end: 141.75
+      value: G
+    - start: 141.75
+      end: 141.82
+      value: F
+    - start: 141.82
+      end: 141.89
+      value: G
+    - start: 141.89
+      end: 141.96
+      value: B
+    - start: 141.96
+      end: 142.09
+      value: A
+    - start: 142.09
+      end: 142.21
+      value: B
+    - start: 142.21
+      end: 142.28
+      value: E
+    - start: 142.28
+      end: 142.35
+      value: B
+    - start: 142.35
+      end: 142.49
+      value: E
+    - start: 142.49
+      end: 142.79
+      value: A
+    - start: 142.79
+      end: 143.31
+      value: B
+    - start: 143.31
+      end: 143.38
+      value: G
+    - start: 143.38
+      end: 143.54
+      value: A
+    - start: 143.54
+      end: 143.73
+      value: B
+    - start: 143.73
+      end: 144.01
+      value: F
+    - start: 144.01
+      end: 144.17
+      value: A
+    - start: 144.17
+      end: 144.31
+      value: G
+    - start: 144.31
+      end: 144.39
+      value: A
+    - start: 144.39
+      end: 144.46
+      value: C
+    - start: 144.46
+      end: 144.52
+      value: B
+    - start: 144.52
+      end: 144.6
+      value: A
+    - start: 144.6
+      end: 144.66
+      value: B
+    - start: 144.66
+      end: 144.79
+      value: E
+    - start: 144.79
+      end: 144.87
+      value: A
+    - start: 144.87
+      end: 145.14
+      value: B
+    - start: 145.14
+      end: 145.25
+      value: A
+    - start: 145.25
+      end: 145.46
+      value: B
+    - start: 145.46
+      end: 145.53
+      value: C
+    - start: 145.53
+      end: 145.74
+      value: B
+    - start: 145.74
+      end: 145.81
+      value: C
+    - start: 145.81
+      end: 145.89
+      value: A
+    - start: 145.89
+      end: 145.99
+      value: C
+    - start: 145.99
+      end: 146.48
+      value: B
+    - start: 146.48
+      end: 146.55
+      value: C
+    - start: 146.55
+      end: 147.67
+      value: B
+    - start: 147.67
+      end: 147.81
+      value: G
+    - start: 147.81
+      end: 147.88
+      value: F
+    - start: 147.88
+      end: 147.95
+      value: G
+    - start: 147.95
+      end: 148.09
+      value: F
+    - start: 148.09
+      end: 148.23
+      value: E
+    - start: 148.23
+      end: 148.31
+      value: A
+    - start: 148.31
+      end: 148.48
+      value: F
+    - start: 148.48
+      end: 148.55
+      value: B
+    - start: 148.55
+      end: 148.62
+      value: C
+    - start: 148.62
+      end: 148.97
+      value: B
+    - start: 148.97
+      end: 149.07
+      value: A
+    - start: 149.07
+      end: 149.36
+      value: B
+    - start: 149.36
+      end: 149.72
+      value: F
+    - start: 149.72
+      end: 150.17
+      value: B
+    - start: 150.17
+      end: 150.25
+      value: A
+    - start: 150.25
+      end: 150.33
+      value: B
+    - start: 150.33
+      end: 150.48
+      value: A
+    - start: 150.48
+      end: 150.74
+      value: B
+    - start: 150.74
+      end: 150.85
+      value: A
+    - start: 150.85
+      end: 151.06
+      value: B
+    - start: 151.06
+      end: 151.15
+      value: A
+    - start: 151.15
+      end: 151.21
+      value: G
+    - start: 151.21
+      end: 151.27
+      value: E
+    - start: 151.27
+      end: 151.34
+      value: G
+    - start: 151.34
+      end: 151.48
+      value: B
+    - start: 151.48
+      end: 151.55
+      value: C
+    - start: 151.55
+      end: 151.63
+      value: A
+    - start: 151.63
+      end: 151.71
+      value: B
+    - start: 151.71
+      end: 151.79
+      value: A
+    - start: 151.79
+      end: 152
+      value: C
+    - start: 152
+      end: 152.35
+      value: B
+    - start: 152.35
+      end: 152.48
+      value: A
+    - start: 152.48
+      end: 152.62
+      value: B
+    - start: 152.62
+      end: 152.8
+      value: A
+    - start: 152.8
+      end: 152.94
+      value: G
+    - start: 152.94
+      end: 153.02
+      value: A
+    - start: 153.02
+      end: 153.13
+      value: E
+    - start: 153.13
+      end: 153.27
+      value: A
+    - start: 153.27
+      end: 153.81
+      value: B
+    - start: 153.81
+      end: 153.88
+      value: C
+    - start: 153.88
+      end: 154.23
+      value: B
+    - start: 154.23
+      end: 154.37
+      value: C
+    - start: 154.37
+      end: 154.65
+      value: B
+    - start: 154.65
+      end: 154.72
+      value: G
+    - start: 154.72
+      end: 154.89
+      value: A
+    - start: 154.89
+      end: 155.18
+      value: B
+    - start: 155.18
+      end: 155.27
+      value: A
+    - start: 155.27
+      end: 155.37
+      value: C
+    - start: 155.37
+      end: 155.72
+      value: B
+    - start: 155.72
+      end: 155.79
+      value: C
+    - start: 155.79
+      end: 155.86
+      value: G
+    - start: 155.86
+      end: 155.93
+      value: C
+    - start: 155.93
+      end: 156.01
+      value: A
+    - start: 156.01
+      end: 156.15
+      value: C
+    - start: 156.15
+      end: 156.43
+      value: B
+    - start: 156.43
+      end: 156.53
+      value: D
+    - start: 156.53
+      end: 156.57
+      value: A
+    - start: 156.57
+      end: 156.65
+      value: C
+    - start: 156.65
+      end: 156.77
+      value: A
+    - start: 156.77
+      end: 157.11
+      value: B
+    - start: 157.11
+      end: 157.25
+      value: H
+    - start: 157.25
+      end: 157.32
+      value: C
+    - start: 157.32
+      end: 157.44
+      value: A
+    - start: 157.44
+      end: 157.52
+      value: B
+    - start: 157.52
+      end: 157.59
+      value: C
+    - start: 157.59
+      end: 157.87
+      value: B
+    - start: 157.87
+      end: 158.01
+      value: G
+    - start: 158.01
+      end: 158.71
+      value: B
+    - start: 158.71
+      end: 158.86
+      value: A
+    - start: 158.86
+      end: 158.96
+      value: B
+    - start: 158.96
+      end: 159.03
+      value: C
+    - start: 159.03
+      end: 159.1
+      value: F
+    - start: 159.1
+      end: 159.21
+      value: A
+    - start: 159.21
+      end: 159.29
+      value: B
+    - start: 159.29
+      end: 159.37
+      value: A
+    - start: 159.37
+      end: 159.44
+      value: C
+    - start: 159.44
+      end: 159.55
+      value: A
+    - start: 159.55
+      end: 159.73
+      value: B
+    - start: 159.73
+      end: 159.8
+      value: G
+    - start: 159.8
+      end: 159.87
+      value: B
+    - start: 159.87
+      end: 160.01
+      value: C
+    - start: 160.01
+      end: 160.15
+      value: B
+    - start: 160.15
+      end: 160.25
+      value: A
+    - start: 160.25
+      end: 160.32
+      value: G
+    - start: 160.32
+      end: 160.38
+      value: B
+    - start: 160.38
+      end: 160.46
+      value: A
+    - start: 160.46
+      end: 160.63
+      value: C
+    - start: 160.63
+      end: 161.05
+      value: B
+    - start: 161.05
+      end: 161.19
+      value: G
+    - start: 161.19
+      end: 161.54
+      value: B
+    - start: 161.54
+      end: 161.65
+      value: A
+    - start: 161.65
+      end: 162.12
+      value: B
+    - start: 162.12
+      end: 162.26
+      value: C
+    - start: 162.26
+      end: 162.33
+      value: B
+    - start: 162.33
+      end: 162.4
+      value: G
+    - start: 162.4
+      end: 162.48
+      value: A
+    - start: 162.48
+      end: 162.59
+      value: B
+    - start: 162.59
+      end: 162.73
+      value: C
+    - start: 162.73
+      end: 162.84
+      value: A
+    - start: 162.84
+      end: 162.88
+      value: B
+    - start: 162.88
+      end: 162.96
+      value: A
+    - start: 162.96
+      end: 163.13
+      value: C
+    - start: 163.13
+      end: 163.27
+      value: B
+    - start: 163.27
+      end: 163.74
+      value: A
+    - start: 163.74
+      end: 163.84
+      value: B
+    - start: 163.84
+      end: 163.98
+      value: C
+    - start: 163.98
+      end: 164.05
+      value: E
+    - start: 164.05
+      end: 164.12
+      value: G
+    - start: 164.12
+      end: 164.89
+      value: B
+    - start: 164.89
+      end: 165
+      value: A
+    - start: 165
+      end: 165.17
+      value: B
+    - start: 165.17
+      end: 165.38
+      value: F
+    - start: 165.38
+      end: 165.52
+      value: B
+    - start: 165.52
+      end: 165.59
+      value: C
+    - start: 165.59
+      end: 165.66
+      value: G
+    - start: 165.66
+      end: 165.73
+      value: B
+    - start: 165.73
+      end: 165.82
+      value: A
+    - start: 165.82
+      end: 165.9
+      value: G
+    - start: 165.9
+      end: 166.22
+      value: A
+    - start: 166.22
+      end: 166.53
+      value: B
+    - start: 166.53
+      end: 166.57
+      value: C
+    - start: 166.57
+      end: 166.71
+      value: E
+    - start: 166.71
+      end: 166.85
+      value: B
+    - start: 166.85
+      end: 167.13
+      value: F
+    - start: 167.13
+      end: 167.2
+      value: B
+    - start: 167.2
+      end: 167.27
+      value: C
+    - start: 167.27
+      end: 167.41
+      value: B
+    - start: 167.41
+      end: 167.49
+      value: A
+    - start: 167.49
+      end: 167.62
+      value: C
+    - start: 167.62
+      end: 167.83
+      value: B
+    - start: 167.83
+      end: 167.92
+      value: A
+    - start: 167.92
+      end: 168.11
+      value: G
+    - start: 168.11
+      end: 168.32
+      value: B
+    - start: 168.32
+      end: 168.45
+      value: A
+    - start: 168.45
+      end: 168.65
+      value: B
+    - start: 168.65
+      end: 168.86
+      value: G
+    - start: 168.86
+      end: 169.14
+      value: B
+    - start: 169.14
+      end: 169.28
+      value: F
+    - start: 169.28
+      end: 169.7
+      value: B
+    - start: 169.7
+      end: 169.77
+      value: G
+    - start: 169.77
+      end: 169.91
+      value: C
+    - start: 169.91
+      end: 170.05
+      value: B
+    - start: 170.05
+      end: 170.12
+      value: G
+    - start: 170.12
+      end: 170.33
+      value: B
+    - start: 170.33
+      end: 170.4
+      value: G
+    - start: 170.4
+      end: 170.54
+      value: C
+    - start: 170.54
+      end: 170.75
+      value: B
+    - start: 170.75
+      end: 170.96
+      value: C
+    - start: 170.96
+      end: 171.03
+      value: B
+    - start: 171.03
+      end: 171.24
+      value: C
+    - start: 171.24
+      end: 171.96
+      value: B
+    - start: 171.96
+      end: 172.04
+      value: A
+    - start: 172.04
+      end: 172.1
+      value: C
+    - start: 172.1
+      end: 172.16
+      value: B
+    - start: 172.16
+      end: 172.23
+      value: F
+    - start: 172.23
+      end: 172.44
+      value: B
+    - start: 172.44
+      end: 172.65
+      value: C
+    - start: 172.65
+      end: 172.72
+      value: B
+    - start: 172.72
+      end: 172.82
+      value: A
+    - start: 172.82
+      end: 172.89
+      value: G
+    - start: 172.89
+      end: 173.23
+      value: B
+    - start: 173.23
+      end: 173.72
+      value: C
+    - start: 173.72
+      end: 174.14
+      value: B
+    - start: 174.14
+      end: 174.21
+      value: C
+    - start: 174.21
+      end: 174.28
+      value: B
+    - start: 174.28
+      end: 174.36
+      value: A
+    - start: 174.36
+      end: 174.9
+      value: B
+    - start: 174.9
+      end: 175.04
+      value: C
+    - start: 175.04
+      end: 175.11
+      value: G
+    - start: 175.11
+      end: 175.18
+      value: E
+    - start: 175.18
+      end: 175.25
+      value: B
+    - start: 175.25
+      end: 175.32
+      value: G
+    - start: 175.32
+      end: 175.39
+      value: C
+    - start: 175.39
+      end: 175.43
+      value: A
+    - start: 175.43
+      end: 175.51
+      value: B
+    - start: 175.51
+      end: 175.71
+      value: A
+    - start: 175.71
+      end: 175.81
+      value: B
+    - start: 175.81
+      end: 176.16
+      value: F
+    - start: 176.16
+      end: 176.37
+      value: B
+    - start: 176.37
+      end: 176.58
+      value: C
+    - start: 176.58
+      end: 176.86
+      value: B
+    - start: 176.86
+      end: 176.93
+      value: G
+    - start: 176.93
+      end: 177
+      value: C
+    - start: 177
+      end: 177.07
+      value: B
+    - start: 177.07
+      end: 177.15
+      value: A
+    - start: 177.15
+      end: 177.54
+      value: B
+    - start: 177.54
+      end: 177.62
+      value: A
+    - start: 177.62
+      end: 177.89
+      value: F
+    - start: 177.89
+      end: 177.96
+      value: C
+    - start: 177.96
+      end: 178.03
+      value: B
+    - start: 178.03
+      end: 178.17
+      value: C
+    - start: 178.17
+      end: 178.24
+      value: B
+    - start: 178.24
+      end: 178.41
+      value: A
+    - start: 178.41
+      end: 178.55
+      value: B
+    - start: 178.55
+      end: 178.62
+      value: G
+    - start: 178.62
+      end: 178.83
+      value: B
+    - start: 178.83
+      end: 178.91
+      value: A
+    - start: 178.91
+      end: 179.06
+      value: F
+    - start: 179.06
+      end: 179.13
+      value: B
+    - start: 179.13
+      end: 179.2
+      value: G
+    - start: 179.2
+      end: 179.27
+      value: C
+    - start: 179.27
+      end: 179.69
+      value: B
+    - start: 179.69
+      end: 179.76
+      value: H
+    - start: 179.76
+      end: 179.83
+      value: C
+    - start: 179.83
+      end: 179.97
+      value: G
+    - start: 179.97
+      end: 180.74
+      value: B
+    - start: 180.74
+      end: 180.88
+      value: G
+    - start: 180.88
+      end: 180.96
+      value: A
+    - start: 180.96
+      end: 181.04
+      value: B
+    - start: 181.04
+      end: 181.13
+      value: A
+    - start: 181.13
+      end: 181.34
+      value: B
+    - start: 181.34
+      end: 181.42
+      value: A
+    - start: 181.42
+      end: 181.54
+      value: B
+    - start: 181.54
+      end: 181.76
+      value: E
+    - start: 181.76
+      end: 181.81
+      value: B
+    - start: 181.81
+      end: 181.85
+      value: F
+    - start: 181.85
+      end: 181.92
+      value: C
+    - start: 181.92
+      end: 181.99
+      value: B
+    - start: 181.99
+      end: 182.06
+      value: C
+    - start: 182.06
+      end: 182.62
+      value: B
+    - start: 182.62
+      end: 182.69
+      value: G
+    - start: 182.69
+      end: 182.83
+      value: E
+    - start: 182.83
+      end: 182.9
+      value: F
+    - start: 182.9
+      end: 182.97
+      value: G
+    - start: 182.97
+      end: 183.04
+      value: C
+    - start: 183.04
+      end: 183.11
+      value: B
+    - start: 183.11
+      end: 183.24
+      value: A
+    - start: 183.24
+      end: 183.71
+      value: B
+    - start: 183.71
+      end: 183.78
+      value: C
+    - start: 183.78
+      end: 183.85
+      value: B
+    - start: 183.85
+      end: 184
+      value: A
+    - start: 184
+      end: 184.06
+      value: G
+    - start: 184.06
+      end: 184.18
+      value: F
+    - start: 184.18
+      end: 184.39
+      value: B
+    - start: 184.39
+      end: 184.6
+      value: A
+    - start: 184.6
+      end: 184.72
+      value: F
+    - start: 184.72
+      end: 184.86
+      value: B
+    - start: 184.86
+      end: 184.93
+      value: C
+    - start: 184.93
+      end: 185.21
+      value: B
+    - start: 185.21
+      end: 185.29
+      value: A
+    - start: 185.29
+      end: 185.38
+      value: E
+    - start: 185.38
+      end: 185.59
+      value: B
+    - start: 185.59
+      end: 185.67
+      value: A
+    - start: 185.67
+      end: 186.11
+      value: B
+    - start: 186.11
+      end: 186.18
+      value: C
+    - start: 186.18
+      end: 186.25
+      value: B
+    - start: 186.25
+      end: 186.41
+      value: A
+    - start: 186.41
+      end: 186.5
+      value: B
+    - start: 186.5
+      end: 186.58
+      value: A
+    - start: 186.58
+      end: 186.68
+      value: C
+    - start: 186.68
+      end: 186.76
+      value: A
+    - start: 186.76
+      end: 186.84
+      value: G
+    - start: 186.84
+      end: 186.96
+      value: X
+    - start: 186.96
+      end: 187.04
+      value: A
+    - start: 187.04
+      end: 187.11
+      value: C
+    - start: 187.11
+      end: 187.18
+      value: B
+    - start: 187.18
+      end: 187.32
+      value: E
+    - start: 187.32
+      end: 187.39
+      value: F
+    - start: 187.39
+      end: 187.53
+      value: H
+    - start: 187.53
+      end: 187.6
+      value: B
+    - start: 187.6
+      end: 187.74
+      value: C
+    - start: 187.74
+      end: 188.09
+      value: B
+    - start: 188.09
+      end: 188.2
+      value: A
+    - start: 188.2
+      end: 188.48
+      value: F
+    - start: 188.48
+      end: 188.83
+      value: B
+    - start: 188.83
+      end: 188.91
+      value: A
+    - start: 188.91
+      end: 188.98
+      value: F
+    - start: 188.98
+      end: 189.11
+      value: E
+    - start: 189.11
+      end: 189.18
+      value: B
+    - start: 189.18
+      end: 189.39
+      value: C
+    - start: 189.39
+      end: 189.74
+      value: B
+    - start: 189.74
+      end: 189.81
+      value: C
+    - start: 189.81
+      end: 189.89
+      value: A
+    - start: 189.89
+      end: 190.06
+      value: F
+    - start: 190.06
+      end: 190.41
+      value: E
+    - start: 190.41
+      end: 190.48
+      value: C
+    - start: 190.48
+      end: 190.97
+      value: B
+    - start: 190.97
+      end: 191.18
+      value: G
+    - start: 191.18
+      end: 191.25
+      value: F
+    - start: 191.25
+      end: 191.39
+      value: B
+    - start: 191.39
+      end: 191.46
+      value: E
+    - start: 191.46
+      end: 191.53
+      value: F
+    - start: 191.53
+      end: 192.09
+      value: B
+    - start: 192.09
+      end: 192.3
+      value: C
+    - start: 192.3
+      end: 192.51
+      value: B
+    - start: 192.51
+      end: 192.58
+      value: C
+    - start: 192.58
+      end: 192.72
+      value: B
+    - start: 192.72
+      end: 192.79
+      value: G
+    - start: 192.79
+      end: 192.86
+      value: E
+    - start: 192.86
+      end: 192.93
+      value: F
+    - start: 192.93
+      end: 193.01
+      value: A
+    - start: 193.01
+      end: 193.14
+      value: F
+    - start: 193.14
+      end: 193.28
+      value: E
+    - start: 193.28
+      end: 193.42
+      value: F
+    - start: 193.42
+      end: 194.05
+      value: B
+    - start: 194.05
+      end: 194.25
+      value: F
+    - start: 194.25
+      end: 194.39
+      value: B
+    - start: 194.39
+      end: 194.54
+      value: A
+    - start: 194.54
+      end: 194.94
+      value: B
+    - start: 194.94
+      end: 195.08
+      value: C
+    - start: 195.08
+      end: 195.18
+      value: A
+    - start: 195.18
+      end: 195.36
+      value: G
+    - start: 195.36
+      end: 195.43
+      value: B
+    - start: 195.43
+      end: 195.57
+      value: C
+    - start: 195.57
+      end: 195.65
+      value: A
+    - start: 195.65
+      end: 195.89
+      value: B
+    - start: 195.89
+      end: 195.96
+      value: E
+    - start: 195.96
+      end: 196.03
+      value: F
+    - start: 196.03
+      end: 196.1
+      value: C
+    - start: 196.1
+      end: 196.45
+      value: B
+    - start: 196.45
+      end: 196.73
+      value: C
+    - start: 196.73
+      end: 196.8
+      value: E
+    - start: 196.8
+      end: 197.01
+      value: F
+    - start: 197.01
+      end: 197.07
+      value: A
+    - start: 197.07
+      end: 197.13
+      value: E
+    - start: 197.13
+      end: 197.21
+      value: A
+    - start: 197.21
+      end: 197.32
+      value: G
+    - start: 197.32
+      end: 197.39
+      value: B
+    - start: 197.39
+      end: 197.67
+      value: F
+    - start: 197.67
+      end: 197.77
+      value: D
+    - start: 197.77
+      end: 197.81
+      value: C
+    - start: 197.81
+      end: 197.97
+      value: A
+    - start: 197.97
+      end: 198.06
+      value: B
+    - start: 198.06
+      end: 198.13
+      value: E
+    - start: 198.13
+      end: 198.41
+      value: C
+    - start: 198.41
+      end: 198.49
+      value: A
+    - start: 198.49
+      end: 198.54
+      value: C
+    - start: 198.54
+      end: 198.72
+      value: B
+    - start: 198.72
+      end: 198.79
+      value: E
+    - start: 198.79
+      end: 198.93
+      value: F
+    - start: 198.93
+      end: 199.42
+      value: B
+    - start: 199.42
+      end: 199.5
+      value: A
+    - start: 199.5
+      end: 199.68
+      value: F
+    - start: 199.68
+      end: 199.82
+      value: B
+    - start: 199.82
+      end: 200.03
+      value: F
+    - start: 200.03
+      end: 200.1
+      value: B
+    - start: 200.1
+      end: 200.18
+      value: A
+    - start: 200.18
+      end: 200.27
+      value: F
+    - start: 200.27
+      end: 200.43
+      value: A
+    - start: 200.43
+      end: 200.98
+      value: B
+    - start: 200.98
+      end: 201.12
+      value: G
+    - start: 201.12
+      end: 201.19
+      value: E
+    - start: 201.19
+      end: 201.26
+      value: B
+    - start: 201.26
+      end: 201.33
+      value: C
+    - start: 201.33
+      end: 201.4
+      value: E
+    - start: 201.4
+      end: 201.5
+      value: A
+    - start: 201.5
+      end: 201.67
+      value: E
+    - start: 201.67
+      end: 201.88
+      value: B
+    - start: 201.88
+      end: 202.04
+      value: A
+    - start: 202.04
+      end: 202.2
+      value: C
+    - start: 202.2
+      end: 202.34
+      value: G
+    - start: 202.34
+      end: 202.42
+      value: A
+    - start: 202.42
+      end: 202.53
+      value: B
+    - start: 202.53
+      end: 202.67
+      value: C
+    - start: 202.67
+      end: 202.74
+      value: E
+    - start: 202.74
+      end: 202.88
+      value: F
+    - start: 202.88
+      end: 203.23
+      value: B
+    - start: 203.23
+      end: 203.52
+      value: A
+    - start: 203.52
+      end: 203.6
+      value: G
+    - start: 203.6
+      end: 203.74
+      value: F
+    - start: 203.74
+      end: 203.81
+      value: E
+    - start: 203.81
+      end: 204.09
+      value: B
+    - start: 204.09
+      end: 204.23
+      value: C
+    - start: 204.23
+      end: 204.37
+      value: F
+    - start: 204.37
+      end: 204.65
+      value: B
+    - start: 204.65
+      end: 204.79
+      value: E
+    - start: 204.79
+      end: 204.86
+      value: F
+    - start: 204.86
+      end: 205.07
+      value: A
+    - start: 205.07
+      end: 205.33
+      value: B
+    - start: 205.33
+      end: 205.4
+      value: C
+    - start: 205.4
+      end: 205.96
+      value: B
+    - start: 205.96
+      end: 206.17
+      value: G
+    - start: 206.17
+      end: 206.24
+      value: C
+    - start: 206.24
+      end: 206.35
+      value: A
+    - start: 206.35
+      end: 206.41
+      value: G
+    - start: 206.41
+      end: 206.54
+      value: E
+    - start: 206.54
+      end: 206.68
+      value: B
+    - start: 206.68
+      end: 206.82
+      value: C
+    - start: 206.82
+      end: 207.03
+      value: B
+    - start: 207.03
+      end: 207.11
+      value: A
+    - start: 207.11
+      end: 207.18
+      value: E
+    - start: 207.18
+      end: 207.38
+      value: F
+    - start: 207.38
+      end: 207.45
+      value: B
+    - start: 207.45
+      end: 207.61
+      value: A
+    - start: 207.61
+      end: 207.7
+      value: B
+    - start: 207.7
+      end: 207.77
+      value: G
+    - start: 207.77
+      end: 207.98
+      value: B
+    - start: 207.98
+      end: 208.26
+      value: C
+    - start: 208.26
+      end: 208.4
+      value: E
+    - start: 208.4
+      end: 208.54
+      value: G
+    - start: 208.54
+      end: 209.03
+      value: B
+    - start: 209.03
+      end: 209.11
+      value: A
+    - start: 209.11
+      end: 209.22
+      value: B
+    - start: 209.22
+      end: 209.43
+      value: F
+    - start: 209.43
+      end: 209.64
+      value: B
+    - start: 209.64
+      end: 209.72
+      value: A
+    - start: 209.72
+      end: 209.8
+      value: E
+    - start: 209.8
+      end: 209.92
+      value: A
+    - start: 209.92
+      end: 209.98
+      value: E
+    - start: 209.98
+      end: 210.1
+      value: H
+    - start: 210.1
+      end: 210.38
+      value: C
+    - start: 210.38
+      end: 210.52
+      value: G
+    - start: 210.52
+      end: 210.66
+      value: F
+    - start: 210.66
+      end: 210.94
+      value: B
+    - start: 210.94
+      end: 211.02
+      value: A
+    - start: 211.02
+      end: 211.48
+      value: B
+    - start: 211.48
+      end: 211.56
+      value: A
+    - start: 211.56
+      end: 211.7
+      value: E
+    - start: 211.7
+      end: 211.77
+      value: F
+    - start: 211.77
+      end: 211.91
+      value: C
+    - start: 211.91
+      end: 212.61
+      value: B
+    - start: 212.61
+      end: 212.68
+      value: G
+    - start: 212.68
+      end: 212.99
+      value: X
+    - start: 212.99
+      end: 213.06
+      value: C
+    - start: 213.06
+      end: 213.2
+      value: G
+    - start: 213.2
+      end: 213.34
+      value: C
+    - start: 213.34
+      end: 213.41
+      value: B
+    - start: 213.41
+      end: 213.48
+      value: E
+    - start: 213.48
+      end: 213.56
+      value: A
+    - start: 213.56
+      end: 214.08
+      value: B
+    - start: 214.08
+      end: 214.22
+      value: G
+    - start: 214.22
+      end: 214.5
+      value: B
+    - start: 214.5
+      end: 214.58
+      value: A
+    - start: 214.58
+      end: 214.75
+      value: B
+    - start: 214.75
+      end: 214.96
+      value: F
+    - start: 214.96
+      end: 215.03
+      value: G
+    - start: 215.03
+      end: 215.17
+      value: F
+    - start: 215.17
+      end: 215.31
+      value: E
+    - start: 215.31
+      end: 215.42
+      value: A
+    - start: 215.42
+      end: 215.68
+      value: B
+    - start: 215.68
+      end: 215.89
+      value: E
+    - start: 215.89
+      end: 215.96
+      value: C
+    - start: 215.96
+      end: 216.03
+      value: B
+    - start: 216.03
+      end: 216.14
+      value: A
+    - start: 216.14
+      end: 217.12
+      value: B
+    - start: 217.12
+      end: 217.19
+      value: G
+    - start: 217.19
+      end: 217.26
+      value: C
+    - start: 217.26
+      end: 217.4
+      value: G
+    - start: 217.4
+      end: 217.54
+      value: A
+    - start: 217.54
+      end: 217.8
+      value: B
+    - start: 217.8
+      end: 217.91
+      value: A
+    - start: 217.91
+      end: 218.13
+      value: B
+    - start: 218.13
+      end: 218.22
+      value: A
+    - start: 218.22
+      end: 218.28
+      value: C
+    - start: 218.28
+      end: 218.4
+      value: B
+    - start: 218.4
+      end: 218.61
+      value: C
+    - start: 218.61
+      end: 218.71
+      value: A
+    - start: 218.71
+      end: 218.82
+      value: B
+    - start: 218.82
+      end: 219.07
+      value: A
+    - start: 219.07
+      end: 219.41
+      value: B
+    - start: 219.41
+      end: 219.53
+      value: A
+    - start: 219.53
+      end: 219.68
+      value: C
+    - start: 219.68
+      end: 219.86
+      value: A
+    - start: 219.86
+      end: 219.94
+      value: G
+    - start: 219.94
+      end: 220.01
+      value: B
+    - start: 220.01
+      end: 220.09
+      value: A
+    - start: 220.09
+      end: 220.19
+      value: E
+    - start: 220.19
+      end: 220.33
+      value: A
+    - start: 220.33
+      end: 221.08
+      value: B
+    - start: 221.08
+      end: 221.29
+      value: C
+    - start: 221.29
+      end: 221.71
+      value: B
+    - start: 221.71
+      end: 221.78
+      value: G
+    - start: 221.78
+      end: 221.95
+      value: A
+    - start: 221.95
+      end: 222.32
+      value: B
+    - start: 222.32
+      end: 222.39
+      value: C
+    - start: 222.39
+      end: 222.88
+      value: B
+    - start: 222.88
+      end: 222.95
+      value: G
+    - start: 222.95
+      end: 223.02
+      value: B
+    - start: 223.02
+      end: 223.13
+      value: A
+    - start: 223.13
+      end: 223.19
+      value: C
+    - start: 223.19
+      end: 223.31
+      value: B
+    - start: 223.31
+      end: 223.39
+      value: A
+    - start: 223.39
+      end: 223.5
+      value: D
+    - start: 223.5
+      end: 223.55
+      value: C
+    - start: 223.55
+      end: 223.63
+      value: A
+    - start: 223.63
+      end: 223.71
+      value: C
+    - start: 223.71
+      end: 223.81
+      value: A
+    - start: 223.81
+      end: 224.02
+      value: B
+    - start: 224.02
+      end: 224.18
+      value: A
+    - start: 224.18
+      end: 224.28
+      value: H
+    - start: 224.28
+      end: 224.35
+      value: C
+    - start: 224.35
+      end: 224.43
+      value: A
+    - start: 224.43
+      end: 224.55
+      value: C
+    - start: 224.55
+      end: 224.9
+      value: B
+    - start: 224.9
+      end: 224.97
+      value: G
+    - start: 224.97
+      end: 225.18
+      value: F
+    - start: 225.18
+      end: 225.6
+      value: B
+    - start: 225.6
+      end: 225.74
+      value: F
+    - start: 225.74
+      end: 225.95
+      value: B
+    - start: 225.95
+      end: 226.02
+      value: C
+    - start: 226.02
+      end: 226.09
+      value: G
+    - start: 226.09
+      end: 226.16
+      value: F
+    - start: 226.16
+      end: 226.27
+      value: A
+    - start: 226.27
+      end: 226.35
+      value: B
+    - start: 226.35
+      end: 226.42
+      value: A
+    - start: 226.42
+      end: 226.48
+      value: C
+    - start: 226.48
+      end: 226.54
+      value: A
+    - start: 226.54
+      end: 226.63
+      value: C
+    - start: 226.63
+      end: 226.91
+      value: B
+    - start: 226.91
+      end: 227.05
+      value: C
+    - start: 227.05
+      end: 227.12
+      value: B
+    - start: 227.12
+      end: 227.2
+      value: A
+    - start: 227.2
+      end: 227.42
+      value: C
+    - start: 227.42
+      end: 227.49
+      value: B
+    - start: 227.49
+      end: 227.64
+      value: A
+    - start: 227.64
+      end: 227.83
+      value: B
+    - start: 227.83
+      end: 227.94
+      value: A
+    - start: 227.94
+      end: 228.09
+      value: C
+    - start: 228.09
+      end: 228.37
+      value: G
+    - start: 228.37
+      end: 228.44
+      value: B
+    - start: 228.44
+      end: 228.52
+      value: A
+    - start: 228.52
+      end: 228.6
+      value: B
+    - start: 228.6
+      end: 228.71
+      value: A
+    - start: 228.71
+      end: 229.19
+      value: B
+    - start: 229.19
+      end: 229.26
+      value: C
+    - start: 229.26
+      end: 229.34
+      value: A
+    - start: 229.34
+      end: 229.47
+      value: E
+    - start: 229.47
+      end: 229.54
+      value: A
+    - start: 229.54
+      end: 229.6
+      value: B
+    - start: 229.6
+      end: 229.68
+      value: A
+    - start: 229.68
+      end: 229.94
+      value: B
+    - start: 229.94
+      end: 230.02
+      value: A
+    - start: 230.02
+      end: 230.19
+      value: C
+    - start: 230.19
+      end: 230.33
+      value: B
+    - start: 230.33
+      end: 230.6
+      value: A
+    - start: 230.6
+      end: 230.79
+      value: C
+    - start: 230.79
+      end: 231.07
+      value: B
+    - start: 231.07
+      end: 231.14
+      value: G
+    - start: 231.14
+      end: 231.91
+      value: B
+    - start: 231.91
+      end: 232.06
+      value: A
+    - start: 232.06
+      end: 232.13
+      value: C
+    - start: 232.13
+      end: 232.41
+      value: B
+    - start: 232.41
+      end: 232.49
+      value: A
+    - start: 232.49
+      end: 232.66
+      value: C
+    - start: 232.66
+      end: 232.73
+      value: G
+    - start: 232.73
+      end: 232.8
+      value: B
+    - start: 232.8
+      end: 232.89
+      value: A
+    - start: 232.89
+      end: 232.97
+      value: G
+    - start: 232.97
+      end: 233.26
+      value: A
+    - start: 233.26
+      end: 233.87
+      value: B
+    - start: 233.87
+      end: 233.94
+      value: G
+    - start: 233.94
+      end: 234.01
+      value: B
+    - start: 234.01
+      end: 234.2
+      value: F
+    - start: 234.2
+      end: 234.25
+      value: E
+    - start: 234.25
+      end: 234.43
+      value: C
+    - start: 234.43
+      end: 234.55
+      value: A
+    - start: 234.55
+      end: 234.68
+      value: C
+    - start: 234.68
+      end: 234.82
+      value: D
+    - start: 234.82
+      end: 234.89
+      value: C
+    - start: 234.89
+      end: 234.98
+      value: A
+    - start: 234.98
+      end: 235.06
+      value: C
+    - start: 235.06
+      end: 235.15
+      value: A
+    - start: 235.15
+      end: 235.42
+      value: B
+    - start: 235.42
+      end: 235.53
+      value: A
+    - start: 235.53
+      end: 235.76
+      value: B
+    - start: 235.76
+      end: 235.91
+      value: A
+    - start: 235.91
+      end: 236.09
+      value: B
+    - start: 236.09
+      end: 236.23
+      value: G
+    - start: 236.23
+      end: 236.37
+      value: B
+    - start: 236.37
+      end: 236.58
+      value: C
+    - start: 236.58
+      end: 236.93
+      value: B
+    - start: 236.93
+      end: 237.1
+      value: A
+    - start: 237.1
+      end: 237.52
+      value: B
+    - start: 237.52
+      end: 237.73
+      value: X
+    - start: 237.73
+      end: 238.05
+      value: B
+    - start: 238.05
+      end: 238.19
+      value: C
+    - start: 238.19
+      end: 238.3
+      value: A
+    - start: 238.3
+      end: 238.37
+      value: B
+    - start: 238.37
+      end: 238.49
+      value: A
+    - start: 238.49
+      end: 238.59
+      value: B
+    - start: 238.59
+      end: 238.73
+      value: G
+    - start: 238.73
+      end: 238.8
+      value: B
+    - start: 238.8
+      end: 239.01
+      value: C
+    - start: 239.01
+      end: 239.64
+      value: B
+    - start: 239.64
+      end: 239.71
+      value: G
+    - start: 239.71
+      end: 239.89
+      value: A
+    - start: 239.89
+      end: 240.06
+      value: B
+    - start: 240.06
+      end: 240.19
+      value: X
+    - start: 240.19
+      end: 240.36
+      value: B
+    - start: 240.36
+      end: 240.53
+      value: X
+    - start: 240.53
+      end: 240.59
+      value: B
+    - start: 240.59
+      end: 240.64
+      value: E
+    - start: 240.64
+      end: 240.85
+      value: B
+    - start: 240.85
+      end: 241.06
+      value: E
+    - start: 241.06
+      end: 241.13
+      value: C
+    - start: 241.13
+      end: 241.29
+      value: A
+    - start: 241.29
+      end: 241.38
+      value: B
+    - start: 241.38
+      end: 241.46
+      value: A
+    - start: 241.46
+      end: 241.53
+      value: G
+    - start: 241.53
+      end: 241.59
+      value: B
+    - start: 241.59
+      end: 241.8
+      value: F
+    - start: 241.8
+      end: 241.88
+      value: A
+    - start: 241.88
+      end: 241.99
+      value: C
+    - start: 241.99
+      end: 242.27
+      value: B
+    - start: 242.27
+      end: 242.41
+      value: E
+    - start: 242.41
+      end: 242.48
+      value: F
+    - start: 242.48
+      end: 242.55
+      value: B
+    - start: 242.55
+      end: 242.69
+      value: A
+    - start: 242.69
+      end: 242.77
+      value: B
+    - start: 242.77
+      end: 242.98
+      value: C
+    - start: 242.98
+      end: 243.07
+      value: B
+    - start: 243.07
+      end: 243.32
+      value: C
+    - start: 243.32
+      end: 244.03
+      value: B
+    - start: 244.03
+      end: 244.1
+      value: C
+    - start: 244.1
+      end: 244.17
+      value: G
+    - start: 244.17
+      end: 244.24
+      value: B
+    - start: 244.24
+      end: 244.35
+      value: A
+    - start: 244.35
+      end: 245.21
+      value: B
+    - start: 245.21
+      end: 245.23
+      value: A
+    - start: 245.23
+      end: 245.3
+      value: B
+    - start: 245.3
+      end: 245.47
+      value: A
+    - start: 245.47
+      end: 245.86
+      value: B
+    - start: 245.86
+      end: 246.11
+      value: C
+    - start: 246.11
+      end: 246.6
+      value: B
+    - start: 246.6
+      end: 246.87
+      value: A
+    - start: 246.87
+      end: 247.17
+      value: B
+    - start: 247.17
+      end: 247.31
+      value: C
+    - start: 247.31
+      end: 247.59
+      value: B
+    - start: 247.59
+      end: 247.73
+      value: C
+    - start: 247.73
+      end: 247.94
+      value: B
+    - start: 247.94
+      end: 248.22
+      value: C
+    - start: 248.22
+      end: 248.71
+      value: B
+    - start: 248.71
+      end: 248.91
+      value: X
+    - start: 248.91
+      end: 249.02
+      value: B
+    - start: 249.02
+      end: 249.12
+      value: A
+    - start: 249.12
+      end: 249.26
+      value: B
+    - start: 249.26
+      end: 249.33
+      value: C
+    - start: 249.33
+      end: 249.47
+      value: B
+    - start: 249.47
+      end: 249.67
+      value: A
+    - start: 249.67
+      end: 249.84
+      value: B
+    - start: 249.84
+      end: 250.02
+      value: A
+    - start: 250.02
+      end: 250.18
+      value: B
+    - start: 250.18
+      end: 250.29
+      value: A
+    - start: 250.29
+      end: 250.4
+      value: F
+    - start: 250.4
+      end: 250.54
+      value: C
+    - start: 250.54
+      end: 250.68
+      value: B
+    - start: 250.68
+      end: 250.75
+      value: G
+    - start: 250.75
+      end: 250.82
+      value: B
+    - start: 250.82
+      end: 250.89
+      value: G
+    - start: 250.89
+      end: 251.05
+      value: A
+    - start: 251.05
+      end: 251.16
+      value: B
+    - start: 251.16
+      end: 251.37
+      value: C
+    - start: 251.37
+      end: 251.51
+      value: B
+    - start: 251.51
+      end: 251.71
+      value: X
+    - start: 251.71
+      end: 251.81
+      value: B
+    - start: 251.81
+      end: 251.94
+      value: A
+    - start: 251.94
+      end: 252.03
+      value: B
+    - start: 252.03
+      end: 252.24
+      value: E
+    - start: 252.24
+      end: 252.31
+      value: C
+    - start: 252.31
+      end: 252.46
+      value: A
+    - start: 252.46
+      end: 252.6
+      value: B
+    - start: 252.6
+      end: 252.74
+      value: A
+    - start: 252.74
+      end: 252.82
+      value: B
+    - start: 252.82
+      end: 252.98
+      value: A
+    - start: 252.98
+      end: 253.42
+      value: B
+    - start: 253.42
+      end: 253.63
+      value: E
+    - start: 253.63
+      end: 254.05
+      value: B
+    - start: 254.05
+      end: 254.12
+      value: C
+    - start: 254.12
+      end: 254.53
+      value: B
+    - start: 254.53
+      end: 254.78
+      value: C
+    - start: 254.78
+      end: 254.99
+      value: B
+    - start: 254.99
+      end: 255.08
+      value: A
+    - start: 255.08
+      end: 255.12
+      value: B
+    - start: 255.12
+      end: 255.3
+      value: C
+    - start: 255.3
+      end: 255.37
+      value: G
+    - start: 255.37
+      end: 255.44
+      value: F
+    - start: 255.44
+      end: 255.86
+      value: B
+    - start: 255.86
+      end: 255.93
+      value: C
+    - start: 255.93
+      end: 256.21
+      value: B
+    - start: 256.21
+      end: 256.28
+      value: C
+    - start: 256.28
+      end: 256.36
+      value: A
+    - start: 256.36
+      end: 256.48
+      value: C
+    - start: 256.48
+      end: 256.65
+      value: A
+    - start: 256.65
+      end: 256.83
+      value: G
+    - start: 256.83
+      end: 257.18
+      value: B
+    - start: 257.18
+      end: 257.3
+      value: X
+    - start: 257.3
+      end: 258.44
+      value: B
+    - start: 258.44
+      end: 258.58
+      value: G
+    - start: 258.58
+      end: 258.86
+      value: B
+    - start: 258.86
+      end: 258.93
+      value: F
+    - start: 258.93
+      end: 259.07
+      value: B
+    - start: 259.07
+      end: 259.14
+      value: G
+    - start: 259.14
+      end: 259.28
+      value: B
+    - start: 259.28
+      end: 259.45
+      value: A
+    - start: 259.45
+      end: 259.58
+      value: G
+    - start: 259.58
+      end: 259.75
+      value: X
+    - start: 259.75
+      end: 259.83
+      value: B
+    - start: 259.83
+      end: 259.9
+      value: C
+    - start: 259.9
+      end: 260.09
+      value: X
+    - start: 260.09
+      end: 260.2
+      value: B
+    - start: 260.2
+      end: 260.41
+      value: C
+    - start: 260.41
+      end: 260.48
+      value: B
+    - start: 260.48
+      end: 260.62
+      value: G
+    - start: 260.62
+      end: 260.83
+      value: A
+    - start: 260.83
+      end: 260.91
+      value: B
+    - start: 260.91
+      end: 261.23
+      value: A
+    - start: 261.23
+      end: 261.35
+      value: B
+    - start: 261.35
+      end: 261.47
+      value: A
+    - start: 261.47
+      end: 261.88
+      value: C
+    - start: 261.88
+      end: 261.95
+      value: B
+    - start: 261.95
+      end: 262.16
+      value: C
+    - start: 262.16
+      end: 262.72
+      value: B
+    - start: 262.72
+      end: 262.88
+      value: X
+    - start: 262.88
+      end: 263.48
+      value: B
+    - start: 263.48
+      end: 263.64
+      value: A
+    - start: 263.64
+      end: 263.77
+      value: B
+    - start: 263.77
+      end: 263.92
+      value: A
+    - start: 263.92
+      end: 264
+      value: B
+    - start: 264
+      end: 264.24
+      value: A
+    - start: 264.24
+      end: 264.43
+      value: F
+    - start: 264.43
+      end: 264.57
+      value: C
+    - start: 264.57
+      end: 264.64
+      value: E
+    - start: 264.64
+      end: 265.13
+      value: B
+    - start: 265.13
+      end: 265.34
+      value: C
+    - start: 265.34
+      end: 265.55
+      value: B
+    - start: 265.55
+      end: 265.67
+      value: X
+    - start: 265.67
+      end: 266.04
+      value: B
+    - start: 266.04
+      end: 266.11
+      value: G
+    - start: 266.11
+      end: 266.46
+      value: C
+    - start: 266.46
+      end: 266.53
+      value: G
+    - start: 266.53
+      end: 266.6
+      value: B
+    - start: 266.6
+      end: 266.81
+      value: A
+    - start: 266.81
+      end: 267.65
+      value: B
+    - start: 267.65
+      end: 267.83
+      value: A
+    - start: 267.83
+      end: 267.9
+      value: B
+    - start: 267.9
+      end: 268.03
+      value: C
+    - start: 268.03
+      end: 268.31
+      value: B
+    - start: 268.31
+      end: 268.49
+      value: X
+    - start: 268.49
+      end: 268.53
+      value: B
+    - start: 268.53
+      end: 268.61
+      value: A
+    - start: 268.61
+      end: 268.8
+      value: C
+    - start: 268.8
+      end: 268.94
+      value: G
+    - start: 268.94
+      end: 269.22
+      value: A
+    - start: 269.22
+      end: 269.57
+      value: B
+    - start: 269.57
+      end: 269.74
+      value: A
+    - start: 269.74
+      end: 270.33
+      value: B
+    - start: 270.33
+      end: 270.57
+      value: X
+    - start: 270.57
+      end: 270.69
+      value: B
+    - start: 270.69
+      end: 271.27
+      value: X
+    - start: 271.27
+      end: 271.78
+      value: B
+    - start: 271.78
+      end: 272.43
+      value: X
+  text: "{\r\n  \"metadata\": {\r\n    \"soundFile\": \"C:\\\\git\\\\songs-of-cultures\\\\development\\\\Tools\\\\Xzibit
+    - My Name ft. Eminem  Nate Dogg.wav\",\r\n    \"duration\": 272.43\r\n  },\r\n 
+    \"mouthCues\": [\r\n    { \"start\": 0.00, \"end\": 0.27, \"value\": \"X\" },\r\n   
+    { \"start\": 0.27, \"end\": 2.12, \"value\": \"B\" },\r\n    { \"start\": 2.12,
+    \"end\": 2.58, \"value\": \"A\" },\r\n    { \"start\": 2.58, \"end\": 4.37, \"value\":
+    \"B\" },\r\n    { \"start\": 4.37, \"end\": 4.51, \"value\": \"F\" },\r\n   
+    { \"start\": 4.51, \"end\": 7.59, \"value\": \"B\" },\r\n    { \"start\": 7.59,
+    \"end\": 7.66, \"value\": \"C\" },\r\n    { \"start\": 7.66, \"end\": 12.63,
+    \"value\": \"B\" },\r\n    { \"start\": 12.63, \"end\": 12.96, \"value\": \"A\"
+    },\r\n    { \"start\": 12.96, \"end\": 13.06, \"value\": \"C\" },\r\n    { \"start\":
+    13.06, \"end\": 13.28, \"value\": \"A\" },\r\n    { \"start\": 13.28, \"end\":
+    14.20, \"value\": \"B\" },\r\n    { \"start\": 14.20, \"end\": 14.34, \"value\":
+    \"C\" },\r\n    { \"start\": 14.34, \"end\": 14.42, \"value\": \"A\" },\r\n   
+    { \"start\": 14.42, \"end\": 14.51, \"value\": \"B\" },\r\n    { \"start\": 14.51,
+    \"end\": 14.61, \"value\": \"A\" },\r\n    { \"start\": 14.61, \"end\": 14.78,
+    \"value\": \"B\" },\r\n    { \"start\": 14.78, \"end\": 14.91, \"value\": \"A\"
+    },\r\n    { \"start\": 14.91, \"end\": 15.62, \"value\": \"G\" },\r\n    { \"start\":
+    15.62, \"end\": 15.69, \"value\": \"C\" },\r\n    { \"start\": 15.69, \"end\":
+    15.90, \"value\": \"B\" },\r\n    { \"start\": 15.90, \"end\": 16.02, \"value\":
+    \"A\" },\r\n    { \"start\": 16.02, \"end\": 17.14, \"value\": \"B\" },\r\n   
+    { \"start\": 17.14, \"end\": 17.21, \"value\": \"C\" },\r\n    { \"start\": 17.21,
+    \"end\": 17.29, \"value\": \"A\" },\r\n    { \"start\": 17.29, \"end\": 17.44,
+    \"value\": \"C\" },\r\n    { \"start\": 17.44, \"end\": 17.58, \"value\": \"B\"
+    },\r\n    { \"start\": 17.58, \"end\": 17.86, \"value\": \"C\" },\r\n    { \"start\":
+    17.86, \"end\": 18.42, \"value\": \"B\" },\r\n    { \"start\": 18.42, \"end\":
+    18.63, \"value\": \"C\" },\r\n    { \"start\": 18.63, \"end\": 18.82, \"value\":
+    \"A\" },\r\n    { \"start\": 18.82, \"end\": 19.77, \"value\": \"B\" },\r\n   
+    { \"start\": 19.77, \"end\": 19.98, \"value\": \"C\" },\r\n    { \"start\": 19.98,
+    \"end\": 20.05, \"value\": \"B\" },\r\n    { \"start\": 20.05, \"end\": 20.13,
+    \"value\": \"A\" },\r\n    { \"start\": 20.13, \"end\": 20.31, \"value\": \"C\"
+    },\r\n    { \"start\": 20.31, \"end\": 20.45, \"value\": \"B\" },\r\n    { \"start\":
+    20.45, \"end\": 21.22, \"value\": \"G\" },\r\n    { \"start\": 21.22, \"end\":
+    21.36, \"value\": \"C\" },\r\n    { \"start\": 21.36, \"end\": 21.44, \"value\":
+    \"A\" },\r\n    { \"start\": 21.44, \"end\": 21.70, \"value\": \"C\" },\r\n   
+    { \"start\": 21.70, \"end\": 21.77, \"value\": \"E\" },\r\n    { \"start\": 21.77,
+    \"end\": 21.84, \"value\": \"C\" },\r\n    { \"start\": 21.84, \"end\": 22.61,
+    \"value\": \"B\" },\r\n    { \"start\": 22.61, \"end\": 22.75, \"value\": \"C\"
+    },\r\n    { \"start\": 22.75, \"end\": 22.89, \"value\": \"B\" },\r\n    { \"start\":
+    22.89, \"end\": 23.24, \"value\": \"C\" },\r\n    { \"start\": 23.24, \"end\":
+    23.94, \"value\": \"B\" },\r\n    { \"start\": 23.94, \"end\": 24.15, \"value\":
+    \"G\" },\r\n    { \"start\": 24.15, \"end\": 24.22, \"value\": \"C\" },\r\n   
+    { \"start\": 24.22, \"end\": 24.36, \"value\": \"B\" },\r\n    { \"start\": 24.36,
+    \"end\": 24.43, \"value\": \"G\" },\r\n    { \"start\": 24.43, \"end\": 24.55,
+    \"value\": \"X\" },\r\n    { \"start\": 24.55, \"end\": 24.63, \"value\": \"B\"
+    },\r\n    { \"start\": 24.63, \"end\": 24.73, \"value\": \"A\" },\r\n    { \"start\":
+    24.73, \"end\": 24.83, \"value\": \"G\" },\r\n    { \"start\": 24.83, \"end\":
+    25.39, \"value\": \"B\" },\r\n    { \"start\": 25.39, \"end\": 25.60, \"value\":
+    \"C\" },\r\n    { \"start\": 25.60, \"end\": 26.09, \"value\": \"B\" },\r\n   
+    { \"start\": 26.09, \"end\": 26.23, \"value\": \"G\" },\r\n    { \"start\": 26.23,
+    \"end\": 26.43, \"value\": \"X\" },\r\n    { \"start\": 26.43, \"end\": 26.64,
+    \"value\": \"B\" },\r\n    { \"start\": 26.64, \"end\": 26.75, \"value\": \"A\"
+    },\r\n    { \"start\": 26.75, \"end\": 26.89, \"value\": \"C\" },\r\n    { \"start\":
+    26.89, \"end\": 27.45, \"value\": \"B\" },\r\n    { \"start\": 27.45, \"end\":
+    27.66, \"value\": \"G\" },\r\n    { \"start\": 27.66, \"end\": 27.82, \"value\":
+    \"X\" },\r\n    { \"start\": 27.82, \"end\": 28.23, \"value\": \"B\" },\r\n   
+    { \"start\": 28.23, \"end\": 28.44, \"value\": \"C\" },\r\n    { \"start\": 28.44,
+    \"end\": 28.51, \"value\": \"E\" },\r\n    { \"start\": 28.51, \"end\": 28.79,
+    \"value\": \"B\" },\r\n    { \"start\": 28.79, \"end\": 28.87, \"value\": \"A\"
+    },\r\n    { \"start\": 28.87, \"end\": 29.06, \"value\": \"G\" },\r\n    { \"start\":
+    29.06, \"end\": 29.13, \"value\": \"C\" },\r\n    { \"start\": 29.13, \"end\":
+    29.41, \"value\": \"B\" },\r\n    { \"start\": 29.41, \"end\": 29.53, \"value\":
+    \"A\" },\r\n    { \"start\": 29.53, \"end\": 29.75, \"value\": \"C\" },\r\n   
+    { \"start\": 29.75, \"end\": 30.10, \"value\": \"B\" },\r\n    { \"start\": 30.10,
+    \"end\": 30.45, \"value\": \"G\" },\r\n    { \"start\": 30.45, \"end\": 30.57,
+    \"value\": \"X\" },\r\n    { \"start\": 30.57, \"end\": 30.84, \"value\": \"B\"
+    },\r\n    { \"start\": 30.84, \"end\": 31.19, \"value\": \"C\" },\r\n    { \"start\":
+    31.19, \"end\": 31.68, \"value\": \"B\" },\r\n    { \"start\": 31.68, \"end\":
+    31.82, \"value\": \"G\" },\r\n    { \"start\": 31.82, \"end\": 32.01, \"value\":
+    \"X\" },\r\n    { \"start\": 32.01, \"end\": 33.77, \"value\": \"B\" },\r\n   
+    { \"start\": 33.77, \"end\": 34.12, \"value\": \"C\" },\r\n    { \"start\": 34.12,
+    \"end\": 34.33, \"value\": \"B\" },\r\n    { \"start\": 34.33, \"end\": 34.71,
+    \"value\": \"G\" },\r\n    { \"start\": 34.71, \"end\": 34.82, \"value\": \"B\"
+    },\r\n    { \"start\": 34.82, \"end\": 35.10, \"value\": \"C\" },\r\n    { \"start\":
+    35.10, \"end\": 35.17, \"value\": \"B\" },\r\n    { \"start\": 35.17, \"end\":
+    35.45, \"value\": \"C\" },\r\n    { \"start\": 35.45, \"end\": 35.52, \"value\":
+    \"B\" },\r\n    { \"start\": 35.52, \"end\": 35.66, \"value\": \"C\" },\r\n   
+    { \"start\": 35.66, \"end\": 36.29, \"value\": \"B\" },\r\n    { \"start\": 36.29,
+    \"end\": 36.36, \"value\": \"C\" },\r\n    { \"start\": 36.36, \"end\": 36.99,
+    \"value\": \"B\" },\r\n    { \"start\": 36.99, \"end\": 37.06, \"value\": \"A\"
+    },\r\n    { \"start\": 37.06, \"end\": 37.27, \"value\": \"E\" },\r\n    { \"start\":
+    37.27, \"end\": 37.48, \"value\": \"G\" },\r\n    { \"start\": 37.48, \"end\":
+    37.69, \"value\": \"F\" },\r\n    { \"start\": 37.69, \"end\": 37.81, \"value\":
+    \"B\" },\r\n    { \"start\": 37.81, \"end\": 37.89, \"value\": \"A\" },\r\n   
+    { \"start\": 37.89, \"end\": 37.97, \"value\": \"E\" },\r\n    { \"start\": 37.97,
+    \"end\": 38.25, \"value\": \"F\" },\r\n    { \"start\": 38.25, \"end\": 38.39,
+    \"value\": \"B\" },\r\n    { \"start\": 38.39, \"end\": 38.60, \"value\": \"C\"
+    },\r\n    { \"start\": 38.60, \"end\": 38.69, \"value\": \"A\" },\r\n    { \"start\":
+    38.69, \"end\": 38.76, \"value\": \"B\" },\r\n    { \"start\": 38.76, \"end\":
+    38.97, \"value\": \"F\" },\r\n    { \"start\": 38.97, \"end\": 39.18, \"value\":
+    \"B\" },\r\n    { \"start\": 39.18, \"end\": 39.26, \"value\": \"A\" },\r\n   
+    { \"start\": 39.26, \"end\": 39.33, \"value\": \"B\" },\r\n    { \"start\": 39.33,
+    \"end\": 39.46, \"value\": \"G\" },\r\n    { \"start\": 39.46, \"end\": 39.53,
+    \"value\": \"C\" },\r\n    { \"start\": 39.53, \"end\": 39.60, \"value\": \"B\"
+    },\r\n    { \"start\": 39.60, \"end\": 39.67, \"value\": \"G\" },\r\n    { \"start\":
+    39.67, \"end\": 39.81, \"value\": \"E\" },\r\n    { \"start\": 39.81, \"end\":
+    39.88, \"value\": \"F\" },\r\n    { \"start\": 39.88, \"end\": 39.95, \"value\":
+    \"G\" },\r\n    { \"start\": 39.95, \"end\": 40.02, \"value\": \"B\" },\r\n   
+    { \"start\": 40.02, \"end\": 40.11, \"value\": \"A\" },\r\n    { \"start\": 40.11,
+    \"end\": 40.27, \"value\": \"G\" },\r\n    { \"start\": 40.27, \"end\": 40.70,
+    \"value\": \"B\" },\r\n    { \"start\": 40.70, \"end\": 40.75, \"value\": \"D\"
+    },\r\n    { \"start\": 40.75, \"end\": 40.96, \"value\": \"C\" },\r\n    { \"start\":
+    40.96, \"end\": 41.04, \"value\": \"A\" },\r\n    { \"start\": 41.04, \"end\":
+    41.10, \"value\": \"E\" },\r\n    { \"start\": 41.10, \"end\": 41.15, \"value\":
+    \"B\" },\r\n    { \"start\": 41.15, \"end\": 41.22, \"value\": \"F\" },\r\n   
+    { \"start\": 41.22, \"end\": 41.30, \"value\": \"A\" },\r\n    { \"start\": 41.30,
+    \"end\": 41.38, \"value\": \"D\" },\r\n    { \"start\": 41.38, \"end\": 41.61,
+    \"value\": \"A\" },\r\n    { \"start\": 41.61, \"end\": 41.86, \"value\": \"B\"
+    },\r\n    { \"start\": 41.86, \"end\": 41.93, \"value\": \"C\" },\r\n    { \"start\":
+    41.93, \"end\": 42.35, \"value\": \"B\" },\r\n    { \"start\": 42.35, \"end\":
+    42.46, \"value\": \"A\" },\r\n    { \"start\": 42.46, \"end\": 42.51, \"value\":
+    \"B\" },\r\n    { \"start\": 42.51, \"end\": 42.63, \"value\": \"E\" },\r\n   
+    { \"start\": 42.63, \"end\": 42.70, \"value\": \"B\" },\r\n    { \"start\": 42.70,
+    \"end\": 42.83, \"value\": \"A\" },\r\n    { \"start\": 42.83, \"end\": 42.89,
+    \"value\": \"C\" },\r\n    { \"start\": 42.89, \"end\": 42.94, \"value\": \"B\"
+    },\r\n    { \"start\": 42.94, \"end\": 43.02, \"value\": \"A\" },\r\n    { \"start\":
+    43.02, \"end\": 43.33, \"value\": \"B\" },\r\n    { \"start\": 43.33, \"end\":
+    43.58, \"value\": \"A\" },\r\n    { \"start\": 43.58, \"end\": 43.66, \"value\":
+    \"C\" },\r\n    { \"start\": 43.66, \"end\": 43.74, \"value\": \"A\" },\r\n   
+    { \"start\": 43.74, \"end\": 43.78, \"value\": \"B\" },\r\n    { \"start\": 43.78,
+    \"end\": 43.82, \"value\": \"C\" },\r\n    { \"start\": 43.82, \"end\": 43.90,
+    \"value\": \"A\" },\r\n    { \"start\": 43.90, \"end\": 44.05, \"value\": \"B\"
+    },\r\n    { \"start\": 44.05, \"end\": 44.19, \"value\": \"G\" },\r\n    { \"start\":
+    44.19, \"end\": 44.29, \"value\": \"A\" },\r\n    { \"start\": 44.29, \"end\":
+    44.40, \"value\": \"B\" },\r\n    { \"start\": 44.40, \"end\": 44.47, \"value\":
+    \"G\" },\r\n    { \"start\": 44.47, \"end\": 44.54, \"value\": \"C\" },\r\n   
+    { \"start\": 44.54, \"end\": 44.61, \"value\": \"B\" },\r\n    { \"start\": 44.61,
+    \"end\": 44.89, \"value\": \"C\" },\r\n    { \"start\": 44.89, \"end\": 45.17,
+    \"value\": \"B\" },\r\n    { \"start\": 45.17, \"end\": 45.25, \"value\": \"A\"
+    },\r\n    { \"start\": 45.25, \"end\": 45.41, \"value\": \"C\" },\r\n    { \"start\":
+    45.41, \"end\": 45.49, \"value\": \"A\" },\r\n    { \"start\": 45.49, \"end\":
+    45.60, \"value\": \"E\" },\r\n    { \"start\": 45.60, \"end\": 45.69, \"value\":
+    \"A\" },\r\n    { \"start\": 45.69, \"end\": 45.89, \"value\": \"G\" },\r\n   
+    { \"start\": 45.89, \"end\": 45.96, \"value\": \"E\" },\r\n    { \"start\": 45.96,
+    \"end\": 46.10, \"value\": \"F\" },\r\n    { \"start\": 46.10, \"end\": 46.66,
+    \"value\": \"B\" },\r\n    { \"start\": 46.66, \"end\": 46.80, \"value\": \"G\"
+    },\r\n    { \"start\": 46.80, \"end\": 46.94, \"value\": \"B\" },\r\n    { \"start\":
+    46.94, \"end\": 47.07, \"value\": \"A\" },\r\n    { \"start\": 47.07, \"end\":
+    47.14, \"value\": \"G\" },\r\n    { \"start\": 47.14, \"end\": 47.34, \"value\":
+    \"B\" },\r\n    { \"start\": 47.34, \"end\": 47.41, \"value\": \"C\" },\r\n   
+    { \"start\": 47.41, \"end\": 47.55, \"value\": \"B\" },\r\n    { \"start\": 47.55,
+    \"end\": 47.63, \"value\": \"A\" },\r\n    { \"start\": 47.63, \"end\": 47.69,
+    \"value\": \"D\" },\r\n    { \"start\": 47.69, \"end\": 47.95, \"value\": \"F\"
+    },\r\n    { \"start\": 47.95, \"end\": 48.02, \"value\": \"G\" },\r\n    { \"start\":
+    48.02, \"end\": 48.09, \"value\": \"B\" },\r\n    { \"start\": 48.09, \"end\":
+    48.23, \"value\": \"C\" },\r\n    { \"start\": 48.23, \"end\": 48.37, \"value\":
+    \"B\" },\r\n    { \"start\": 48.37, \"end\": 48.44, \"value\": \"C\" },\r\n   
+    { \"start\": 48.44, \"end\": 48.58, \"value\": \"B\" },\r\n    { \"start\": 48.58,
+    \"end\": 48.72, \"value\": \"C\" },\r\n    { \"start\": 48.72, \"end\": 48.79,
+    \"value\": \"B\" },\r\n    { \"start\": 48.79, \"end\": 49.04, \"value\": \"C\"
+    },\r\n    { \"start\": 49.04, \"end\": 49.11, \"value\": \"E\" },\r\n    { \"start\":
+    49.11, \"end\": 49.35, \"value\": \"F\" },\r\n    { \"start\": 49.35, \"end\":
+    49.50, \"value\": \"A\" },\r\n    { \"start\": 49.50, \"end\": 49.61, \"value\":
+    \"G\" },\r\n    { \"start\": 49.61, \"end\": 49.68, \"value\": \"F\" },\r\n   
+    { \"start\": 49.68, \"end\": 49.75, \"value\": \"G\" },\r\n    { \"start\": 49.75,
+    \"end\": 49.89, \"value\": \"C\" },\r\n    { \"start\": 49.89, \"end\": 50.03,
+    \"value\": \"B\" },\r\n    { \"start\": 50.03, \"end\": 50.10, \"value\": \"E\"
+    },\r\n    { \"start\": 50.10, \"end\": 50.17, \"value\": \"B\" },\r\n    { \"start\":
+    50.17, \"end\": 50.31, \"value\": \"E\" },\r\n    { \"start\": 50.31, \"end\":
+    50.38, \"value\": \"F\" },\r\n    { \"start\": 50.38, \"end\": 50.57, \"value\":
+    \"A\" },\r\n    { \"start\": 50.57, \"end\": 50.64, \"value\": \"G\" },\r\n   
+    { \"start\": 50.64, \"end\": 50.71, \"value\": \"F\" },\r\n    { \"start\": 50.71,
+    \"end\": 50.79, \"value\": \"A\" },\r\n    { \"start\": 50.79, \"end\": 50.85,
+    \"value\": \"C\" },\r\n    { \"start\": 50.85, \"end\": 50.90, \"value\": \"B\"
+    },\r\n    { \"start\": 50.90, \"end\": 50.97, \"value\": \"C\" },\r\n    { \"start\":
+    50.97, \"end\": 51.39, \"value\": \"B\" },\r\n    { \"start\": 51.39, \"end\":
+    51.46, \"value\": \"C\" },\r\n    { \"start\": 51.46, \"end\": 51.60, \"value\":
+    \"B\" },\r\n    { \"start\": 51.60, \"end\": 51.88, \"value\": \"C\" },\r\n   
+    { \"start\": 51.88, \"end\": 51.95, \"value\": \"F\" },\r\n    { \"start\": 51.95,
+    \"end\": 52.44, \"value\": \"B\" },\r\n    { \"start\": 52.44, \"end\": 52.60,
+    \"value\": \"A\" },\r\n    { \"start\": 52.60, \"end\": 52.82, \"value\": \"B\"
+    },\r\n    { \"start\": 52.82, \"end\": 52.90, \"value\": \"A\" },\r\n    { \"start\":
+    52.90, \"end\": 52.97, \"value\": \"D\" },\r\n    { \"start\": 52.97, \"end\":
+    53.04, \"value\": \"G\" },\r\n    { \"start\": 53.04, \"end\": 53.25, \"value\":
+    \"E\" },\r\n    { \"start\": 53.25, \"end\": 53.36, \"value\": \"A\" },\r\n   
+    { \"start\": 53.36, \"end\": 53.43, \"value\": \"G\" },\r\n    { \"start\": 53.43,
+    \"end\": 53.49, \"value\": \"B\" },\r\n    { \"start\": 53.49, \"end\": 53.57,
+    \"value\": \"A\" },\r\n    { \"start\": 53.57, \"end\": 53.69, \"value\": \"B\"
+    },\r\n    { \"start\": 53.69, \"end\": 53.76, \"value\": \"C\" },\r\n    { \"start\":
+    53.76, \"end\": 53.97, \"value\": \"B\" },\r\n    { \"start\": 53.97, \"end\":
+    54.11, \"value\": \"C\" },\r\n    { \"start\": 54.11, \"end\": 54.19, \"value\":
+    \"A\" },\r\n    { \"start\": 54.19, \"end\": 54.29, \"value\": \"F\" },\r\n   
+    { \"start\": 54.29, \"end\": 54.36, \"value\": \"B\" },\r\n    { \"start\": 54.36,
+    \"end\": 54.57, \"value\": \"E\" },\r\n    { \"start\": 54.57, \"end\": 54.64,
+    \"value\": \"F\" },\r\n    { \"start\": 54.64, \"end\": 54.75, \"value\": \"A\"
+    },\r\n    { \"start\": 54.75, \"end\": 54.81, \"value\": \"C\" },\r\n    { \"start\":
+    54.81, \"end\": 55.07, \"value\": \"B\" },\r\n    { \"start\": 55.07, \"end\":
+    55.14, \"value\": \"G\" },\r\n    { \"start\": 55.14, \"end\": 55.21, \"value\":
+    \"C\" },\r\n    { \"start\": 55.21, \"end\": 55.35, \"value\": \"E\" },\r\n   
+    { \"start\": 55.35, \"end\": 55.56, \"value\": \"C\" },\r\n    { \"start\": 55.56,
+    \"end\": 55.77, \"value\": \"E\" },\r\n    { \"start\": 55.77, \"end\": 55.85,
+    \"value\": \"A\" },\r\n    { \"start\": 55.85, \"end\": 56.14, \"value\": \"B\"
+    },\r\n    { \"start\": 56.14, \"end\": 56.28, \"value\": \"G\" },\r\n    { \"start\":
+    56.28, \"end\": 56.35, \"value\": \"B\" },\r\n    { \"start\": 56.35, \"end\":
+    56.42, \"value\": \"G\" },\r\n    { \"start\": 56.42, \"end\": 56.49, \"value\":
+    \"B\" },\r\n    { \"start\": 56.49, \"end\": 56.63, \"value\": \"C\" },\r\n   
+    { \"start\": 56.63, \"end\": 56.75, \"value\": \"A\" },\r\n    { \"start\": 56.75,
+    \"end\": 56.85, \"value\": \"C\" },\r\n    { \"start\": 56.85, \"end\": 57.06,
+    \"value\": \"B\" },\r\n    { \"start\": 57.06, \"end\": 57.13, \"value\": \"C\"
+    },\r\n    { \"start\": 57.13, \"end\": 57.34, \"value\": \"B\" },\r\n    { \"start\":
+    57.34, \"end\": 57.41, \"value\": \"G\" },\r\n    { \"start\": 57.41, \"end\":
+    57.76, \"value\": \"B\" },\r\n    { \"start\": 57.76, \"end\": 57.85, \"value\":
+    \"A\" },\r\n    { \"start\": 57.85, \"end\": 58.00, \"value\": \"C\" },\r\n   
+    { \"start\": 58.00, \"end\": 58.35, \"value\": \"B\" },\r\n    { \"start\": 58.35,
+    \"end\": 58.43, \"value\": \"A\" },\r\n    { \"start\": 58.43, \"end\": 58.69,
+    \"value\": \"B\" },\r\n    { \"start\": 58.69, \"end\": 58.78, \"value\": \"A\"
+    },\r\n    { \"start\": 58.78, \"end\": 59.25, \"value\": \"B\" },\r\n    { \"start\":
+    59.25, \"end\": 59.53, \"value\": \"F\" },\r\n    { \"start\": 59.53, \"end\":
+    59.65, \"value\": \"A\" },\r\n    { \"start\": 59.65, \"end\": 59.87, \"value\":
+    \"B\" },\r\n    { \"start\": 59.87, \"end\": 59.95, \"value\": \"A\" },\r\n   
+    { \"start\": 59.95, \"end\": 60.00, \"value\": \"B\" },\r\n    { \"start\": 60.00,
+    \"end\": 60.05, \"value\": \"C\" },\r\n    { \"start\": 60.05, \"end\": 60.19,
+    \"value\": \"B\" },\r\n    { \"start\": 60.19, \"end\": 60.68, \"value\": \"C\"
+    },\r\n    { \"start\": 60.68, \"end\": 60.75, \"value\": \"B\" },\r\n    { \"start\":
+    60.75, \"end\": 60.85, \"value\": \"A\" },\r\n    { \"start\": 60.85, \"end\":
+    60.93, \"value\": \"B\" },\r\n    { \"start\": 60.93, \"end\": 61.05, \"value\":
+    \"A\" },\r\n    { \"start\": 61.05, \"end\": 61.55, \"value\": \"B\" },\r\n   
+    { \"start\": 61.55, \"end\": 61.62, \"value\": \"F\" },\r\n    { \"start\": 61.62,
+    \"end\": 61.76, \"value\": \"A\" },\r\n    { \"start\": 61.76, \"end\": 61.81,
+    \"value\": \"G\" },\r\n    { \"start\": 61.81, \"end\": 61.86, \"value\": \"E\"
+    },\r\n    { \"start\": 61.86, \"end\": 61.94, \"value\": \"A\" },\r\n    { \"start\":
+    61.94, \"end\": 62.01, \"value\": \"C\" },\r\n    { \"start\": 62.01, \"end\":
+    62.21, \"value\": \"B\" },\r\n    { \"start\": 62.21, \"end\": 62.31, \"value\":
+    \"D\" },\r\n    { \"start\": 62.31, \"end\": 62.35, \"value\": \"C\" },\r\n   
+    { \"start\": 62.35, \"end\": 62.46, \"value\": \"A\" },\r\n    { \"start\": 62.46,
+    \"end\": 62.53, \"value\": \"B\" },\r\n    { \"start\": 62.53, \"end\": 62.61,
+    \"value\": \"A\" },\r\n    { \"start\": 62.61, \"end\": 62.69, \"value\": \"C\"
+    },\r\n    { \"start\": 62.69, \"end\": 62.97, \"value\": \"B\" },\r\n    { \"start\":
+    62.97, \"end\": 63.11, \"value\": \"F\" },\r\n    { \"start\": 63.11, \"end\":
+    63.18, \"value\": \"B\" },\r\n    { \"start\": 63.18, \"end\": 63.25, \"value\":
+    \"C\" },\r\n    { \"start\": 63.25, \"end\": 63.33, \"value\": \"A\" },\r\n   
+    { \"start\": 63.33, \"end\": 63.42, \"value\": \"B\" },\r\n    { \"start\": 63.42,
+    \"end\": 63.56, \"value\": \"C\" },\r\n    { \"start\": 63.56, \"end\": 63.64,
+    \"value\": \"A\" },\r\n    { \"start\": 63.64, \"end\": 63.73, \"value\": \"C\"
+    },\r\n    { \"start\": 63.73, \"end\": 63.80, \"value\": \"B\" },\r\n    { \"start\":
+    63.80, \"end\": 63.94, \"value\": \"C\" },\r\n    { \"start\": 63.94, \"end\":
+    64.02, \"value\": \"A\" },\r\n    { \"start\": 64.02, \"end\": 64.58, \"value\":
+    \"B\" },\r\n    { \"start\": 64.58, \"end\": 64.72, \"value\": \"G\" },\r\n   
+    { \"start\": 64.72, \"end\": 64.79, \"value\": \"B\" },\r\n    { \"start\": 64.79,
+    \"end\": 65.00, \"value\": \"F\" },\r\n    { \"start\": 65.00, \"end\": 65.11,
+    \"value\": \"A\" },\r\n    { \"start\": 65.11, \"end\": 65.35, \"value\": \"B\"
+    },\r\n    { \"start\": 65.35, \"end\": 65.43, \"value\": \"A\" },\r\n    { \"start\":
+    65.43, \"end\": 65.48, \"value\": \"B\" },\r\n    { \"start\": 65.48, \"end\":
+    65.95, \"value\": \"C\" },\r\n    { \"start\": 65.95, \"end\": 66.16, \"value\":
+    \"B\" },\r\n    { \"start\": 66.16, \"end\": 66.23, \"value\": \"C\" },\r\n   
+    { \"start\": 66.23, \"end\": 66.44, \"value\": \"B\" },\r\n    { \"start\": 66.44,
+    \"end\": 66.65, \"value\": \"A\" },\r\n    { \"start\": 66.65, \"end\": 66.76,
+    \"value\": \"G\" },\r\n    { \"start\": 66.76, \"end\": 66.83, \"value\": \"C\"
+    },\r\n    { \"start\": 66.83, \"end\": 67.25, \"value\": \"B\" },\r\n    { \"start\":
+    67.25, \"end\": 67.33, \"value\": \"A\" },\r\n    { \"start\": 67.33, \"end\":
+    67.38, \"value\": \"C\" },\r\n    { \"start\": 67.38, \"end\": 67.84, \"value\":
+    \"B\" },\r\n    { \"start\": 67.84, \"end\": 67.92, \"value\": \"A\" },\r\n   
+    { \"start\": 67.92, \"end\": 68.01, \"value\": \"B\" },\r\n    { \"start\": 68.01,
+    \"end\": 68.08, \"value\": \"G\" },\r\n    { \"start\": 68.08, \"end\": 68.16,
+    \"value\": \"A\" },\r\n    { \"start\": 68.16, \"end\": 68.25, \"value\": \"C\"
+    },\r\n    { \"start\": 68.25, \"end\": 68.46, \"value\": \"F\" },\r\n    { \"start\":
+    68.46, \"end\": 68.60, \"value\": \"B\" },\r\n    { \"start\": 68.60, \"end\":
+    68.67, \"value\": \"C\" },\r\n    { \"start\": 68.67, \"end\": 69.02, \"value\":
+    \"B\" },\r\n    { \"start\": 69.02, \"end\": 69.16, \"value\": \"H\" },\r\n   
+    { \"start\": 69.16, \"end\": 69.23, \"value\": \"C\" },\r\n    { \"start\": 69.23,
+    \"end\": 69.30, \"value\": \"B\" },\r\n    { \"start\": 69.30, \"end\": 69.43,
+    \"value\": \"A\" },\r\n    { \"start\": 69.43, \"end\": 69.57, \"value\": \"G\"
+    },\r\n    { \"start\": 69.57, \"end\": 69.68, \"value\": \"A\" },\r\n    { \"start\":
+    69.68, \"end\": 69.80, \"value\": \"B\" },\r\n    { \"start\": 69.80, \"end\":
+    70.01, \"value\": \"E\" },\r\n    { \"start\": 70.01, \"end\": 70.08, \"value\":
+    \"C\" },\r\n    { \"start\": 70.08, \"end\": 70.15, \"value\": \"B\" },\r\n   
+    { \"start\": 70.15, \"end\": 70.29, \"value\": \"E\" },\r\n    { \"start\": 70.29,
+    \"end\": 70.36, \"value\": \"B\" },\r\n    { \"start\": 70.36, \"end\": 70.43,
+    \"value\": \"F\" },\r\n    { \"start\": 70.43, \"end\": 70.50, \"value\": \"G\"
+    },\r\n    { \"start\": 70.50, \"end\": 70.57, \"value\": \"C\" },\r\n    { \"start\":
+    70.57, \"end\": 70.67, \"value\": \"D\" },\r\n    { \"start\": 70.67, \"end\":
+    70.71, \"value\": \"C\" },\r\n    { \"start\": 70.71, \"end\": 70.83, \"value\":
+    \"A\" },\r\n    { \"start\": 70.83, \"end\": 70.91, \"value\": \"G\" },\r\n   
+    { \"start\": 70.91, \"end\": 71.15, \"value\": \"A\" },\r\n    { \"start\": 71.15,
+    \"end\": 71.31, \"value\": \"G\" },\r\n    { \"start\": 71.31, \"end\": 71.39,
+    \"value\": \"A\" },\r\n    { \"start\": 71.39, \"end\": 71.44, \"value\": \"E\"
+    },\r\n    { \"start\": 71.44, \"end\": 71.48, \"value\": \"F\" },\r\n    { \"start\":
+    71.48, \"end\": 71.56, \"value\": \"A\" },\r\n    { \"start\": 71.56, \"end\":
+    71.82, \"value\": \"B\" },\r\n    { \"start\": 71.82, \"end\": 72.03, \"value\":
+    \"D\" },\r\n    { \"start\": 72.03, \"end\": 72.10, \"value\": \"B\" },\r\n   
+    { \"start\": 72.10, \"end\": 72.24, \"value\": \"A\" },\r\n    { \"start\": 72.24,
+    \"end\": 72.45, \"value\": \"G\" },\r\n    { \"start\": 72.45, \"end\": 72.59,
+    \"value\": \"B\" },\r\n    { \"start\": 72.59, \"end\": 72.78, \"value\": \"F\"
+    },\r\n    { \"start\": 72.78, \"end\": 72.83, \"value\": \"E\" },\r\n    { \"start\":
+    72.83, \"end\": 73.01, \"value\": \"C\" },\r\n    { \"start\": 73.01, \"end\":
+    73.22, \"value\": \"B\" },\r\n    { \"start\": 73.22, \"end\": 73.29, \"value\":
+    \"C\" },\r\n    { \"start\": 73.29, \"end\": 73.37, \"value\": \"A\" },\r\n   
+    { \"start\": 73.37, \"end\": 73.52, \"value\": \"D\" },\r\n    { \"start\": 73.52,
+    \"end\": 73.56, \"value\": \"C\" },\r\n    { \"start\": 73.56, \"end\": 73.82,
+    \"value\": \"B\" },\r\n    { \"start\": 73.82, \"end\": 73.89, \"value\": \"C\"
+    },\r\n    { \"start\": 73.89, \"end\": 74.03, \"value\": \"B\" },\r\n    { \"start\":
+    74.03, \"end\": 74.11, \"value\": \"A\" },\r\n    { \"start\": 74.11, \"end\":
+    74.43, \"value\": \"B\" },\r\n    { \"start\": 74.43, \"end\": 74.57, \"value\":
+    \"C\" },\r\n    { \"start\": 74.57, \"end\": 74.63, \"value\": \"A\" },\r\n   
+    { \"start\": 74.63, \"end\": 74.69, \"value\": \"B\" },\r\n    { \"start\": 74.69,
+    \"end\": 74.77, \"value\": \"A\" },\r\n    { \"start\": 74.77, \"end\": 74.92,
+    \"value\": \"C\" },\r\n    { \"start\": 74.92, \"end\": 75.02, \"value\": \"A\"
+    },\r\n    { \"start\": 75.02, \"end\": 75.10, \"value\": \"G\" },\r\n    { \"start\":
+    75.10, \"end\": 75.17, \"value\": \"B\" },\r\n    { \"start\": 75.17, \"end\":
+    75.25, \"value\": \"A\" },\r\n    { \"start\": 75.25, \"end\": 75.45, \"value\":
+    \"C\" },\r\n    { \"start\": 75.45, \"end\": 75.59, \"value\": \"B\" },\r\n   
+    { \"start\": 75.59, \"end\": 75.71, \"value\": \"A\" },\r\n    { \"start\": 75.71,
+    \"end\": 75.78, \"value\": \"B\" },\r\n    { \"start\": 75.78, \"end\": 75.84,
+    \"value\": \"C\" },\r\n    { \"start\": 75.84, \"end\": 75.98, \"value\": \"B\"
+    },\r\n    { \"start\": 75.98, \"end\": 76.19, \"value\": \"G\" },\r\n    { \"start\":
+    76.19, \"end\": 76.54, \"value\": \"B\" },\r\n    { \"start\": 76.54, \"end\":
+    76.61, \"value\": \"E\" },\r\n    { \"start\": 76.61, \"end\": 76.82, \"value\":
+    \"C\" },\r\n    { \"start\": 76.82, \"end\": 77.03, \"value\": \"B\" },\r\n   
+    { \"start\": 77.03, \"end\": 77.10, \"value\": \"F\" },\r\n    { \"start\": 77.10,
+    \"end\": 77.17, \"value\": \"D\" },\r\n    { \"start\": 77.17, \"end\": 77.31,
+    \"value\": \"B\" },\r\n    { \"start\": 77.31, \"end\": 77.52, \"value\": \"F\"
+    },\r\n    { \"start\": 77.52, \"end\": 77.60, \"value\": \"A\" },\r\n    { \"start\":
+    77.60, \"end\": 77.71, \"value\": \"B\" },\r\n    { \"start\": 77.71, \"end\":
+    77.92, \"value\": \"C\" },\r\n    { \"start\": 77.92, \"end\": 78.06, \"value\":
+    \"B\" },\r\n    { \"start\": 78.06, \"end\": 78.13, \"value\": \"G\" },\r\n   
+    { \"start\": 78.13, \"end\": 78.27, \"value\": \"C\" },\r\n    { \"start\": 78.27,
+    \"end\": 78.41, \"value\": \"D\" },\r\n    { \"start\": 78.41, \"end\": 78.48,
+    \"value\": \"B\" },\r\n    { \"start\": 78.48, \"end\": 78.62, \"value\": \"C\"
+    },\r\n    { \"start\": 78.62, \"end\": 78.76, \"value\": \"B\" },\r\n    { \"start\":
+    78.76, \"end\": 78.90, \"value\": \"G\" },\r\n    { \"start\": 78.90, \"end\":
+    79.04, \"value\": \"B\" },\r\n    { \"start\": 79.04, \"end\": 79.12, \"value\":
+    \"A\" },\r\n    { \"start\": 79.12, \"end\": 79.34, \"value\": \"B\" },\r\n   
+    { \"start\": 79.34, \"end\": 79.41, \"value\": \"E\" },\r\n    { \"start\": 79.41,
+    \"end\": 79.48, \"value\": \"F\" },\r\n    { \"start\": 79.48, \"end\": 79.55,
+    \"value\": \"B\" },\r\n    { \"start\": 79.55, \"end\": 79.62, \"value\": \"C\"
+    },\r\n    { \"start\": 79.62, \"end\": 80.32, \"value\": \"B\" },\r\n    { \"start\":
+    80.32, \"end\": 80.46, \"value\": \"G\" },\r\n    { \"start\": 80.46, \"end\":
+    80.57, \"value\": \"A\" },\r\n    { \"start\": 80.57, \"end\": 80.65, \"value\":
+    \"B\" },\r\n    { \"start\": 80.65, \"end\": 80.73, \"value\": \"A\" },\r\n   
+    { \"start\": 80.73, \"end\": 80.98, \"value\": \"F\" },\r\n    { \"start\": 80.98,
+    \"end\": 81.05, \"value\": \"B\" },\r\n    { \"start\": 81.05, \"end\": 81.19,
+    \"value\": \"E\" },\r\n    { \"start\": 81.19, \"end\": 81.30, \"value\": \"A\"
+    },\r\n    { \"start\": 81.30, \"end\": 81.51, \"value\": \"B\" },\r\n    { \"start\":
+    81.51, \"end\": 81.58, \"value\": \"C\" },\r\n    { \"start\": 81.58, \"end\":
+    81.72, \"value\": \"B\" },\r\n    { \"start\": 81.72, \"end\": 81.84, \"value\":
+    \"A\" },\r\n    { \"start\": 81.84, \"end\": 81.92, \"value\": \"B\" },\r\n   
+    { \"start\": 81.92, \"end\": 82.02, \"value\": \"A\" },\r\n    { \"start\": 82.02,
+    \"end\": 82.07, \"value\": \"G\" },\r\n    { \"start\": 82.07, \"end\": 82.97,
+    \"value\": \"B\" },\r\n    { \"start\": 82.97, \"end\": 83.04, \"value\": \"G\"
+    },\r\n    { \"start\": 83.04, \"end\": 83.11, \"value\": \"C\" },\r\n    { \"start\":
+    83.11, \"end\": 83.21, \"value\": \"A\" },\r\n    { \"start\": 83.21, \"end\":
+    83.29, \"value\": \"B\" },\r\n    { \"start\": 83.29, \"end\": 83.41, \"value\":
+    \"A\" },\r\n    { \"start\": 83.41, \"end\": 83.79, \"value\": \"B\" },\r\n   
+    { \"start\": 83.79, \"end\": 84.00, \"value\": \"F\" },\r\n    { \"start\": 84.00,
+    \"end\": 84.09, \"value\": \"A\" },\r\n    { \"start\": 84.09, \"end\": 84.15,
+    \"value\": \"G\" },\r\n    { \"start\": 84.15, \"end\": 84.21, \"value\": \"C\"
+    },\r\n    { \"start\": 84.21, \"end\": 84.28, \"value\": \"G\" },\r\n    { \"start\":
+    84.28, \"end\": 84.42, \"value\": \"B\" },\r\n    { \"start\": 84.42, \"end\":
+    84.49, \"value\": \"G\" },\r\n    { \"start\": 84.49, \"end\": 84.59, \"value\":
+    \"A\" },\r\n    { \"start\": 84.59, \"end\": 84.69, \"value\": \"B\" },\r\n   
+    { \"start\": 84.69, \"end\": 84.94, \"value\": \"A\" },\r\n    { \"start\": 84.94,
+    \"end\": 85.27, \"value\": \"B\" },\r\n    { \"start\": 85.27, \"end\": 85.40,
+    \"value\": \"A\" },\r\n    { \"start\": 85.40, \"end\": 85.51, \"value\": \"C\"
+    },\r\n    { \"start\": 85.51, \"end\": 85.58, \"value\": \"B\" },\r\n    { \"start\":
+    85.58, \"end\": 85.74, \"value\": \"A\" },\r\n    { \"start\": 85.74, \"end\":
+    85.86, \"value\": \"G\" },\r\n    { \"start\": 85.86, \"end\": 86.07, \"value\":
+    \"E\" },\r\n    { \"start\": 86.07, \"end\": 86.21, \"value\": \"A\" },\r\n   
+    { \"start\": 86.21, \"end\": 86.47, \"value\": \"B\" },\r\n    { \"start\": 86.47,
+    \"end\": 86.68, \"value\": \"C\" },\r\n    { \"start\": 86.68, \"end\": 87.17,
+    \"value\": \"B\" },\r\n    { \"start\": 87.17, \"end\": 87.31, \"value\": \"C\"
+    },\r\n    { \"start\": 87.31, \"end\": 87.59, \"value\": \"B\" },\r\n    { \"start\":
+    87.59, \"end\": 87.66, \"value\": \"G\" },\r\n    { \"start\": 87.66, \"end\":
+    87.96, \"value\": \"A\" },\r\n    { \"start\": 87.96, \"end\": 88.10, \"value\":
+    \"B\" },\r\n    { \"start\": 88.10, \"end\": 88.38, \"value\": \"C\" },\r\n   
+    { \"start\": 88.38, \"end\": 88.59, \"value\": \"B\" },\r\n    { \"start\": 88.59,
+    \"end\": 88.73, \"value\": \"C\" },\r\n    { \"start\": 88.73, \"end\": 88.80,
+    \"value\": \"G\" },\r\n    { \"start\": 88.80, \"end\": 88.87, \"value\": \"B\"
+    },\r\n    { \"start\": 88.87, \"end\": 88.95, \"value\": \"A\" },\r\n    { \"start\":
+    88.95, \"end\": 89.09, \"value\": \"C\" },\r\n    { \"start\": 89.09, \"end\":
+    89.23, \"value\": \"B\" },\r\n    { \"start\": 89.23, \"end\": 89.30, \"value\":
+    \"C\" },\r\n    { \"start\": 89.30, \"end\": 89.44, \"value\": \"B\" },\r\n   
+    { \"start\": 89.44, \"end\": 89.55, \"value\": \"A\" },\r\n    { \"start\": 89.55,
+    \"end\": 89.60, \"value\": \"C\" },\r\n    { \"start\": 89.60, \"end\": 89.65,
+    \"value\": \"B\" },\r\n    { \"start\": 89.65, \"end\": 89.72, \"value\": \"C\"
+    },\r\n    { \"start\": 89.72, \"end\": 89.93, \"value\": \"B\" },\r\n    { \"start\":
+    89.93, \"end\": 90.07, \"value\": \"A\" },\r\n    { \"start\": 90.07, \"end\":
+    90.22, \"value\": \"H\" },\r\n    { \"start\": 90.22, \"end\": 90.30, \"value\":
+    \"A\" },\r\n    { \"start\": 90.30, \"end\": 90.45, \"value\": \"C\" },\r\n   
+    { \"start\": 90.45, \"end\": 90.80, \"value\": \"B\" },\r\n    { \"start\": 90.80,
+    \"end\": 90.87, \"value\": \"G\" },\r\n    { \"start\": 90.87, \"end\": 91.43,
+    \"value\": \"B\" },\r\n    { \"start\": 91.43, \"end\": 91.50, \"value\": \"E\"
+    },\r\n    { \"start\": 91.50, \"end\": 91.64, \"value\": \"F\" },\r\n    { \"start\":
+    91.64, \"end\": 91.78, \"value\": \"A\" },\r\n    { \"start\": 91.78, \"end\":
+    92.03, \"value\": \"F\" },\r\n    { \"start\": 92.03, \"end\": 92.21, \"value\":
+    \"A\" },\r\n    { \"start\": 92.21, \"end\": 92.23, \"value\": \"B\" },\r\n   
+    { \"start\": 92.23, \"end\": 92.30, \"value\": \"A\" },\r\n    { \"start\": 92.30,
+    \"end\": 92.37, \"value\": \"C\" },\r\n    { \"start\": 92.37, \"end\": 92.49,
+    \"value\": \"A\" },\r\n    { \"start\": 92.49, \"end\": 92.70, \"value\": \"B\"
+    },\r\n    { \"start\": 92.70, \"end\": 92.77, \"value\": \"G\" },\r\n    { \"start\":
+    92.77, \"end\": 92.91, \"value\": \"C\" },\r\n    { \"start\": 92.91, \"end\":
+    93.05, \"value\": \"B\" },\r\n    { \"start\": 93.05, \"end\": 93.13, \"value\":
+    \"A\" },\r\n    { \"start\": 93.13, \"end\": 93.31, \"value\": \"C\" },\r\n   
+    { \"start\": 93.31, \"end\": 93.38, \"value\": \"B\" },\r\n    { \"start\": 93.38,
+    \"end\": 93.49, \"value\": \"A\" },\r\n    { \"start\": 93.49, \"end\": 93.71,
+    \"value\": \"B\" },\r\n    { \"start\": 93.71, \"end\": 93.79, \"value\": \"A\"
+    },\r\n    { \"start\": 93.79, \"end\": 93.93, \"value\": \"C\" },\r\n    { \"start\":
+    93.93, \"end\": 94.00, \"value\": \"B\" },\r\n    { \"start\": 94.00, \"end\":
+    94.21, \"value\": \"G\" },\r\n    { \"start\": 94.21, \"end\": 94.28, \"value\":
+    \"B\" },\r\n    { \"start\": 94.28, \"end\": 94.36, \"value\": \"A\" },\r\n   
+    { \"start\": 94.36, \"end\": 94.48, \"value\": \"E\" },\r\n    { \"start\": 94.48,
+    \"end\": 94.57, \"value\": \"A\" },\r\n    { \"start\": 94.57, \"end\": 94.65,
+    \"value\": \"B\" },\r\n    { \"start\": 94.65, \"end\": 94.77, \"value\": \"A\"
+    },\r\n    { \"start\": 94.77, \"end\": 95.04, \"value\": \"B\" },\r\n    { \"start\":
+    95.04, \"end\": 95.18, \"value\": \"C\" },\r\n    { \"start\": 95.18, \"end\":
+    95.26, \"value\": \"A\" },\r\n    { \"start\": 95.26, \"end\": 95.34, \"value\":
+    \"B\" },\r\n    { \"start\": 95.34, \"end\": 95.42, \"value\": \"A\" },\r\n   
+    { \"start\": 95.42, \"end\": 95.54, \"value\": \"B\" },\r\n    { \"start\": 95.54,
+    \"end\": 95.70, \"value\": \"C\" },\r\n    { \"start\": 95.70, \"end\": 95.72,
+    \"value\": \"A\" },\r\n    { \"start\": 95.72, \"end\": 95.80, \"value\": \"B\"
+    },\r\n    { \"start\": 95.80, \"end\": 95.88, \"value\": \"A\" },\r\n    { \"start\":
+    95.88, \"end\": 96.07, \"value\": \"C\" },\r\n    { \"start\": 96.07, \"end\":
+    96.21, \"value\": \"B\" },\r\n    { \"start\": 96.21, \"end\": 96.50, \"value\":
+    \"A\" },\r\n    { \"start\": 96.50, \"end\": 96.72, \"value\": \"C\" },\r\n   
+    { \"start\": 96.72, \"end\": 96.79, \"value\": \"B\" },\r\n    { \"start\": 96.79,
+    \"end\": 96.93, \"value\": \"C\" },\r\n    { \"start\": 96.93, \"end\": 97.07,
+    \"value\": \"G\" },\r\n    { \"start\": 97.07, \"end\": 97.28, \"value\": \"B\"
+    },\r\n    { \"start\": 97.28, \"end\": 97.37, \"value\": \"A\" },\r\n    { \"start\":
+    97.37, \"end\": 97.83, \"value\": \"B\" },\r\n    { \"start\": 97.83, \"end\":
+    97.94, \"value\": \"A\" },\r\n    { \"start\": 97.94, \"end\": 98.13, \"value\":
+    \"B\" },\r\n    { \"start\": 98.13, \"end\": 98.27, \"value\": \"F\" },\r\n   
+    { \"start\": 98.27, \"end\": 98.35, \"value\": \"A\" },\r\n    { \"start\": 98.35,
+    \"end\": 98.54, \"value\": \"C\" },\r\n    { \"start\": 98.54, \"end\": 98.61,
+    \"value\": \"G\" },\r\n    { \"start\": 98.61, \"end\": 98.68, \"value\": \"B\"
+    },\r\n    { \"start\": 98.68, \"end\": 98.77, \"value\": \"A\" },\r\n    { \"start\":
+    98.77, \"end\": 98.85, \"value\": \"G\" },\r\n    { \"start\": 98.85, \"end\":
+    99.16, \"value\": \"A\" },\r\n    { \"start\": 99.16, \"end\": 99.81, \"value\":
+    \"B\" },\r\n    { \"start\": 99.81, \"end\": 100.09, \"value\": \"F\" },\r\n   
+    { \"start\": 100.09, \"end\": 100.16, \"value\": \"B\" },\r\n    { \"start\":
+    100.16, \"end\": 100.30, \"value\": \"C\" },\r\n    { \"start\": 100.30, \"end\":
+    100.41, \"value\": \"A\" },\r\n    { \"start\": 100.41, \"end\": 100.56, \"value\":
+    \"C\" },\r\n    { \"start\": 100.56, \"end\": 100.70, \"value\": \"D\" },\r\n   
+    { \"start\": 100.70, \"end\": 100.77, \"value\": \"C\" },\r\n    { \"start\":
+    100.77, \"end\": 100.85, \"value\": \"A\" },\r\n    { \"start\": 100.85, \"end\":
+    101.31, \"value\": \"B\" },\r\n    { \"start\": 101.31, \"end\": 101.45, \"value\":
+    \"G\" },\r\n    { \"start\": 101.45, \"end\": 101.59, \"value\": \"B\" },\r\n   
+    { \"start\": 101.59, \"end\": 101.73, \"value\": \"G\" },\r\n    { \"start\":
+    101.73, \"end\": 102.01, \"value\": \"B\" },\r\n    { \"start\": 102.01, \"end\":
+    102.15, \"value\": \"G\" },\r\n    { \"start\": 102.15, \"end\": 102.57, \"value\":
+    \"B\" },\r\n    { \"start\": 102.57, \"end\": 102.88, \"value\": \"G\" },\r\n   
+    { \"start\": 102.88, \"end\": 102.97, \"value\": \"A\" },\r\n    { \"start\":
+    102.97, \"end\": 103.07, \"value\": \"B\" },\r\n    { \"start\": 103.07, \"end\":
+    103.14, \"value\": \"C\" },\r\n    { \"start\": 103.14, \"end\": 103.28, \"value\":
+    \"B\" },\r\n    { \"start\": 103.28, \"end\": 103.36, \"value\": \"A\" },\r\n   
+    { \"start\": 103.36, \"end\": 103.65, \"value\": \"B\" },\r\n    { \"start\":
+    103.65, \"end\": 103.69, \"value\": \"C\" },\r\n    { \"start\": 103.69, \"end\":
+    104.18, \"value\": \"B\" },\r\n    { \"start\": 104.18, \"end\": 104.25, \"value\":
+    \"C\" },\r\n    { \"start\": 104.25, \"end\": 104.37, \"value\": \"A\" },\r\n   
+    { \"start\": 104.37, \"end\": 104.47, \"value\": \"B\" },\r\n    { \"start\":
+    104.47, \"end\": 104.54, \"value\": \"C\" },\r\n    { \"start\": 104.54, \"end\":
+    104.62, \"value\": \"A\" },\r\n    { \"start\": 104.62, \"end\": 104.78, \"value\":
+    \"C\" },\r\n    { \"start\": 104.78, \"end\": 104.93, \"value\": \"A\" },\r\n   
+    { \"start\": 104.93, \"end\": 105.00, \"value\": \"B\" },\r\n    { \"start\":
+    105.00, \"end\": 105.14, \"value\": \"C\" },\r\n    { \"start\": 105.14, \"end\":
+    105.49, \"value\": \"B\" },\r\n    { \"start\": 105.49, \"end\": 105.56, \"value\":
+    \"D\" },\r\n    { \"start\": 105.56, \"end\": 105.70, \"value\": \"B\" },\r\n   
+    { \"start\": 105.70, \"end\": 105.84, \"value\": \"C\" },\r\n    { \"start\":
+    105.84, \"end\": 105.92, \"value\": \"A\" },\r\n    { \"start\": 105.92, \"end\":
+    106.32, \"value\": \"B\" },\r\n    { \"start\": 106.32, \"end\": 106.53, \"value\":
+    \"F\" },\r\n    { \"start\": 106.53, \"end\": 106.81, \"value\": \"B\" },\r\n   
+    { \"start\": 106.81, \"end\": 106.95, \"value\": \"C\" },\r\n    { \"start\":
+    106.95, \"end\": 107.30, \"value\": \"B\" },\r\n    { \"start\": 107.30, \"end\":
+    107.37, \"value\": \"C\" },\r\n    { \"start\": 107.37, \"end\": 107.72, \"value\":
+    \"B\" },\r\n    { \"start\": 107.72, \"end\": 107.86, \"value\": \"C\" },\r\n   
+    { \"start\": 107.86, \"end\": 107.93, \"value\": \"G\" },\r\n    { \"start\":
+    107.93, \"end\": 108.07, \"value\": \"C\" },\r\n    { \"start\": 108.07, \"end\":
+    108.14, \"value\": \"E\" },\r\n    { \"start\": 108.14, \"end\": 108.42, \"value\":
+    \"B\" },\r\n    { \"start\": 108.42, \"end\": 108.55, \"value\": \"A\" },\r\n   
+    { \"start\": 108.55, \"end\": 108.70, \"value\": \"B\" },\r\n    { \"start\":
+    108.70, \"end\": 108.77, \"value\": \"C\" },\r\n    { \"start\": 108.77, \"end\":
+    109.05, \"value\": \"B\" },\r\n    { \"start\": 109.05, \"end\": 109.25, \"value\":
+    \"A\" },\r\n    { \"start\": 109.25, \"end\": 109.48, \"value\": \"B\" },\r\n   
+    { \"start\": 109.48, \"end\": 109.55, \"value\": \"G\" },\r\n    { \"start\":
+    109.55, \"end\": 109.69, \"value\": \"B\" },\r\n    { \"start\": 109.69, \"end\":
+    109.90, \"value\": \"E\" },\r\n    { \"start\": 109.90, \"end\": 109.97, \"value\":
+    \"C\" },\r\n    { \"start\": 109.97, \"end\": 110.04, \"value\": \"G\" },\r\n   
+    { \"start\": 110.04, \"end\": 110.18, \"value\": \"E\" },\r\n    { \"start\":
+    110.18, \"end\": 110.42, \"value\": \"B\" },\r\n    { \"start\": 110.42, \"end\":
+    110.44, \"value\": \"A\" },\r\n    { \"start\": 110.44, \"end\": 110.51, \"value\":
+    \"B\" },\r\n    { \"start\": 110.51, \"end\": 110.58, \"value\": \"A\" },\r\n   
+    { \"start\": 110.58, \"end\": 110.75, \"value\": \"C\" },\r\n    { \"start\":
+    110.75, \"end\": 110.82, \"value\": \"E\" },\r\n    { \"start\": 110.82, \"end\":
+    110.90, \"value\": \"A\" },\r\n    { \"start\": 110.90, \"end\": 110.97, \"value\":
+    \"B\" },\r\n    { \"start\": 110.97, \"end\": 111.10, \"value\": \"G\" },\r\n   
+    { \"start\": 111.10, \"end\": 111.17, \"value\": \"C\" },\r\n    { \"start\":
+    111.17, \"end\": 111.73, \"value\": \"B\" },\r\n    { \"start\": 111.73, \"end\":
+    111.87, \"value\": \"E\" },\r\n    { \"start\": 111.87, \"end\": 112.01, \"value\":
+    \"F\" },\r\n    { \"start\": 112.01, \"end\": 112.08, \"value\": \"C\" },\r\n   
+    { \"start\": 112.08, \"end\": 112.15, \"value\": \"B\" },\r\n    { \"start\":
+    112.15, \"end\": 112.23, \"value\": \"A\" },\r\n    { \"start\": 112.23, \"end\":
+    112.33, \"value\": \"D\" },\r\n    { \"start\": 112.33, \"end\": 112.38, \"value\":
+    \"C\" },\r\n    { \"start\": 112.38, \"end\": 112.45, \"value\": \"G\" },\r\n   
+    { \"start\": 112.45, \"end\": 112.59, \"value\": \"B\" },\r\n    { \"start\":
+    112.59, \"end\": 112.73, \"value\": \"F\" },\r\n    { \"start\": 112.73, \"end\":
+    112.87, \"value\": \"C\" },\r\n    { \"start\": 112.87, \"end\": 112.94, \"value\":
+    \"E\" },\r\n    { \"start\": 112.94, \"end\": 113.01, \"value\": \"C\" },\r\n   
+    { \"start\": 113.01, \"end\": 113.29, \"value\": \"B\" },\r\n    { \"start\":
+    113.29, \"end\": 113.37, \"value\": \"A\" },\r\n    { \"start\": 113.37, \"end\":
+    113.57, \"value\": \"C\" },\r\n    { \"start\": 113.57, \"end\": 113.64, \"value\":
+    \"B\" },\r\n    { \"start\": 113.64, \"end\": 113.72, \"value\": \"A\" },\r\n   
+    { \"start\": 113.72, \"end\": 113.93, \"value\": \"C\" },\r\n    { \"start\":
+    113.93, \"end\": 114.00, \"value\": \"B\" },\r\n    { \"start\": 114.00, \"end\":
+    114.14, \"value\": \"A\" },\r\n    { \"start\": 114.14, \"end\": 114.19, \"value\":
+    \"B\" },\r\n    { \"start\": 114.19, \"end\": 114.31, \"value\": \"F\" },\r\n   
+    { \"start\": 114.31, \"end\": 114.38, \"value\": \"E\" },\r\n    { \"start\":
+    114.38, \"end\": 114.52, \"value\": \"F\" },\r\n    { \"start\": 114.52, \"end\":
+    114.79, \"value\": \"B\" },\r\n    { \"start\": 114.79, \"end\": 115.06, \"value\":
+    \"F\" },\r\n    { \"start\": 115.06, \"end\": 115.13, \"value\": \"B\" },\r\n   
+    { \"start\": 115.13, \"end\": 115.20, \"value\": \"G\" },\r\n    { \"start\":
+    115.20, \"end\": 115.34, \"value\": \"C\" },\r\n    { \"start\": 115.34, \"end\":
+    115.69, \"value\": \"B\" },\r\n    { \"start\": 115.69, \"end\": 115.76, \"value\":
+    \"G\" },\r\n    { \"start\": 115.76, \"end\": 115.97, \"value\": \"F\" },\r\n   
+    { \"start\": 115.97, \"end\": 116.04, \"value\": \"B\" },\r\n    { \"start\":
+    116.04, \"end\": 116.12, \"value\": \"A\" },\r\n    { \"start\": 116.12, \"end\":
+    116.34, \"value\": \"C\" },\r\n    { \"start\": 116.34, \"end\": 116.55, \"value\":
+    \"B\" },\r\n    { \"start\": 116.55, \"end\": 116.76, \"value\": \"G\" },\r\n   
+    { \"start\": 116.76, \"end\": 116.83, \"value\": \"C\" },\r\n    { \"start\":
+    116.83, \"end\": 116.94, \"value\": \"A\" },\r\n    { \"start\": 116.94, \"end\":
+    117.00, \"value\": \"G\" },\r\n    { \"start\": 117.00, \"end\": 117.06, \"value\":
+    \"B\" },\r\n    { \"start\": 117.06, \"end\": 117.14, \"value\": \"A\" },\r\n   
+    { \"start\": 117.14, \"end\": 117.25, \"value\": \"B\" },\r\n    { \"start\":
+    117.25, \"end\": 117.32, \"value\": \"G\" },\r\n    { \"start\": 117.32, \"end\":
+    117.39, \"value\": \"C\" },\r\n    { \"start\": 117.39, \"end\": 117.49, \"value\":
+    \"A\" },\r\n    { \"start\": 117.49, \"end\": 117.56, \"value\": \"C\" },\r\n   
+    { \"start\": 117.56, \"end\": 117.63, \"value\": \"B\" },\r\n    { \"start\":
+    117.63, \"end\": 117.77, \"value\": \"C\" },\r\n    { \"start\": 117.77, \"end\":
+    117.84, \"value\": \"B\" },\r\n    { \"start\": 117.84, \"end\": 117.92, \"value\":
+    \"A\" },\r\n    { \"start\": 117.92, \"end\": 118.01, \"value\": \"C\" },\r\n   
+    { \"start\": 118.01, \"end\": 118.15, \"value\": \"B\" },\r\n    { \"start\":
+    118.15, \"end\": 118.22, \"value\": \"F\" },\r\n    { \"start\": 118.22, \"end\":
+    118.34, \"value\": \"A\" },\r\n    { \"start\": 118.34, \"end\": 118.44, \"value\":
+    \"G\" },\r\n    { \"start\": 118.44, \"end\": 118.51, \"value\": \"C\" },\r\n   
+    { \"start\": 118.51, \"end\": 118.59, \"value\": \"A\" },\r\n    { \"start\":
+    118.59, \"end\": 118.76, \"value\": \"C\" },\r\n    { \"start\": 118.76, \"end\":
+    118.83, \"value\": \"F\" },\r\n    { \"start\": 118.83, \"end\": 118.98, \"value\":
+    \"X\" },\r\n    { \"start\": 118.98, \"end\": 119.07, \"value\": \"B\" },\r\n   
+    { \"start\": 119.07, \"end\": 119.14, \"value\": \"F\" },\r\n    { \"start\":
+    119.14, \"end\": 119.21, \"value\": \"C\" },\r\n    { \"start\": 119.21, \"end\":
+    119.91, \"value\": \"B\" },\r\n    { \"start\": 119.91, \"end\": 120.01, \"value\":
+    \"A\" },\r\n    { \"start\": 120.01, \"end\": 120.09, \"value\": \"G\" },\r\n   
+    { \"start\": 120.09, \"end\": 120.31, \"value\": \"X\" },\r\n    { \"start\":
+    120.31, \"end\": 120.41, \"value\": \"C\" },\r\n    { \"start\": 120.41, \"end\":
+    120.60, \"value\": \"A\" },\r\n    { \"start\": 120.60, \"end\": 121.10, \"value\":
+    \"B\" },\r\n    { \"start\": 121.10, \"end\": 121.17, \"value\": \"G\" },\r\n   
+    { \"start\": 121.17, \"end\": 121.31, \"value\": \"E\" },\r\n    { \"start\":
+    121.31, \"end\": 121.42, \"value\": \"A\" },\r\n    { \"start\": 121.42, \"end\":
+    121.59, \"value\": \"E\" },\r\n    { \"start\": 121.59, \"end\": 121.67, \"value\":
+    \"A\" },\r\n    { \"start\": 121.67, \"end\": 122.16, \"value\": \"B\" },\r\n   
+    { \"start\": 122.16, \"end\": 122.23, \"value\": \"G\" },\r\n    { \"start\":
+    122.23, \"end\": 122.30, \"value\": \"H\" },\r\n    { \"start\": 122.30, \"end\":
+    122.37, \"value\": \"C\" },\r\n    { \"start\": 122.37, \"end\": 122.45, \"value\":
+    \"A\" },\r\n    { \"start\": 122.45, \"end\": 122.61, \"value\": \"C\" },\r\n   
+    { \"start\": 122.61, \"end\": 122.68, \"value\": \"B\" },\r\n    { \"start\":
+    122.68, \"end\": 122.75, \"value\": \"G\" },\r\n    { \"start\": 122.75, \"end\":
+    122.82, \"value\": \"F\" },\r\n    { \"start\": 122.82, \"end\": 123.03, \"value\":
+    \"B\" },\r\n    { \"start\": 123.03, \"end\": 123.17, \"value\": \"A\" },\r\n   
+    { \"start\": 123.17, \"end\": 123.36, \"value\": \"B\" },\r\n    { \"start\":
+    123.36, \"end\": 123.44, \"value\": \"A\" },\r\n    { \"start\": 123.44, \"end\":
+    123.59, \"value\": \"B\" },\r\n    { \"start\": 123.59, \"end\": 123.66, \"value\":
+    \"G\" },\r\n    { \"start\": 123.66, \"end\": 123.94, \"value\": \"B\" },\r\n   
+    { \"start\": 123.94, \"end\": 124.01, \"value\": \"G\" },\r\n    { \"start\":
+    124.01, \"end\": 124.29, \"value\": \"B\" },\r\n    { \"start\": 124.29, \"end\":
+    124.43, \"value\": \"E\" },\r\n    { \"start\": 124.43, \"end\": 124.64, \"value\":
+    \"G\" },\r\n    { \"start\": 124.64, \"end\": 125.20, \"value\": \"B\" },\r\n   
+    { \"start\": 125.20, \"end\": 125.32, \"value\": \"A\" },\r\n    { \"start\":
+    125.32, \"end\": 125.40, \"value\": \"B\" },\r\n    { \"start\": 125.40, \"end\":
+    125.54, \"value\": \"C\" },\r\n    { \"start\": 125.54, \"end\": 125.82, \"value\":
+    \"B\" },\r\n    { \"start\": 125.82, \"end\": 125.90, \"value\": \"A\" },\r\n   
+    { \"start\": 125.90, \"end\": 126.03, \"value\": \"B\" },\r\n    { \"start\":
+    126.03, \"end\": 126.10, \"value\": \"G\" },\r\n    { \"start\": 126.10, \"end\":
+    126.24, \"value\": \"C\" },\r\n    { \"start\": 126.24, \"end\": 126.31, \"value\":
+    \"B\" },\r\n    { \"start\": 126.31, \"end\": 126.45, \"value\": \"C\" },\r\n   
+    { \"start\": 126.45, \"end\": 126.53, \"value\": \"A\" },\r\n    { \"start\":
+    126.53, \"end\": 126.62, \"value\": \"C\" },\r\n    { \"start\": 126.62, \"end\":
+    126.72, \"value\": \"A\" },\r\n    { \"start\": 126.72, \"end\": 126.81, \"value\":
+    \"G\" },\r\n    { \"start\": 126.81, \"end\": 126.95, \"value\": \"C\" },\r\n   
+    { \"start\": 126.95, \"end\": 127.02, \"value\": \"B\" },\r\n    { \"start\":
+    127.02, \"end\": 127.16, \"value\": \"G\" },\r\n    { \"start\": 127.16, \"end\":
+    127.23, \"value\": \"C\" },\r\n    { \"start\": 127.23, \"end\": 127.37, \"value\":
+    \"B\" },\r\n    { \"start\": 127.37, \"end\": 127.44, \"value\": \"G\" },\r\n   
+    { \"start\": 127.44, \"end\": 127.65, \"value\": \"C\" },\r\n    { \"start\":
+    127.65, \"end\": 127.79, \"value\": \"B\" },\r\n    { \"start\": 127.79, \"end\":
+    127.86, \"value\": \"C\" },\r\n    { \"start\": 127.86, \"end\": 127.93, \"value\":
+    \"B\" },\r\n    { \"start\": 127.93, \"end\": 128.10, \"value\": \"A\" },\r\n   
+    { \"start\": 128.10, \"end\": 128.21, \"value\": \"G\" },\r\n    { \"start\":
+    128.21, \"end\": 128.42, \"value\": \"E\" },\r\n    { \"start\": 128.42, \"end\":
+    128.49, \"value\": \"G\" },\r\n    { \"start\": 128.49, \"end\": 128.63, \"value\":
+    \"E\" },\r\n    { \"start\": 128.63, \"end\": 128.80, \"value\": \"A\" },\r\n   
+    { \"start\": 128.80, \"end\": 128.98, \"value\": \"G\" },\r\n    { \"start\":
+    128.98, \"end\": 129.05, \"value\": \"C\" },\r\n    { \"start\": 129.05, \"end\":
+    129.12, \"value\": \"E\" },\r\n    { \"start\": 129.12, \"end\": 129.26, \"value\":
+    \"C\" },\r\n    { \"start\": 129.26, \"end\": 129.51, \"value\": \"A\" },\r\n   
+    { \"start\": 129.51, \"end\": 129.64, \"value\": \"G\" },\r\n    { \"start\":
+    129.64, \"end\": 129.78, \"value\": \"C\" },\r\n    { \"start\": 129.78, \"end\":
+    129.85, \"value\": \"B\" },\r\n    { \"start\": 129.85, \"end\": 129.99, \"value\":
+    \"C\" },\r\n    { \"start\": 129.99, \"end\": 130.07, \"value\": \"A\" },\r\n   
+    { \"start\": 130.07, \"end\": 130.22, \"value\": \"B\" },\r\n    { \"start\":
+    130.22, \"end\": 130.29, \"value\": \"G\" },\r\n    { \"start\": 130.29, \"end\":
+    130.45, \"value\": \"X\" },\r\n    { \"start\": 130.45, \"end\": 130.74, \"value\":
+    \"B\" },\r\n    { \"start\": 130.74, \"end\": 130.81, \"value\": \"C\" },\r\n   
+    { \"start\": 130.81, \"end\": 130.91, \"value\": \"A\" },\r\n    { \"start\":
+    130.91, \"end\": 130.97, \"value\": \"B\" },\r\n    { \"start\": 130.97, \"end\":
+    131.09, \"value\": \"C\" },\r\n    { \"start\": 131.09, \"end\": 131.65, \"value\":
+    \"B\" },\r\n    { \"start\": 131.65, \"end\": 131.72, \"value\": \"G\" },\r\n   
+    { \"start\": 131.72, \"end\": 132.21, \"value\": \"B\" },\r\n    { \"start\":
+    132.21, \"end\": 132.31, \"value\": \"A\" },\r\n    { \"start\": 132.31, \"end\":
+    132.40, \"value\": \"G\" },\r\n    { \"start\": 132.40, \"end\": 132.47, \"value\":
+    \"E\" },\r\n    { \"start\": 132.47, \"end\": 132.54, \"value\": \"C\" },\r\n   
+    { \"start\": 132.54, \"end\": 132.68, \"value\": \"B\" },\r\n    { \"start\":
+    132.68, \"end\": 132.90, \"value\": \"A\" },\r\n    { \"start\": 132.90, \"end\":
+    133.30, \"value\": \"B\" },\r\n    { \"start\": 133.30, \"end\": 133.38, \"value\":
+    \"A\" },\r\n    { \"start\": 133.38, \"end\": 133.54, \"value\": \"B\" },\r\n   
+    { \"start\": 133.54, \"end\": 133.64, \"value\": \"A\" },\r\n    { \"start\":
+    133.64, \"end\": 133.84, \"value\": \"E\" },\r\n    { \"start\": 133.84, \"end\":
+    133.98, \"value\": \"B\" },\r\n    { \"start\": 133.98, \"end\": 134.05, \"value\":
+    \"G\" },\r\n    { \"start\": 134.05, \"end\": 134.12, \"value\": \"B\" },\r\n   
+    { \"start\": 134.12, \"end\": 134.26, \"value\": \"G\" },\r\n    { \"start\":
+    134.26, \"end\": 134.47, \"value\": \"B\" },\r\n    { \"start\": 134.47, \"end\":
+    134.55, \"value\": \"A\" },\r\n    { \"start\": 134.55, \"end\": 134.64, \"value\":
+    \"E\" },\r\n    { \"start\": 134.64, \"end\": 134.73, \"value\": \"A\" },\r\n   
+    { \"start\": 134.73, \"end\": 134.78, \"value\": \"G\" },\r\n    { \"start\":
+    134.78, \"end\": 134.83, \"value\": \"C\" },\r\n    { \"start\": 134.83, \"end\":
+    134.97, \"value\": \"B\" },\r\n    { \"start\": 134.97, \"end\": 135.19, \"value\":
+    \"A\" },\r\n    { \"start\": 135.19, \"end\": 135.48, \"value\": \"B\" },\r\n   
+    { \"start\": 135.48, \"end\": 135.62, \"value\": \"C\" },\r\n    { \"start\":
+    135.62, \"end\": 135.90, \"value\": \"B\" },\r\n    { \"start\": 135.90, \"end\":
+    136.04, \"value\": \"G\" },\r\n    { \"start\": 136.04, \"end\": 136.11, \"value\":
+    \"B\" },\r\n    { \"start\": 136.11, \"end\": 136.25, \"value\": \"C\" },\r\n   
+    { \"start\": 136.25, \"end\": 136.35, \"value\": \"A\" },\r\n    { \"start\":
+    136.35, \"end\": 136.50, \"value\": \"B\" },\r\n    { \"start\": 136.50, \"end\":
+    136.57, \"value\": \"G\" },\r\n    { \"start\": 136.57, \"end\": 136.71, \"value\":
+    \"C\" },\r\n    { \"start\": 136.71, \"end\": 136.78, \"value\": \"B\" },\r\n   
+    { \"start\": 136.78, \"end\": 136.85, \"value\": \"G\" },\r\n    { \"start\":
+    136.85, \"end\": 136.99, \"value\": \"E\" },\r\n    { \"start\": 136.99, \"end\":
+    137.20, \"value\": \"C\" },\r\n    { \"start\": 137.20, \"end\": 137.28, \"value\":
+    \"A\" },\r\n    { \"start\": 137.28, \"end\": 137.49, \"value\": \"E\" },\r\n   
+    { \"start\": 137.49, \"end\": 137.63, \"value\": \"C\" },\r\n    { \"start\":
+    137.63, \"end\": 137.77, \"value\": \"B\" },\r\n    { \"start\": 137.77, \"end\":
+    137.91, \"value\": \"A\" },\r\n    { \"start\": 137.91, \"end\": 137.97, \"value\":
+    \"G\" },\r\n    { \"start\": 137.97, \"end\": 138.31, \"value\": \"B\" },\r\n   
+    { \"start\": 138.31, \"end\": 138.45, \"value\": \"C\" },\r\n    { \"start\":
+    138.45, \"end\": 138.73, \"value\": \"B\" },\r\n    { \"start\": 138.73, \"end\":
+    138.80, \"value\": \"C\" },\r\n    { \"start\": 138.80, \"end\": 139.01, \"value\":
+    \"B\" },\r\n    { \"start\": 139.01, \"end\": 139.08, \"value\": \"C\" },\r\n   
+    { \"start\": 139.08, \"end\": 139.15, \"value\": \"B\" },\r\n    { \"start\":
+    139.15, \"end\": 139.47, \"value\": \"A\" },\r\n    { \"start\": 139.47, \"end\":
+    139.99, \"value\": \"B\" },\r\n    { \"start\": 139.99, \"end\": 140.06, \"value\":
+    \"G\" },\r\n    { \"start\": 140.06, \"end\": 140.20, \"value\": \"D\" },\r\n   
+    { \"start\": 140.20, \"end\": 140.27, \"value\": \"B\" },\r\n    { \"start\":
+    140.27, \"end\": 140.41, \"value\": \"G\" },\r\n    { \"start\": 140.41, \"end\":
+    140.48, \"value\": \"C\" },\r\n    { \"start\": 140.48, \"end\": 140.55, \"value\":
+    \"B\" },\r\n    { \"start\": 140.55, \"end\": 140.69, \"value\": \"A\" },\r\n   
+    { \"start\": 140.69, \"end\": 140.77, \"value\": \"B\" },\r\n    { \"start\":
+    140.77, \"end\": 140.84, \"value\": \"G\" },\r\n    { \"start\": 140.84, \"end\":
+    141.05, \"value\": \"B\" },\r\n    { \"start\": 141.05, \"end\": 141.26, \"value\":
+    \"C\" },\r\n    { \"start\": 141.26, \"end\": 141.61, \"value\": \"B\" },\r\n   
+    { \"start\": 141.61, \"end\": 141.68, \"value\": \"E\" },\r\n    { \"start\":
+    141.68, \"end\": 141.75, \"value\": \"G\" },\r\n    { \"start\": 141.75, \"end\":
+    141.82, \"value\": \"F\" },\r\n    { \"start\": 141.82, \"end\": 141.89, \"value\":
+    \"G\" },\r\n    { \"start\": 141.89, \"end\": 141.96, \"value\": \"B\" },\r\n   
+    { \"start\": 141.96, \"end\": 142.09, \"value\": \"A\" },\r\n    { \"start\":
+    142.09, \"end\": 142.21, \"value\": \"B\" },\r\n    { \"start\": 142.21, \"end\":
+    142.28, \"value\": \"E\" },\r\n    { \"start\": 142.28, \"end\": 142.35, \"value\":
+    \"B\" },\r\n    { \"start\": 142.35, \"end\": 142.49, \"value\": \"E\" },\r\n   
+    { \"start\": 142.49, \"end\": 142.79, \"value\": \"A\" },\r\n    { \"start\":
+    142.79, \"end\": 143.31, \"value\": \"B\" },\r\n    { \"start\": 143.31, \"end\":
+    143.38, \"value\": \"G\" },\r\n    { \"start\": 143.38, \"end\": 143.54, \"value\":
+    \"A\" },\r\n    { \"start\": 143.54, \"end\": 143.73, \"value\": \"B\" },\r\n   
+    { \"start\": 143.73, \"end\": 144.01, \"value\": \"F\" },\r\n    { \"start\":
+    144.01, \"end\": 144.17, \"value\": \"A\" },\r\n    { \"start\": 144.17, \"end\":
+    144.31, \"value\": \"G\" },\r\n    { \"start\": 144.31, \"end\": 144.39, \"value\":
+    \"A\" },\r\n    { \"start\": 144.39, \"end\": 144.46, \"value\": \"C\" },\r\n   
+    { \"start\": 144.46, \"end\": 144.52, \"value\": \"B\" },\r\n    { \"start\":
+    144.52, \"end\": 144.60, \"value\": \"A\" },\r\n    { \"start\": 144.60, \"end\":
+    144.66, \"value\": \"B\" },\r\n    { \"start\": 144.66, \"end\": 144.79, \"value\":
+    \"E\" },\r\n    { \"start\": 144.79, \"end\": 144.87, \"value\": \"A\" },\r\n   
+    { \"start\": 144.87, \"end\": 145.14, \"value\": \"B\" },\r\n    { \"start\":
+    145.14, \"end\": 145.25, \"value\": \"A\" },\r\n    { \"start\": 145.25, \"end\":
+    145.46, \"value\": \"B\" },\r\n    { \"start\": 145.46, \"end\": 145.53, \"value\":
+    \"C\" },\r\n    { \"start\": 145.53, \"end\": 145.74, \"value\": \"B\" },\r\n   
+    { \"start\": 145.74, \"end\": 145.81, \"value\": \"C\" },\r\n    { \"start\":
+    145.81, \"end\": 145.89, \"value\": \"A\" },\r\n    { \"start\": 145.89, \"end\":
+    145.99, \"value\": \"C\" },\r\n    { \"start\": 145.99, \"end\": 146.48, \"value\":
+    \"B\" },\r\n    { \"start\": 146.48, \"end\": 146.55, \"value\": \"C\" },\r\n   
+    { \"start\": 146.55, \"end\": 147.67, \"value\": \"B\" },\r\n    { \"start\":
+    147.67, \"end\": 147.81, \"value\": \"G\" },\r\n    { \"start\": 147.81, \"end\":
+    147.88, \"value\": \"F\" },\r\n    { \"start\": 147.88, \"end\": 147.95, \"value\":
+    \"G\" },\r\n    { \"start\": 147.95, \"end\": 148.09, \"value\": \"F\" },\r\n   
+    { \"start\": 148.09, \"end\": 148.23, \"value\": \"E\" },\r\n    { \"start\":
+    148.23, \"end\": 148.31, \"value\": \"A\" },\r\n    { \"start\": 148.31, \"end\":
+    148.48, \"value\": \"F\" },\r\n    { \"start\": 148.48, \"end\": 148.55, \"value\":
+    \"B\" },\r\n    { \"start\": 148.55, \"end\": 148.62, \"value\": \"C\" },\r\n   
+    { \"start\": 148.62, \"end\": 148.97, \"value\": \"B\" },\r\n    { \"start\":
+    148.97, \"end\": 149.07, \"value\": \"A\" },\r\n    { \"start\": 149.07, \"end\":
+    149.36, \"value\": \"B\" },\r\n    { \"start\": 149.36, \"end\": 149.72, \"value\":
+    \"F\" },\r\n    { \"start\": 149.72, \"end\": 150.17, \"value\": \"B\" },\r\n   
+    { \"start\": 150.17, \"end\": 150.25, \"value\": \"A\" },\r\n    { \"start\":
+    150.25, \"end\": 150.33, \"value\": \"B\" },\r\n    { \"start\": 150.33, \"end\":
+    150.48, \"value\": \"A\" },\r\n    { \"start\": 150.48, \"end\": 150.74, \"value\":
+    \"B\" },\r\n    { \"start\": 150.74, \"end\": 150.85, \"value\": \"A\" },\r\n   
+    { \"start\": 150.85, \"end\": 151.06, \"value\": \"B\" },\r\n    { \"start\":
+    151.06, \"end\": 151.15, \"value\": \"A\" },\r\n    { \"start\": 151.15, \"end\":
+    151.21, \"value\": \"G\" },\r\n    { \"start\": 151.21, \"end\": 151.27, \"value\":
+    \"E\" },\r\n    { \"start\": 151.27, \"end\": 151.34, \"value\": \"G\" },\r\n   
+    { \"start\": 151.34, \"end\": 151.48, \"value\": \"B\" },\r\n    { \"start\":
+    151.48, \"end\": 151.55, \"value\": \"C\" },\r\n    { \"start\": 151.55, \"end\":
+    151.63, \"value\": \"A\" },\r\n    { \"start\": 151.63, \"end\": 151.71, \"value\":
+    \"B\" },\r\n    { \"start\": 151.71, \"end\": 151.79, \"value\": \"A\" },\r\n   
+    { \"start\": 151.79, \"end\": 152.00, \"value\": \"C\" },\r\n    { \"start\":
+    152.00, \"end\": 152.35, \"value\": \"B\" },\r\n    { \"start\": 152.35, \"end\":
+    152.48, \"value\": \"A\" },\r\n    { \"start\": 152.48, \"end\": 152.62, \"value\":
+    \"B\" },\r\n    { \"start\": 152.62, \"end\": 152.80, \"value\": \"A\" },\r\n   
+    { \"start\": 152.80, \"end\": 152.94, \"value\": \"G\" },\r\n    { \"start\":
+    152.94, \"end\": 153.02, \"value\": \"A\" },\r\n    { \"start\": 153.02, \"end\":
+    153.13, \"value\": \"E\" },\r\n    { \"start\": 153.13, \"end\": 153.27, \"value\":
+    \"A\" },\r\n    { \"start\": 153.27, \"end\": 153.81, \"value\": \"B\" },\r\n   
+    { \"start\": 153.81, \"end\": 153.88, \"value\": \"C\" },\r\n    { \"start\":
+    153.88, \"end\": 154.23, \"value\": \"B\" },\r\n    { \"start\": 154.23, \"end\":
+    154.37, \"value\": \"C\" },\r\n    { \"start\": 154.37, \"end\": 154.65, \"value\":
+    \"B\" },\r\n    { \"start\": 154.65, \"end\": 154.72, \"value\": \"G\" },\r\n   
+    { \"start\": 154.72, \"end\": 154.89, \"value\": \"A\" },\r\n    { \"start\":
+    154.89, \"end\": 155.18, \"value\": \"B\" },\r\n    { \"start\": 155.18, \"end\":
+    155.27, \"value\": \"A\" },\r\n    { \"start\": 155.27, \"end\": 155.37, \"value\":
+    \"C\" },\r\n    { \"start\": 155.37, \"end\": 155.72, \"value\": \"B\" },\r\n   
+    { \"start\": 155.72, \"end\": 155.79, \"value\": \"C\" },\r\n    { \"start\":
+    155.79, \"end\": 155.86, \"value\": \"G\" },\r\n    { \"start\": 155.86, \"end\":
+    155.93, \"value\": \"C\" },\r\n    { \"start\": 155.93, \"end\": 156.01, \"value\":
+    \"A\" },\r\n    { \"start\": 156.01, \"end\": 156.15, \"value\": \"C\" },\r\n   
+    { \"start\": 156.15, \"end\": 156.43, \"value\": \"B\" },\r\n    { \"start\":
+    156.43, \"end\": 156.53, \"value\": \"D\" },\r\n    { \"start\": 156.53, \"end\":
+    156.57, \"value\": \"A\" },\r\n    { \"start\": 156.57, \"end\": 156.65, \"value\":
+    \"C\" },\r\n    { \"start\": 156.65, \"end\": 156.77, \"value\": \"A\" },\r\n   
+    { \"start\": 156.77, \"end\": 157.11, \"value\": \"B\" },\r\n    { \"start\":
+    157.11, \"end\": 157.25, \"value\": \"H\" },\r\n    { \"start\": 157.25, \"end\":
+    157.32, \"value\": \"C\" },\r\n    { \"start\": 157.32, \"end\": 157.44, \"value\":
+    \"A\" },\r\n    { \"start\": 157.44, \"end\": 157.52, \"value\": \"B\" },\r\n   
+    { \"start\": 157.52, \"end\": 157.59, \"value\": \"C\" },\r\n    { \"start\":
+    157.59, \"end\": 157.87, \"value\": \"B\" },\r\n    { \"start\": 157.87, \"end\":
+    158.01, \"value\": \"G\" },\r\n    { \"start\": 158.01, \"end\": 158.71, \"value\":
+    \"B\" },\r\n    { \"start\": 158.71, \"end\": 158.86, \"value\": \"A\" },\r\n   
+    { \"start\": 158.86, \"end\": 158.96, \"value\": \"B\" },\r\n    { \"start\":
+    158.96, \"end\": 159.03, \"value\": \"C\" },\r\n    { \"start\": 159.03, \"end\":
+    159.10, \"value\": \"F\" },\r\n    { \"start\": 159.10, \"end\": 159.21, \"value\":
+    \"A\" },\r\n    { \"start\": 159.21, \"end\": 159.29, \"value\": \"B\" },\r\n   
+    { \"start\": 159.29, \"end\": 159.37, \"value\": \"A\" },\r\n    { \"start\":
+    159.37, \"end\": 159.44, \"value\": \"C\" },\r\n    { \"start\": 159.44, \"end\":
+    159.55, \"value\": \"A\" },\r\n    { \"start\": 159.55, \"end\": 159.73, \"value\":
+    \"B\" },\r\n    { \"start\": 159.73, \"end\": 159.80, \"value\": \"G\" },\r\n   
+    { \"start\": 159.80, \"end\": 159.87, \"value\": \"B\" },\r\n    { \"start\":
+    159.87, \"end\": 160.01, \"value\": \"C\" },\r\n    { \"start\": 160.01, \"end\":
+    160.15, \"value\": \"B\" },\r\n    { \"start\": 160.15, \"end\": 160.25, \"value\":
+    \"A\" },\r\n    { \"start\": 160.25, \"end\": 160.32, \"value\": \"G\" },\r\n   
+    { \"start\": 160.32, \"end\": 160.38, \"value\": \"B\" },\r\n    { \"start\":
+    160.38, \"end\": 160.46, \"value\": \"A\" },\r\n    { \"start\": 160.46, \"end\":
+    160.63, \"value\": \"C\" },\r\n    { \"start\": 160.63, \"end\": 161.05, \"value\":
+    \"B\" },\r\n    { \"start\": 161.05, \"end\": 161.19, \"value\": \"G\" },\r\n   
+    { \"start\": 161.19, \"end\": 161.54, \"value\": \"B\" },\r\n    { \"start\":
+    161.54, \"end\": 161.65, \"value\": \"A\" },\r\n    { \"start\": 161.65, \"end\":
+    162.12, \"value\": \"B\" },\r\n    { \"start\": 162.12, \"end\": 162.26, \"value\":
+    \"C\" },\r\n    { \"start\": 162.26, \"end\": 162.33, \"value\": \"B\" },\r\n   
+    { \"start\": 162.33, \"end\": 162.40, \"value\": \"G\" },\r\n    { \"start\":
+    162.40, \"end\": 162.48, \"value\": \"A\" },\r\n    { \"start\": 162.48, \"end\":
+    162.59, \"value\": \"B\" },\r\n    { \"start\": 162.59, \"end\": 162.73, \"value\":
+    \"C\" },\r\n    { \"start\": 162.73, \"end\": 162.84, \"value\": \"A\" },\r\n   
+    { \"start\": 162.84, \"end\": 162.88, \"value\": \"B\" },\r\n    { \"start\":
+    162.88, \"end\": 162.96, \"value\": \"A\" },\r\n    { \"start\": 162.96, \"end\":
+    163.13, \"value\": \"C\" },\r\n    { \"start\": 163.13, \"end\": 163.27, \"value\":
+    \"B\" },\r\n    { \"start\": 163.27, \"end\": 163.74, \"value\": \"A\" },\r\n   
+    { \"start\": 163.74, \"end\": 163.84, \"value\": \"B\" },\r\n    { \"start\":
+    163.84, \"end\": 163.98, \"value\": \"C\" },\r\n    { \"start\": 163.98, \"end\":
+    164.05, \"value\": \"E\" },\r\n    { \"start\": 164.05, \"end\": 164.12, \"value\":
+    \"G\" },\r\n    { \"start\": 164.12, \"end\": 164.89, \"value\": \"B\" },\r\n   
+    { \"start\": 164.89, \"end\": 165.00, \"value\": \"A\" },\r\n    { \"start\":
+    165.00, \"end\": 165.17, \"value\": \"B\" },\r\n    { \"start\": 165.17, \"end\":
+    165.38, \"value\": \"F\" },\r\n    { \"start\": 165.38, \"end\": 165.52, \"value\":
+    \"B\" },\r\n    { \"start\": 165.52, \"end\": 165.59, \"value\": \"C\" },\r\n   
+    { \"start\": 165.59, \"end\": 165.66, \"value\": \"G\" },\r\n    { \"start\":
+    165.66, \"end\": 165.73, \"value\": \"B\" },\r\n    { \"start\": 165.73, \"end\":
+    165.82, \"value\": \"A\" },\r\n    { \"start\": 165.82, \"end\": 165.90, \"value\":
+    \"G\" },\r\n    { \"start\": 165.90, \"end\": 166.22, \"value\": \"A\" },\r\n   
+    { \"start\": 166.22, \"end\": 166.53, \"value\": \"B\" },\r\n    { \"start\":
+    166.53, \"end\": 166.57, \"value\": \"C\" },\r\n    { \"start\": 166.57, \"end\":
+    166.71, \"value\": \"E\" },\r\n    { \"start\": 166.71, \"end\": 166.85, \"value\":
+    \"B\" },\r\n    { \"start\": 166.85, \"end\": 167.13, \"value\": \"F\" },\r\n   
+    { \"start\": 167.13, \"end\": 167.20, \"value\": \"B\" },\r\n    { \"start\":
+    167.20, \"end\": 167.27, \"value\": \"C\" },\r\n    { \"start\": 167.27, \"end\":
+    167.41, \"value\": \"B\" },\r\n    { \"start\": 167.41, \"end\": 167.49, \"value\":
+    \"A\" },\r\n    { \"start\": 167.49, \"end\": 167.62, \"value\": \"C\" },\r\n   
+    { \"start\": 167.62, \"end\": 167.83, \"value\": \"B\" },\r\n    { \"start\":
+    167.83, \"end\": 167.92, \"value\": \"A\" },\r\n    { \"start\": 167.92, \"end\":
+    168.11, \"value\": \"G\" },\r\n    { \"start\": 168.11, \"end\": 168.32, \"value\":
+    \"B\" },\r\n    { \"start\": 168.32, \"end\": 168.45, \"value\": \"A\" },\r\n   
+    { \"start\": 168.45, \"end\": 168.65, \"value\": \"B\" },\r\n    { \"start\":
+    168.65, \"end\": 168.86, \"value\": \"G\" },\r\n    { \"start\": 168.86, \"end\":
+    169.14, \"value\": \"B\" },\r\n    { \"start\": 169.14, \"end\": 169.28, \"value\":
+    \"F\" },\r\n    { \"start\": 169.28, \"end\": 169.70, \"value\": \"B\" },\r\n   
+    { \"start\": 169.70, \"end\": 169.77, \"value\": \"G\" },\r\n    { \"start\":
+    169.77, \"end\": 169.91, \"value\": \"C\" },\r\n    { \"start\": 169.91, \"end\":
+    170.05, \"value\": \"B\" },\r\n    { \"start\": 170.05, \"end\": 170.12, \"value\":
+    \"G\" },\r\n    { \"start\": 170.12, \"end\": 170.33, \"value\": \"B\" },\r\n   
+    { \"start\": 170.33, \"end\": 170.40, \"value\": \"G\" },\r\n    { \"start\":
+    170.40, \"end\": 170.54, \"value\": \"C\" },\r\n    { \"start\": 170.54, \"end\":
+    170.75, \"value\": \"B\" },\r\n    { \"start\": 170.75, \"end\": 170.96, \"value\":
+    \"C\" },\r\n    { \"start\": 170.96, \"end\": 171.03, \"value\": \"B\" },\r\n   
+    { \"start\": 171.03, \"end\": 171.24, \"value\": \"C\" },\r\n    { \"start\":
+    171.24, \"end\": 171.96, \"value\": \"B\" },\r\n    { \"start\": 171.96, \"end\":
+    172.04, \"value\": \"A\" },\r\n    { \"start\": 172.04, \"end\": 172.10, \"value\":
+    \"C\" },\r\n    { \"start\": 172.10, \"end\": 172.16, \"value\": \"B\" },\r\n   
+    { \"start\": 172.16, \"end\": 172.23, \"value\": \"F\" },\r\n    { \"start\":
+    172.23, \"end\": 172.44, \"value\": \"B\" },\r\n    { \"start\": 172.44, \"end\":
+    172.65, \"value\": \"C\" },\r\n    { \"start\": 172.65, \"end\": 172.72, \"value\":
+    \"B\" },\r\n    { \"start\": 172.72, \"end\": 172.82, \"value\": \"A\" },\r\n   
+    { \"start\": 172.82, \"end\": 172.89, \"value\": \"G\" },\r\n    { \"start\":
+    172.89, \"end\": 173.23, \"value\": \"B\" },\r\n    { \"start\": 173.23, \"end\":
+    173.72, \"value\": \"C\" },\r\n    { \"start\": 173.72, \"end\": 174.14, \"value\":
+    \"B\" },\r\n    { \"start\": 174.14, \"end\": 174.21, \"value\": \"C\" },\r\n   
+    { \"start\": 174.21, \"end\": 174.28, \"value\": \"B\" },\r\n    { \"start\":
+    174.28, \"end\": 174.36, \"value\": \"A\" },\r\n    { \"start\": 174.36, \"end\":
+    174.90, \"value\": \"B\" },\r\n    { \"start\": 174.90, \"end\": 175.04, \"value\":
+    \"C\" },\r\n    { \"start\": 175.04, \"end\": 175.11, \"value\": \"G\" },\r\n   
+    { \"start\": 175.11, \"end\": 175.18, \"value\": \"E\" },\r\n    { \"start\":
+    175.18, \"end\": 175.25, \"value\": \"B\" },\r\n    { \"start\": 175.25, \"end\":
+    175.32, \"value\": \"G\" },\r\n    { \"start\": 175.32, \"end\": 175.39, \"value\":
+    \"C\" },\r\n    { \"start\": 175.39, \"end\": 175.43, \"value\": \"A\" },\r\n   
+    { \"start\": 175.43, \"end\": 175.51, \"value\": \"B\" },\r\n    { \"start\":
+    175.51, \"end\": 175.71, \"value\": \"A\" },\r\n    { \"start\": 175.71, \"end\":
+    175.81, \"value\": \"B\" },\r\n    { \"start\": 175.81, \"end\": 176.16, \"value\":
+    \"F\" },\r\n    { \"start\": 176.16, \"end\": 176.37, \"value\": \"B\" },\r\n   
+    { \"start\": 176.37, \"end\": 176.58, \"value\": \"C\" },\r\n    { \"start\":
+    176.58, \"end\": 176.86, \"value\": \"B\" },\r\n    { \"start\": 176.86, \"end\":
+    176.93, \"value\": \"G\" },\r\n    { \"start\": 176.93, \"end\": 177.00, \"value\":
+    \"C\" },\r\n    { \"start\": 177.00, \"end\": 177.07, \"value\": \"B\" },\r\n   
+    { \"start\": 177.07, \"end\": 177.15, \"value\": \"A\" },\r\n    { \"start\":
+    177.15, \"end\": 177.54, \"value\": \"B\" },\r\n    { \"start\": 177.54, \"end\":
+    177.62, \"value\": \"A\" },\r\n    { \"start\": 177.62, \"end\": 177.89, \"value\":
+    \"F\" },\r\n    { \"start\": 177.89, \"end\": 177.96, \"value\": \"C\" },\r\n   
+    { \"start\": 177.96, \"end\": 178.03, \"value\": \"B\" },\r\n    { \"start\":
+    178.03, \"end\": 178.17, \"value\": \"C\" },\r\n    { \"start\": 178.17, \"end\":
+    178.24, \"value\": \"B\" },\r\n    { \"start\": 178.24, \"end\": 178.41, \"value\":
+    \"A\" },\r\n    { \"start\": 178.41, \"end\": 178.55, \"value\": \"B\" },\r\n   
+    { \"start\": 178.55, \"end\": 178.62, \"value\": \"G\" },\r\n    { \"start\":
+    178.62, \"end\": 178.83, \"value\": \"B\" },\r\n    { \"start\": 178.83, \"end\":
+    178.91, \"value\": \"A\" },\r\n    { \"start\": 178.91, \"end\": 179.06, \"value\":
+    \"F\" },\r\n    { \"start\": 179.06, \"end\": 179.13, \"value\": \"B\" },\r\n   
+    { \"start\": 179.13, \"end\": 179.20, \"value\": \"G\" },\r\n    { \"start\":
+    179.20, \"end\": 179.27, \"value\": \"C\" },\r\n    { \"start\": 179.27, \"end\":
+    179.69, \"value\": \"B\" },\r\n    { \"start\": 179.69, \"end\": 179.76, \"value\":
+    \"H\" },\r\n    { \"start\": 179.76, \"end\": 179.83, \"value\": \"C\" },\r\n   
+    { \"start\": 179.83, \"end\": 179.97, \"value\": \"G\" },\r\n    { \"start\":
+    179.97, \"end\": 180.74, \"value\": \"B\" },\r\n    { \"start\": 180.74, \"end\":
+    180.88, \"value\": \"G\" },\r\n    { \"start\": 180.88, \"end\": 180.96, \"value\":
+    \"A\" },\r\n    { \"start\": 180.96, \"end\": 181.04, \"value\": \"B\" },\r\n   
+    { \"start\": 181.04, \"end\": 181.13, \"value\": \"A\" },\r\n    { \"start\":
+    181.13, \"end\": 181.34, \"value\": \"B\" },\r\n    { \"start\": 181.34, \"end\":
+    181.42, \"value\": \"A\" },\r\n    { \"start\": 181.42, \"end\": 181.54, \"value\":
+    \"B\" },\r\n    { \"start\": 181.54, \"end\": 181.76, \"value\": \"E\" },\r\n   
+    { \"start\": 181.76, \"end\": 181.81, \"value\": \"B\" },\r\n    { \"start\":
+    181.81, \"end\": 181.85, \"value\": \"F\" },\r\n    { \"start\": 181.85, \"end\":
+    181.92, \"value\": \"C\" },\r\n    { \"start\": 181.92, \"end\": 181.99, \"value\":
+    \"B\" },\r\n    { \"start\": 181.99, \"end\": 182.06, \"value\": \"C\" },\r\n   
+    { \"start\": 182.06, \"end\": 182.62, \"value\": \"B\" },\r\n    { \"start\":
+    182.62, \"end\": 182.69, \"value\": \"G\" },\r\n    { \"start\": 182.69, \"end\":
+    182.83, \"value\": \"E\" },\r\n    { \"start\": 182.83, \"end\": 182.90, \"value\":
+    \"F\" },\r\n    { \"start\": 182.90, \"end\": 182.97, \"value\": \"G\" },\r\n   
+    { \"start\": 182.97, \"end\": 183.04, \"value\": \"C\" },\r\n    { \"start\":
+    183.04, \"end\": 183.11, \"value\": \"B\" },\r\n    { \"start\": 183.11, \"end\":
+    183.24, \"value\": \"A\" },\r\n    { \"start\": 183.24, \"end\": 183.71, \"value\":
+    \"B\" },\r\n    { \"start\": 183.71, \"end\": 183.78, \"value\": \"C\" },\r\n   
+    { \"start\": 183.78, \"end\": 183.85, \"value\": \"B\" },\r\n    { \"start\":
+    183.85, \"end\": 184.00, \"value\": \"A\" },\r\n    { \"start\": 184.00, \"end\":
+    184.06, \"value\": \"G\" },\r\n    { \"start\": 184.06, \"end\": 184.18, \"value\":
+    \"F\" },\r\n    { \"start\": 184.18, \"end\": 184.39, \"value\": \"B\" },\r\n   
+    { \"start\": 184.39, \"end\": 184.60, \"value\": \"A\" },\r\n    { \"start\":
+    184.60, \"end\": 184.72, \"value\": \"F\" },\r\n    { \"start\": 184.72, \"end\":
+    184.86, \"value\": \"B\" },\r\n    { \"start\": 184.86, \"end\": 184.93, \"value\":
+    \"C\" },\r\n    { \"start\": 184.93, \"end\": 185.21, \"value\": \"B\" },\r\n   
+    { \"start\": 185.21, \"end\": 185.29, \"value\": \"A\" },\r\n    { \"start\":
+    185.29, \"end\": 185.38, \"value\": \"E\" },\r\n    { \"start\": 185.38, \"end\":
+    185.59, \"value\": \"B\" },\r\n    { \"start\": 185.59, \"end\": 185.67, \"value\":
+    \"A\" },\r\n    { \"start\": 185.67, \"end\": 186.11, \"value\": \"B\" },\r\n   
+    { \"start\": 186.11, \"end\": 186.18, \"value\": \"C\" },\r\n    { \"start\":
+    186.18, \"end\": 186.25, \"value\": \"B\" },\r\n    { \"start\": 186.25, \"end\":
+    186.41, \"value\": \"A\" },\r\n    { \"start\": 186.41, \"end\": 186.50, \"value\":
+    \"B\" },\r\n    { \"start\": 186.50, \"end\": 186.58, \"value\": \"A\" },\r\n   
+    { \"start\": 186.58, \"end\": 186.68, \"value\": \"C\" },\r\n    { \"start\":
+    186.68, \"end\": 186.76, \"value\": \"A\" },\r\n    { \"start\": 186.76, \"end\":
+    186.84, \"value\": \"G\" },\r\n    { \"start\": 186.84, \"end\": 186.96, \"value\":
+    \"X\" },\r\n    { \"start\": 186.96, \"end\": 187.04, \"value\": \"A\" },\r\n   
+    { \"start\": 187.04, \"end\": 187.11, \"value\": \"C\" },\r\n    { \"start\":
+    187.11, \"end\": 187.18, \"value\": \"B\" },\r\n    { \"start\": 187.18, \"end\":
+    187.32, \"value\": \"E\" },\r\n    { \"start\": 187.32, \"end\": 187.39, \"value\":
+    \"F\" },\r\n    { \"start\": 187.39, \"end\": 187.53, \"value\": \"H\" },\r\n   
+    { \"start\": 187.53, \"end\": 187.60, \"value\": \"B\" },\r\n    { \"start\":
+    187.60, \"end\": 187.74, \"value\": \"C\" },\r\n    { \"start\": 187.74, \"end\":
+    188.09, \"value\": \"B\" },\r\n    { \"start\": 188.09, \"end\": 188.20, \"value\":
+    \"A\" },\r\n    { \"start\": 188.20, \"end\": 188.48, \"value\": \"F\" },\r\n   
+    { \"start\": 188.48, \"end\": 188.83, \"value\": \"B\" },\r\n    { \"start\":
+    188.83, \"end\": 188.91, \"value\": \"A\" },\r\n    { \"start\": 188.91, \"end\":
+    188.98, \"value\": \"F\" },\r\n    { \"start\": 188.98, \"end\": 189.11, \"value\":
+    \"E\" },\r\n    { \"start\": 189.11, \"end\": 189.18, \"value\": \"B\" },\r\n   
+    { \"start\": 189.18, \"end\": 189.39, \"value\": \"C\" },\r\n    { \"start\":
+    189.39, \"end\": 189.74, \"value\": \"B\" },\r\n    { \"start\": 189.74, \"end\":
+    189.81, \"value\": \"C\" },\r\n    { \"start\": 189.81, \"end\": 189.89, \"value\":
+    \"A\" },\r\n    { \"start\": 189.89, \"end\": 190.06, \"value\": \"F\" },\r\n   
+    { \"start\": 190.06, \"end\": 190.41, \"value\": \"E\" },\r\n    { \"start\":
+    190.41, \"end\": 190.48, \"value\": \"C\" },\r\n    { \"start\": 190.48, \"end\":
+    190.97, \"value\": \"B\" },\r\n    { \"start\": 190.97, \"end\": 191.18, \"value\":
+    \"G\" },\r\n    { \"start\": 191.18, \"end\": 191.25, \"value\": \"F\" },\r\n   
+    { \"start\": 191.25, \"end\": 191.39, \"value\": \"B\" },\r\n    { \"start\":
+    191.39, \"end\": 191.46, \"value\": \"E\" },\r\n    { \"start\": 191.46, \"end\":
+    191.53, \"value\": \"F\" },\r\n    { \"start\": 191.53, \"end\": 192.09, \"value\":
+    \"B\" },\r\n    { \"start\": 192.09, \"end\": 192.30, \"value\": \"C\" },\r\n   
+    { \"start\": 192.30, \"end\": 192.51, \"value\": \"B\" },\r\n    { \"start\":
+    192.51, \"end\": 192.58, \"value\": \"C\" },\r\n    { \"start\": 192.58, \"end\":
+    192.72, \"value\": \"B\" },\r\n    { \"start\": 192.72, \"end\": 192.79, \"value\":
+    \"G\" },\r\n    { \"start\": 192.79, \"end\": 192.86, \"value\": \"E\" },\r\n   
+    { \"start\": 192.86, \"end\": 192.93, \"value\": \"F\" },\r\n    { \"start\":
+    192.93, \"end\": 193.01, \"value\": \"A\" },\r\n    { \"start\": 193.01, \"end\":
+    193.14, \"value\": \"F\" },\r\n    { \"start\": 193.14, \"end\": 193.28, \"value\":
+    \"E\" },\r\n    { \"start\": 193.28, \"end\": 193.42, \"value\": \"F\" },\r\n   
+    { \"start\": 193.42, \"end\": 194.05, \"value\": \"B\" },\r\n    { \"start\":
+    194.05, \"end\": 194.25, \"value\": \"F\" },\r\n    { \"start\": 194.25, \"end\":
+    194.39, \"value\": \"B\" },\r\n    { \"start\": 194.39, \"end\": 194.54, \"value\":
+    \"A\" },\r\n    { \"start\": 194.54, \"end\": 194.94, \"value\": \"B\" },\r\n   
+    { \"start\": 194.94, \"end\": 195.08, \"value\": \"C\" },\r\n    { \"start\":
+    195.08, \"end\": 195.18, \"value\": \"A\" },\r\n    { \"start\": 195.18, \"end\":
+    195.36, \"value\": \"G\" },\r\n    { \"start\": 195.36, \"end\": 195.43, \"value\":
+    \"B\" },\r\n    { \"start\": 195.43, \"end\": 195.57, \"value\": \"C\" },\r\n   
+    { \"start\": 195.57, \"end\": 195.65, \"value\": \"A\" },\r\n    { \"start\":
+    195.65, \"end\": 195.89, \"value\": \"B\" },\r\n    { \"start\": 195.89, \"end\":
+    195.96, \"value\": \"E\" },\r\n    { \"start\": 195.96, \"end\": 196.03, \"value\":
+    \"F\" },\r\n    { \"start\": 196.03, \"end\": 196.10, \"value\": \"C\" },\r\n   
+    { \"start\": 196.10, \"end\": 196.45, \"value\": \"B\" },\r\n    { \"start\":
+    196.45, \"end\": 196.73, \"value\": \"C\" },\r\n    { \"start\": 196.73, \"end\":
+    196.80, \"value\": \"E\" },\r\n    { \"start\": 196.80, \"end\": 197.01, \"value\":
+    \"F\" },\r\n    { \"start\": 197.01, \"end\": 197.07, \"value\": \"A\" },\r\n   
+    { \"start\": 197.07, \"end\": 197.13, \"value\": \"E\" },\r\n    { \"start\":
+    197.13, \"end\": 197.21, \"value\": \"A\" },\r\n    { \"start\": 197.21, \"end\":
+    197.32, \"value\": \"G\" },\r\n    { \"start\": 197.32, \"end\": 197.39, \"value\":
+    \"B\" },\r\n    { \"start\": 197.39, \"end\": 197.67, \"value\": \"F\" },\r\n   
+    { \"start\": 197.67, \"end\": 197.77, \"value\": \"D\" },\r\n    { \"start\":
+    197.77, \"end\": 197.81, \"value\": \"C\" },\r\n    { \"start\": 197.81, \"end\":
+    197.97, \"value\": \"A\" },\r\n    { \"start\": 197.97, \"end\": 198.06, \"value\":
+    \"B\" },\r\n    { \"start\": 198.06, \"end\": 198.13, \"value\": \"E\" },\r\n   
+    { \"start\": 198.13, \"end\": 198.41, \"value\": \"C\" },\r\n    { \"start\":
+    198.41, \"end\": 198.49, \"value\": \"A\" },\r\n    { \"start\": 198.49, \"end\":
+    198.54, \"value\": \"C\" },\r\n    { \"start\": 198.54, \"end\": 198.72, \"value\":
+    \"B\" },\r\n    { \"start\": 198.72, \"end\": 198.79, \"value\": \"E\" },\r\n   
+    { \"start\": 198.79, \"end\": 198.93, \"value\": \"F\" },\r\n    { \"start\":
+    198.93, \"end\": 199.42, \"value\": \"B\" },\r\n    { \"start\": 199.42, \"end\":
+    199.50, \"value\": \"A\" },\r\n    { \"start\": 199.50, \"end\": 199.68, \"value\":
+    \"F\" },\r\n    { \"start\": 199.68, \"end\": 199.82, \"value\": \"B\" },\r\n   
+    { \"start\": 199.82, \"end\": 200.03, \"value\": \"F\" },\r\n    { \"start\":
+    200.03, \"end\": 200.10, \"value\": \"B\" },\r\n    { \"start\": 200.10, \"end\":
+    200.18, \"value\": \"A\" },\r\n    { \"start\": 200.18, \"end\": 200.27, \"value\":
+    \"F\" },\r\n    { \"start\": 200.27, \"end\": 200.43, \"value\": \"A\" },\r\n   
+    { \"start\": 200.43, \"end\": 200.98, \"value\": \"B\" },\r\n    { \"start\":
+    200.98, \"end\": 201.12, \"value\": \"G\" },\r\n    { \"start\": 201.12, \"end\":
+    201.19, \"value\": \"E\" },\r\n    { \"start\": 201.19, \"end\": 201.26, \"value\":
+    \"B\" },\r\n    { \"start\": 201.26, \"end\": 201.33, \"value\": \"C\" },\r\n   
+    { \"start\": 201.33, \"end\": 201.40, \"value\": \"E\" },\r\n    { \"start\":
+    201.40, \"end\": 201.50, \"value\": \"A\" },\r\n    { \"start\": 201.50, \"end\":
+    201.67, \"value\": \"E\" },\r\n    { \"start\": 201.67, \"end\": 201.88, \"value\":
+    \"B\" },\r\n    { \"start\": 201.88, \"end\": 202.04, \"value\": \"A\" },\r\n   
+    { \"start\": 202.04, \"end\": 202.20, \"value\": \"C\" },\r\n    { \"start\":
+    202.20, \"end\": 202.34, \"value\": \"G\" },\r\n    { \"start\": 202.34, \"end\":
+    202.42, \"value\": \"A\" },\r\n    { \"start\": 202.42, \"end\": 202.53, \"value\":
+    \"B\" },\r\n    { \"start\": 202.53, \"end\": 202.67, \"value\": \"C\" },\r\n   
+    { \"start\": 202.67, \"end\": 202.74, \"value\": \"E\" },\r\n    { \"start\":
+    202.74, \"end\": 202.88, \"value\": \"F\" },\r\n    { \"start\": 202.88, \"end\":
+    203.23, \"value\": \"B\" },\r\n    { \"start\": 203.23, \"end\": 203.52, \"value\":
+    \"A\" },\r\n    { \"start\": 203.52, \"end\": 203.60, \"value\": \"G\" },\r\n   
+    { \"start\": 203.60, \"end\": 203.74, \"value\": \"F\" },\r\n    { \"start\":
+    203.74, \"end\": 203.81, \"value\": \"E\" },\r\n    { \"start\": 203.81, \"end\":
+    204.09, \"value\": \"B\" },\r\n    { \"start\": 204.09, \"end\": 204.23, \"value\":
+    \"C\" },\r\n    { \"start\": 204.23, \"end\": 204.37, \"value\": \"F\" },\r\n   
+    { \"start\": 204.37, \"end\": 204.65, \"value\": \"B\" },\r\n    { \"start\":
+    204.65, \"end\": 204.79, \"value\": \"E\" },\r\n    { \"start\": 204.79, \"end\":
+    204.86, \"value\": \"F\" },\r\n    { \"start\": 204.86, \"end\": 205.07, \"value\":
+    \"A\" },\r\n    { \"start\": 205.07, \"end\": 205.33, \"value\": \"B\" },\r\n   
+    { \"start\": 205.33, \"end\": 205.40, \"value\": \"C\" },\r\n    { \"start\":
+    205.40, \"end\": 205.96, \"value\": \"B\" },\r\n    { \"start\": 205.96, \"end\":
+    206.17, \"value\": \"G\" },\r\n    { \"start\": 206.17, \"end\": 206.24, \"value\":
+    \"C\" },\r\n    { \"start\": 206.24, \"end\": 206.35, \"value\": \"A\" },\r\n   
+    { \"start\": 206.35, \"end\": 206.41, \"value\": \"G\" },\r\n    { \"start\":
+    206.41, \"end\": 206.54, \"value\": \"E\" },\r\n    { \"start\": 206.54, \"end\":
+    206.68, \"value\": \"B\" },\r\n    { \"start\": 206.68, \"end\": 206.82, \"value\":
+    \"C\" },\r\n    { \"start\": 206.82, \"end\": 207.03, \"value\": \"B\" },\r\n   
+    { \"start\": 207.03, \"end\": 207.11, \"value\": \"A\" },\r\n    { \"start\":
+    207.11, \"end\": 207.18, \"value\": \"E\" },\r\n    { \"start\": 207.18, \"end\":
+    207.38, \"value\": \"F\" },\r\n    { \"start\": 207.38, \"end\": 207.45, \"value\":
+    \"B\" },\r\n    { \"start\": 207.45, \"end\": 207.61, \"value\": \"A\" },\r\n   
+    { \"start\": 207.61, \"end\": 207.70, \"value\": \"B\" },\r\n    { \"start\":
+    207.70, \"end\": 207.77, \"value\": \"G\" },\r\n    { \"start\": 207.77, \"end\":
+    207.98, \"value\": \"B\" },\r\n    { \"start\": 207.98, \"end\": 208.26, \"value\":
+    \"C\" },\r\n    { \"start\": 208.26, \"end\": 208.40, \"value\": \"E\" },\r\n   
+    { \"start\": 208.40, \"end\": 208.54, \"value\": \"G\" },\r\n    { \"start\":
+    208.54, \"end\": 209.03, \"value\": \"B\" },\r\n    { \"start\": 209.03, \"end\":
+    209.11, \"value\": \"A\" },\r\n    { \"start\": 209.11, \"end\": 209.22, \"value\":
+    \"B\" },\r\n    { \"start\": 209.22, \"end\": 209.43, \"value\": \"F\" },\r\n   
+    { \"start\": 209.43, \"end\": 209.64, \"value\": \"B\" },\r\n    { \"start\":
+    209.64, \"end\": 209.72, \"value\": \"A\" },\r\n    { \"start\": 209.72, \"end\":
+    209.80, \"value\": \"E\" },\r\n    { \"start\": 209.80, \"end\": 209.92, \"value\":
+    \"A\" },\r\n    { \"start\": 209.92, \"end\": 209.98, \"value\": \"E\" },\r\n   
+    { \"start\": 209.98, \"end\": 210.10, \"value\": \"H\" },\r\n    { \"start\":
+    210.10, \"end\": 210.38, \"value\": \"C\" },\r\n    { \"start\": 210.38, \"end\":
+    210.52, \"value\": \"G\" },\r\n    { \"start\": 210.52, \"end\": 210.66, \"value\":
+    \"F\" },\r\n    { \"start\": 210.66, \"end\": 210.94, \"value\": \"B\" },\r\n   
+    { \"start\": 210.94, \"end\": 211.02, \"value\": \"A\" },\r\n    { \"start\":
+    211.02, \"end\": 211.48, \"value\": \"B\" },\r\n    { \"start\": 211.48, \"end\":
+    211.56, \"value\": \"A\" },\r\n    { \"start\": 211.56, \"end\": 211.70, \"value\":
+    \"E\" },\r\n    { \"start\": 211.70, \"end\": 211.77, \"value\": \"F\" },\r\n   
+    { \"start\": 211.77, \"end\": 211.91, \"value\": \"C\" },\r\n    { \"start\":
+    211.91, \"end\": 212.61, \"value\": \"B\" },\r\n    { \"start\": 212.61, \"end\":
+    212.68, \"value\": \"G\" },\r\n    { \"start\": 212.68, \"end\": 212.99, \"value\":
+    \"X\" },\r\n    { \"start\": 212.99, \"end\": 213.06, \"value\": \"C\" },\r\n   
+    { \"start\": 213.06, \"end\": 213.20, \"value\": \"G\" },\r\n    { \"start\":
+    213.20, \"end\": 213.34, \"value\": \"C\" },\r\n    { \"start\": 213.34, \"end\":
+    213.41, \"value\": \"B\" },\r\n    { \"start\": 213.41, \"end\": 213.48, \"value\":
+    \"E\" },\r\n    { \"start\": 213.48, \"end\": 213.56, \"value\": \"A\" },\r\n   
+    { \"start\": 213.56, \"end\": 214.08, \"value\": \"B\" },\r\n    { \"start\":
+    214.08, \"end\": 214.22, \"value\": \"G\" },\r\n    { \"start\": 214.22, \"end\":
+    214.50, \"value\": \"B\" },\r\n    { \"start\": 214.50, \"end\": 214.58, \"value\":
+    \"A\" },\r\n    { \"start\": 214.58, \"end\": 214.75, \"value\": \"B\" },\r\n   
+    { \"start\": 214.75, \"end\": 214.96, \"value\": \"F\" },\r\n    { \"start\":
+    214.96, \"end\": 215.03, \"value\": \"G\" },\r\n    { \"start\": 215.03, \"end\":
+    215.17, \"value\": \"F\" },\r\n    { \"start\": 215.17, \"end\": 215.31, \"value\":
+    \"E\" },\r\n    { \"start\": 215.31, \"end\": 215.42, \"value\": \"A\" },\r\n   
+    { \"start\": 215.42, \"end\": 215.68, \"value\": \"B\" },\r\n    { \"start\":
+    215.68, \"end\": 215.89, \"value\": \"E\" },\r\n    { \"start\": 215.89, \"end\":
+    215.96, \"value\": \"C\" },\r\n    { \"start\": 215.96, \"end\": 216.03, \"value\":
+    \"B\" },\r\n    { \"start\": 216.03, \"end\": 216.14, \"value\": \"A\" },\r\n   
+    { \"start\": 216.14, \"end\": 217.12, \"value\": \"B\" },\r\n    { \"start\":
+    217.12, \"end\": 217.19, \"value\": \"G\" },\r\n    { \"start\": 217.19, \"end\":
+    217.26, \"value\": \"C\" },\r\n    { \"start\": 217.26, \"end\": 217.40, \"value\":
+    \"G\" },\r\n    { \"start\": 217.40, \"end\": 217.54, \"value\": \"A\" },\r\n   
+    { \"start\": 217.54, \"end\": 217.80, \"value\": \"B\" },\r\n    { \"start\":
+    217.80, \"end\": 217.91, \"value\": \"A\" },\r\n    { \"start\": 217.91, \"end\":
+    218.13, \"value\": \"B\" },\r\n    { \"start\": 218.13, \"end\": 218.22, \"value\":
+    \"A\" },\r\n    { \"start\": 218.22, \"end\": 218.28, \"value\": \"C\" },\r\n   
+    { \"start\": 218.28, \"end\": 218.40, \"value\": \"B\" },\r\n    { \"start\":
+    218.40, \"end\": 218.61, \"value\": \"C\" },\r\n    { \"start\": 218.61, \"end\":
+    218.71, \"value\": \"A\" },\r\n    { \"start\": 218.71, \"end\": 218.82, \"value\":
+    \"B\" },\r\n    { \"start\": 218.82, \"end\": 219.07, \"value\": \"A\" },\r\n   
+    { \"start\": 219.07, \"end\": 219.41, \"value\": \"B\" },\r\n    { \"start\":
+    219.41, \"end\": 219.53, \"value\": \"A\" },\r\n    { \"start\": 219.53, \"end\":
+    219.68, \"value\": \"C\" },\r\n    { \"start\": 219.68, \"end\": 219.86, \"value\":
+    \"A\" },\r\n    { \"start\": 219.86, \"end\": 219.94, \"value\": \"G\" },\r\n   
+    { \"start\": 219.94, \"end\": 220.01, \"value\": \"B\" },\r\n    { \"start\":
+    220.01, \"end\": 220.09, \"value\": \"A\" },\r\n    { \"start\": 220.09, \"end\":
+    220.19, \"value\": \"E\" },\r\n    { \"start\": 220.19, \"end\": 220.33, \"value\":
+    \"A\" },\r\n    { \"start\": 220.33, \"end\": 221.08, \"value\": \"B\" },\r\n   
+    { \"start\": 221.08, \"end\": 221.29, \"value\": \"C\" },\r\n    { \"start\":
+    221.29, \"end\": 221.71, \"value\": \"B\" },\r\n    { \"start\": 221.71, \"end\":
+    221.78, \"value\": \"G\" },\r\n    { \"start\": 221.78, \"end\": 221.95, \"value\":
+    \"A\" },\r\n    { \"start\": 221.95, \"end\": 222.32, \"value\": \"B\" },\r\n   
+    { \"start\": 222.32, \"end\": 222.39, \"value\": \"C\" },\r\n    { \"start\":
+    222.39, \"end\": 222.88, \"value\": \"B\" },\r\n    { \"start\": 222.88, \"end\":
+    222.95, \"value\": \"G\" },\r\n    { \"start\": 222.95, \"end\": 223.02, \"value\":
+    \"B\" },\r\n    { \"start\": 223.02, \"end\": 223.13, \"value\": \"A\" },\r\n   
+    { \"start\": 223.13, \"end\": 223.19, \"value\": \"C\" },\r\n    { \"start\":
+    223.19, \"end\": 223.31, \"value\": \"B\" },\r\n    { \"start\": 223.31, \"end\":
+    223.39, \"value\": \"A\" },\r\n    { \"start\": 223.39, \"end\": 223.50, \"value\":
+    \"D\" },\r\n    { \"start\": 223.50, \"end\": 223.55, \"value\": \"C\" },\r\n   
+    { \"start\": 223.55, \"end\": 223.63, \"value\": \"A\" },\r\n    { \"start\":
+    223.63, \"end\": 223.71, \"value\": \"C\" },\r\n    { \"start\": 223.71, \"end\":
+    223.81, \"value\": \"A\" },\r\n    { \"start\": 223.81, \"end\": 224.02, \"value\":
+    \"B\" },\r\n    { \"start\": 224.02, \"end\": 224.18, \"value\": \"A\" },\r\n   
+    { \"start\": 224.18, \"end\": 224.28, \"value\": \"H\" },\r\n    { \"start\":
+    224.28, \"end\": 224.35, \"value\": \"C\" },\r\n    { \"start\": 224.35, \"end\":
+    224.43, \"value\": \"A\" },\r\n    { \"start\": 224.43, \"end\": 224.55, \"value\":
+    \"C\" },\r\n    { \"start\": 224.55, \"end\": 224.90, \"value\": \"B\" },\r\n   
+    { \"start\": 224.90, \"end\": 224.97, \"value\": \"G\" },\r\n    { \"start\":
+    224.97, \"end\": 225.18, \"value\": \"F\" },\r\n    { \"start\": 225.18, \"end\":
+    225.60, \"value\": \"B\" },\r\n    { \"start\": 225.60, \"end\": 225.74, \"value\":
+    \"F\" },\r\n    { \"start\": 225.74, \"end\": 225.95, \"value\": \"B\" },\r\n   
+    { \"start\": 225.95, \"end\": 226.02, \"value\": \"C\" },\r\n    { \"start\":
+    226.02, \"end\": 226.09, \"value\": \"G\" },\r\n    { \"start\": 226.09, \"end\":
+    226.16, \"value\": \"F\" },\r\n    { \"start\": 226.16, \"end\": 226.27, \"value\":
+    \"A\" },\r\n    { \"start\": 226.27, \"end\": 226.35, \"value\": \"B\" },\r\n   
+    { \"start\": 226.35, \"end\": 226.42, \"value\": \"A\" },\r\n    { \"start\":
+    226.42, \"end\": 226.48, \"value\": \"C\" },\r\n    { \"start\": 226.48, \"end\":
+    226.54, \"value\": \"A\" },\r\n    { \"start\": 226.54, \"end\": 226.63, \"value\":
+    \"C\" },\r\n    { \"start\": 226.63, \"end\": 226.91, \"value\": \"B\" },\r\n   
+    { \"start\": 226.91, \"end\": 227.05, \"value\": \"C\" },\r\n    { \"start\":
+    227.05, \"end\": 227.12, \"value\": \"B\" },\r\n    { \"start\": 227.12, \"end\":
+    227.20, \"value\": \"A\" },\r\n    { \"start\": 227.20, \"end\": 227.42, \"value\":
+    \"C\" },\r\n    { \"start\": 227.42, \"end\": 227.49, \"value\": \"B\" },\r\n   
+    { \"start\": 227.49, \"end\": 227.64, \"value\": \"A\" },\r\n    { \"start\":
+    227.64, \"end\": 227.83, \"value\": \"B\" },\r\n    { \"start\": 227.83, \"end\":
+    227.94, \"value\": \"A\" },\r\n    { \"start\": 227.94, \"end\": 228.09, \"value\":
+    \"C\" },\r\n    { \"start\": 228.09, \"end\": 228.37, \"value\": \"G\" },\r\n   
+    { \"start\": 228.37, \"end\": 228.44, \"value\": \"B\" },\r\n    { \"start\":
+    228.44, \"end\": 228.52, \"value\": \"A\" },\r\n    { \"start\": 228.52, \"end\":
+    228.60, \"value\": \"B\" },\r\n    { \"start\": 228.60, \"end\": 228.71, \"value\":
+    \"A\" },\r\n    { \"start\": 228.71, \"end\": 229.19, \"value\": \"B\" },\r\n   
+    { \"start\": 229.19, \"end\": 229.26, \"value\": \"C\" },\r\n    { \"start\":
+    229.26, \"end\": 229.34, \"value\": \"A\" },\r\n    { \"start\": 229.34, \"end\":
+    229.47, \"value\": \"E\" },\r\n    { \"start\": 229.47, \"end\": 229.54, \"value\":
+    \"A\" },\r\n    { \"start\": 229.54, \"end\": 229.60, \"value\": \"B\" },\r\n   
+    { \"start\": 229.60, \"end\": 229.68, \"value\": \"A\" },\r\n    { \"start\":
+    229.68, \"end\": 229.94, \"value\": \"B\" },\r\n    { \"start\": 229.94, \"end\":
+    230.02, \"value\": \"A\" },\r\n    { \"start\": 230.02, \"end\": 230.19, \"value\":
+    \"C\" },\r\n    { \"start\": 230.19, \"end\": 230.33, \"value\": \"B\" },\r\n   
+    { \"start\": 230.33, \"end\": 230.60, \"value\": \"A\" },\r\n    { \"start\":
+    230.60, \"end\": 230.79, \"value\": \"C\" },\r\n    { \"start\": 230.79, \"end\":
+    231.07, \"value\": \"B\" },\r\n    { \"start\": 231.07, \"end\": 231.14, \"value\":
+    \"G\" },\r\n    { \"start\": 231.14, \"end\": 231.91, \"value\": \"B\" },\r\n   
+    { \"start\": 231.91, \"end\": 232.06, \"value\": \"A\" },\r\n    { \"start\":
+    232.06, \"end\": 232.13, \"value\": \"C\" },\r\n    { \"start\": 232.13, \"end\":
+    232.41, \"value\": \"B\" },\r\n    { \"start\": 232.41, \"end\": 232.49, \"value\":
+    \"A\" },\r\n    { \"start\": 232.49, \"end\": 232.66, \"value\": \"C\" },\r\n   
+    { \"start\": 232.66, \"end\": 232.73, \"value\": \"G\" },\r\n    { \"start\":
+    232.73, \"end\": 232.80, \"value\": \"B\" },\r\n    { \"start\": 232.80, \"end\":
+    232.89, \"value\": \"A\" },\r\n    { \"start\": 232.89, \"end\": 232.97, \"value\":
+    \"G\" },\r\n    { \"start\": 232.97, \"end\": 233.26, \"value\": \"A\" },\r\n   
+    { \"start\": 233.26, \"end\": 233.87, \"value\": \"B\" },\r\n    { \"start\":
+    233.87, \"end\": 233.94, \"value\": \"G\" },\r\n    { \"start\": 233.94, \"end\":
+    234.01, \"value\": \"B\" },\r\n    { \"start\": 234.01, \"end\": 234.20, \"value\":
+    \"F\" },\r\n    { \"start\": 234.20, \"end\": 234.25, \"value\": \"E\" },\r\n   
+    { \"start\": 234.25, \"end\": 234.43, \"value\": \"C\" },\r\n    { \"start\":
+    234.43, \"end\": 234.55, \"value\": \"A\" },\r\n    { \"start\": 234.55, \"end\":
+    234.68, \"value\": \"C\" },\r\n    { \"start\": 234.68, \"end\": 234.82, \"value\":
+    \"D\" },\r\n    { \"start\": 234.82, \"end\": 234.89, \"value\": \"C\" },\r\n   
+    { \"start\": 234.89, \"end\": 234.98, \"value\": \"A\" },\r\n    { \"start\":
+    234.98, \"end\": 235.06, \"value\": \"C\" },\r\n    { \"start\": 235.06, \"end\":
+    235.15, \"value\": \"A\" },\r\n    { \"start\": 235.15, \"end\": 235.42, \"value\":
+    \"B\" },\r\n    { \"start\": 235.42, \"end\": 235.53, \"value\": \"A\" },\r\n   
+    { \"start\": 235.53, \"end\": 235.76, \"value\": \"B\" },\r\n    { \"start\":
+    235.76, \"end\": 235.91, \"value\": \"A\" },\r\n    { \"start\": 235.91, \"end\":
+    236.09, \"value\": \"B\" },\r\n    { \"start\": 236.09, \"end\": 236.23, \"value\":
+    \"G\" },\r\n    { \"start\": 236.23, \"end\": 236.37, \"value\": \"B\" },\r\n   
+    { \"start\": 236.37, \"end\": 236.58, \"value\": \"C\" },\r\n    { \"start\":
+    236.58, \"end\": 236.93, \"value\": \"B\" },\r\n    { \"start\": 236.93, \"end\":
+    237.10, \"value\": \"A\" },\r\n    { \"start\": 237.10, \"end\": 237.52, \"value\":
+    \"B\" },\r\n    { \"start\": 237.52, \"end\": 237.73, \"value\": \"X\" },\r\n   
+    { \"start\": 237.73, \"end\": 238.05, \"value\": \"B\" },\r\n    { \"start\":
+    238.05, \"end\": 238.19, \"value\": \"C\" },\r\n    { \"start\": 238.19, \"end\":
+    238.30, \"value\": \"A\" },\r\n    { \"start\": 238.30, \"end\": 238.37, \"value\":
+    \"B\" },\r\n    { \"start\": 238.37, \"end\": 238.49, \"value\": \"A\" },\r\n   
+    { \"start\": 238.49, \"end\": 238.59, \"value\": \"B\" },\r\n    { \"start\":
+    238.59, \"end\": 238.73, \"value\": \"G\" },\r\n    { \"start\": 238.73, \"end\":
+    238.80, \"value\": \"B\" },\r\n    { \"start\": 238.80, \"end\": 239.01, \"value\":
+    \"C\" },\r\n    { \"start\": 239.01, \"end\": 239.64, \"value\": \"B\" },\r\n   
+    { \"start\": 239.64, \"end\": 239.71, \"value\": \"G\" },\r\n    { \"start\":
+    239.71, \"end\": 239.89, \"value\": \"A\" },\r\n    { \"start\": 239.89, \"end\":
+    240.06, \"value\": \"B\" },\r\n    { \"start\": 240.06, \"end\": 240.19, \"value\":
+    \"X\" },\r\n    { \"start\": 240.19, \"end\": 240.36, \"value\": \"B\" },\r\n   
+    { \"start\": 240.36, \"end\": 240.53, \"value\": \"X\" },\r\n    { \"start\":
+    240.53, \"end\": 240.59, \"value\": \"B\" },\r\n    { \"start\": 240.59, \"end\":
+    240.64, \"value\": \"E\" },\r\n    { \"start\": 240.64, \"end\": 240.85, \"value\":
+    \"B\" },\r\n    { \"start\": 240.85, \"end\": 241.06, \"value\": \"E\" },\r\n   
+    { \"start\": 241.06, \"end\": 241.13, \"value\": \"C\" },\r\n    { \"start\":
+    241.13, \"end\": 241.29, \"value\": \"A\" },\r\n    { \"start\": 241.29, \"end\":
+    241.38, \"value\": \"B\" },\r\n    { \"start\": 241.38, \"end\": 241.46, \"value\":
+    \"A\" },\r\n    { \"start\": 241.46, \"end\": 241.53, \"value\": \"G\" },\r\n   
+    { \"start\": 241.53, \"end\": 241.59, \"value\": \"B\" },\r\n    { \"start\":
+    241.59, \"end\": 241.80, \"value\": \"F\" },\r\n    { \"start\": 241.80, \"end\":
+    241.88, \"value\": \"A\" },\r\n    { \"start\": 241.88, \"end\": 241.99, \"value\":
+    \"C\" },\r\n    { \"start\": 241.99, \"end\": 242.27, \"value\": \"B\" },\r\n   
+    { \"start\": 242.27, \"end\": 242.41, \"value\": \"E\" },\r\n    { \"start\":
+    242.41, \"end\": 242.48, \"value\": \"F\" },\r\n    { \"start\": 242.48, \"end\":
+    242.55, \"value\": \"B\" },\r\n    { \"start\": 242.55, \"end\": 242.69, \"value\":
+    \"A\" },\r\n    { \"start\": 242.69, \"end\": 242.77, \"value\": \"B\" },\r\n   
+    { \"start\": 242.77, \"end\": 242.98, \"value\": \"C\" },\r\n    { \"start\":
+    242.98, \"end\": 243.07, \"value\": \"B\" },\r\n    { \"start\": 243.07, \"end\":
+    243.32, \"value\": \"C\" },\r\n    { \"start\": 243.32, \"end\": 244.03, \"value\":
+    \"B\" },\r\n    { \"start\": 244.03, \"end\": 244.10, \"value\": \"C\" },\r\n   
+    { \"start\": 244.10, \"end\": 244.17, \"value\": \"G\" },\r\n    { \"start\":
+    244.17, \"end\": 244.24, \"value\": \"B\" },\r\n    { \"start\": 244.24, \"end\":
+    244.35, \"value\": \"A\" },\r\n    { \"start\": 244.35, \"end\": 245.21, \"value\":
+    \"B\" },\r\n    { \"start\": 245.21, \"end\": 245.23, \"value\": \"A\" },\r\n   
+    { \"start\": 245.23, \"end\": 245.30, \"value\": \"B\" },\r\n    { \"start\":
+    245.30, \"end\": 245.47, \"value\": \"A\" },\r\n    { \"start\": 245.47, \"end\":
+    245.86, \"value\": \"B\" },\r\n    { \"start\": 245.86, \"end\": 246.11, \"value\":
+    \"C\" },\r\n    { \"start\": 246.11, \"end\": 246.60, \"value\": \"B\" },\r\n   
+    { \"start\": 246.60, \"end\": 246.87, \"value\": \"A\" },\r\n    { \"start\":
+    246.87, \"end\": 247.17, \"value\": \"B\" },\r\n    { \"start\": 247.17, \"end\":
+    247.31, \"value\": \"C\" },\r\n    { \"start\": 247.31, \"end\": 247.59, \"value\":
+    \"B\" },\r\n    { \"start\": 247.59, \"end\": 247.73, \"value\": \"C\" },\r\n   
+    { \"start\": 247.73, \"end\": 247.94, \"value\": \"B\" },\r\n    { \"start\":
+    247.94, \"end\": 248.22, \"value\": \"C\" },\r\n    { \"start\": 248.22, \"end\":
+    248.71, \"value\": \"B\" },\r\n    { \"start\": 248.71, \"end\": 248.91, \"value\":
+    \"X\" },\r\n    { \"start\": 248.91, \"end\": 249.02, \"value\": \"B\" },\r\n   
+    { \"start\": 249.02, \"end\": 249.12, \"value\": \"A\" },\r\n    { \"start\":
+    249.12, \"end\": 249.26, \"value\": \"B\" },\r\n    { \"start\": 249.26, \"end\":
+    249.33, \"value\": \"C\" },\r\n    { \"start\": 249.33, \"end\": 249.47, \"value\":
+    \"B\" },\r\n    { \"start\": 249.47, \"end\": 249.67, \"value\": \"A\" },\r\n   
+    { \"start\": 249.67, \"end\": 249.84, \"value\": \"B\" },\r\n    { \"start\":
+    249.84, \"end\": 250.02, \"value\": \"A\" },\r\n    { \"start\": 250.02, \"end\":
+    250.18, \"value\": \"B\" },\r\n    { \"start\": 250.18, \"end\": 250.29, \"value\":
+    \"A\" },\r\n    { \"start\": 250.29, \"end\": 250.40, \"value\": \"F\" },\r\n   
+    { \"start\": 250.40, \"end\": 250.54, \"value\": \"C\" },\r\n    { \"start\":
+    250.54, \"end\": 250.68, \"value\": \"B\" },\r\n    { \"start\": 250.68, \"end\":
+    250.75, \"value\": \"G\" },\r\n    { \"start\": 250.75, \"end\": 250.82, \"value\":
+    \"B\" },\r\n    { \"start\": 250.82, \"end\": 250.89, \"value\": \"G\" },\r\n   
+    { \"start\": 250.89, \"end\": 251.05, \"value\": \"A\" },\r\n    { \"start\":
+    251.05, \"end\": 251.16, \"value\": \"B\" },\r\n    { \"start\": 251.16, \"end\":
+    251.37, \"value\": \"C\" },\r\n    { \"start\": 251.37, \"end\": 251.51, \"value\":
+    \"B\" },\r\n    { \"start\": 251.51, \"end\": 251.71, \"value\": \"X\" },\r\n   
+    { \"start\": 251.71, \"end\": 251.81, \"value\": \"B\" },\r\n    { \"start\":
+    251.81, \"end\": 251.94, \"value\": \"A\" },\r\n    { \"start\": 251.94, \"end\":
+    252.03, \"value\": \"B\" },\r\n    { \"start\": 252.03, \"end\": 252.24, \"value\":
+    \"E\" },\r\n    { \"start\": 252.24, \"end\": 252.31, \"value\": \"C\" },\r\n   
+    { \"start\": 252.31, \"end\": 252.46, \"value\": \"A\" },\r\n    { \"start\":
+    252.46, \"end\": 252.60, \"value\": \"B\" },\r\n    { \"start\": 252.60, \"end\":
+    252.74, \"value\": \"A\" },\r\n    { \"start\": 252.74, \"end\": 252.82, \"value\":
+    \"B\" },\r\n    { \"start\": 252.82, \"end\": 252.98, \"value\": \"A\" },\r\n   
+    { \"start\": 252.98, \"end\": 253.42, \"value\": \"B\" },\r\n    { \"start\":
+    253.42, \"end\": 253.63, \"value\": \"E\" },\r\n    { \"start\": 253.63, \"end\":
+    254.05, \"value\": \"B\" },\r\n    { \"start\": 254.05, \"end\": 254.12, \"value\":
+    \"C\" },\r\n    { \"start\": 254.12, \"end\": 254.53, \"value\": \"B\" },\r\n   
+    { \"start\": 254.53, \"end\": 254.78, \"value\": \"C\" },\r\n    { \"start\":
+    254.78, \"end\": 254.99, \"value\": \"B\" },\r\n    { \"start\": 254.99, \"end\":
+    255.08, \"value\": \"A\" },\r\n    { \"start\": 255.08, \"end\": 255.12, \"value\":
+    \"B\" },\r\n    { \"start\": 255.12, \"end\": 255.30, \"value\": \"C\" },\r\n   
+    { \"start\": 255.30, \"end\": 255.37, \"value\": \"G\" },\r\n    { \"start\":
+    255.37, \"end\": 255.44, \"value\": \"F\" },\r\n    { \"start\": 255.44, \"end\":
+    255.86, \"value\": \"B\" },\r\n    { \"start\": 255.86, \"end\": 255.93, \"value\":
+    \"C\" },\r\n    { \"start\": 255.93, \"end\": 256.21, \"value\": \"B\" },\r\n   
+    { \"start\": 256.21, \"end\": 256.28, \"value\": \"C\" },\r\n    { \"start\":
+    256.28, \"end\": 256.36, \"value\": \"A\" },\r\n    { \"start\": 256.36, \"end\":
+    256.48, \"value\": \"C\" },\r\n    { \"start\": 256.48, \"end\": 256.65, \"value\":
+    \"A\" },\r\n    { \"start\": 256.65, \"end\": 256.83, \"value\": \"G\" },\r\n   
+    { \"start\": 256.83, \"end\": 257.18, \"value\": \"B\" },\r\n    { \"start\":
+    257.18, \"end\": 257.30, \"value\": \"X\" },\r\n    { \"start\": 257.30, \"end\":
+    258.44, \"value\": \"B\" },\r\n    { \"start\": 258.44, \"end\": 258.58, \"value\":
+    \"G\" },\r\n    { \"start\": 258.58, \"end\": 258.86, \"value\": \"B\" },\r\n   
+    { \"start\": 258.86, \"end\": 258.93, \"value\": \"F\" },\r\n    { \"start\":
+    258.93, \"end\": 259.07, \"value\": \"B\" },\r\n    { \"start\": 259.07, \"end\":
+    259.14, \"value\": \"G\" },\r\n    { \"start\": 259.14, \"end\": 259.28, \"value\":
+    \"B\" },\r\n    { \"start\": 259.28, \"end\": 259.45, \"value\": \"A\" },\r\n   
+    { \"start\": 259.45, \"end\": 259.58, \"value\": \"G\" },\r\n    { \"start\":
+    259.58, \"end\": 259.75, \"value\": \"X\" },\r\n    { \"start\": 259.75, \"end\":
+    259.83, \"value\": \"B\" },\r\n    { \"start\": 259.83, \"end\": 259.90, \"value\":
+    \"C\" },\r\n    { \"start\": 259.90, \"end\": 260.09, \"value\": \"X\" },\r\n   
+    { \"start\": 260.09, \"end\": 260.20, \"value\": \"B\" },\r\n    { \"start\":
+    260.20, \"end\": 260.41, \"value\": \"C\" },\r\n    { \"start\": 260.41, \"end\":
+    260.48, \"value\": \"B\" },\r\n    { \"start\": 260.48, \"end\": 260.62, \"value\":
+    \"G\" },\r\n    { \"start\": 260.62, \"end\": 260.83, \"value\": \"A\" },\r\n   
+    { \"start\": 260.83, \"end\": 260.91, \"value\": \"B\" },\r\n    { \"start\":
+    260.91, \"end\": 261.23, \"value\": \"A\" },\r\n    { \"start\": 261.23, \"end\":
+    261.35, \"value\": \"B\" },\r\n    { \"start\": 261.35, \"end\": 261.47, \"value\":
+    \"A\" },\r\n    { \"start\": 261.47, \"end\": 261.88, \"value\": \"C\" },\r\n   
+    { \"start\": 261.88, \"end\": 261.95, \"value\": \"B\" },\r\n    { \"start\":
+    261.95, \"end\": 262.16, \"value\": \"C\" },\r\n    { \"start\": 262.16, \"end\":
+    262.72, \"value\": \"B\" },\r\n    { \"start\": 262.72, \"end\": 262.88, \"value\":
+    \"X\" },\r\n    { \"start\": 262.88, \"end\": 263.48, \"value\": \"B\" },\r\n   
+    { \"start\": 263.48, \"end\": 263.64, \"value\": \"A\" },\r\n    { \"start\":
+    263.64, \"end\": 263.77, \"value\": \"B\" },\r\n    { \"start\": 263.77, \"end\":
+    263.92, \"value\": \"A\" },\r\n    { \"start\": 263.92, \"end\": 264.00, \"value\":
+    \"B\" },\r\n    { \"start\": 264.00, \"end\": 264.24, \"value\": \"A\" },\r\n   
+    { \"start\": 264.24, \"end\": 264.43, \"value\": \"F\" },\r\n    { \"start\":
+    264.43, \"end\": 264.57, \"value\": \"C\" },\r\n    { \"start\": 264.57, \"end\":
+    264.64, \"value\": \"E\" },\r\n    { \"start\": 264.64, \"end\": 265.13, \"value\":
+    \"B\" },\r\n    { \"start\": 265.13, \"end\": 265.34, \"value\": \"C\" },\r\n   
+    { \"start\": 265.34, \"end\": 265.55, \"value\": \"B\" },\r\n    { \"start\":
+    265.55, \"end\": 265.67, \"value\": \"X\" },\r\n    { \"start\": 265.67, \"end\":
+    266.04, \"value\": \"B\" },\r\n    { \"start\": 266.04, \"end\": 266.11, \"value\":
+    \"G\" },\r\n    { \"start\": 266.11, \"end\": 266.46, \"value\": \"C\" },\r\n   
+    { \"start\": 266.46, \"end\": 266.53, \"value\": \"G\" },\r\n    { \"start\":
+    266.53, \"end\": 266.60, \"value\": \"B\" },\r\n    { \"start\": 266.60, \"end\":
+    266.81, \"value\": \"A\" },\r\n    { \"start\": 266.81, \"end\": 267.65, \"value\":
+    \"B\" },\r\n    { \"start\": 267.65, \"end\": 267.83, \"value\": \"A\" },\r\n   
+    { \"start\": 267.83, \"end\": 267.90, \"value\": \"B\" },\r\n    { \"start\":
+    267.90, \"end\": 268.03, \"value\": \"C\" },\r\n    { \"start\": 268.03, \"end\":
+    268.31, \"value\": \"B\" },\r\n    { \"start\": 268.31, \"end\": 268.49, \"value\":
+    \"X\" },\r\n    { \"start\": 268.49, \"end\": 268.53, \"value\": \"B\" },\r\n   
+    { \"start\": 268.53, \"end\": 268.61, \"value\": \"A\" },\r\n    { \"start\":
+    268.61, \"end\": 268.80, \"value\": \"C\" },\r\n    { \"start\": 268.80, \"end\":
+    268.94, \"value\": \"G\" },\r\n    { \"start\": 268.94, \"end\": 269.22, \"value\":
+    \"A\" },\r\n    { \"start\": 269.22, \"end\": 269.57, \"value\": \"B\" },\r\n   
+    { \"start\": 269.57, \"end\": 269.74, \"value\": \"A\" },\r\n    { \"start\":
+    269.74, \"end\": 270.33, \"value\": \"B\" },\r\n    { \"start\": 270.33, \"end\":
+    270.57, \"value\": \"X\" },\r\n    { \"start\": 270.57, \"end\": 270.69, \"value\":
+    \"B\" },\r\n    { \"start\": 270.69, \"end\": 271.27, \"value\": \"X\" },\r\n   
+    { \"start\": 271.27, \"end\": 271.78, \"value\": \"B\" },\r\n    { \"start\":
+    271.78, \"end\": 272.43, \"value\": \"X\" }\r\n  ]\r\n}\r\n"
