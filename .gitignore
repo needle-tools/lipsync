@@ -81,3 +81,7 @@ Ankh.NoLoad
  
 # Office Temp Files
 ~$*
+projects/*/.idea
+projects/*/UserSettings
+projects/*/*.csproj
+projects/*/*.sln
